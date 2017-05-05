@@ -184,6 +184,7 @@
   <rooms name="rooms">
     <room>rooms\room1</room>
     <room>rooms\player_creation</room>
+    <room>rooms\rodrigayLaFela</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
