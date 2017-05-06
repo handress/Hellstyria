@@ -26,6 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.2
+
+global.Skin = 0
+global.Clothes = 0
+global.Hair = 0
 </string>
           </argument>
         </arguments>
