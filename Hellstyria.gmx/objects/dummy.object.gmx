@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_visible[0]=true; //make view visible
+            <string>/*view_visible[0]=true; //make view visible
 width=640; //width of desired view
 height=480; //height of desired view
 
@@ -33,7 +33,7 @@ height=480; //height of desired view
 view_wview[0]=width;
 view_hview[0]=height;
 view_wport[0]=width;
-view_hport[0]=height;
+view_hport[0]=height;*/
 </string>
           </argument>
         </arguments>
@@ -97,8 +97,8 @@ view_hport[0]=height;
           <argument>
             <kind>1</kind>
             <string>//snap view x and y positions to object's coordinates, subtracting one-half the width and height to center it
-view_xview[0]=x-(view_wview[0]/2);
-view_yview[0]=y-(view_hview[0]/2);
+/*view_xview[0]=x-(view_wview[0]/2);
+view_yview[0]=y-(view_hview[0]/2);*/
 </string>
           </argument>
         </arguments>

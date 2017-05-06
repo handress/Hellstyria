@@ -177,13 +177,13 @@
     <script>scripts\movimiento.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_flecha</object>
-    <object>objects\obj_player</object>
+    <object>objects\obj_flecha_custom</object>
     <object>objects\dummy</object>
+    <object>objects\obj_creacion_pj</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\creacion_personaje</room>
     <room>rooms\room1</room>
-    <room>rooms\player_creation</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
