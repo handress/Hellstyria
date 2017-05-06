@@ -177,8 +177,8 @@
     <script>scripts\movimiento.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_flecha</object>
-    <object>objects\obj_player</object>
+    <object>objects\obj_custom_flecha</object>
+    <object>objects\obj_player_creation</object>
     <object>objects\dummy</object>
   </objects>
   <rooms name="rooms">

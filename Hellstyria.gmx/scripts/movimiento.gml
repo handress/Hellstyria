@@ -7,8 +7,8 @@ up = keyboard_check(ord('S'))
 
 //Movimiento
 
-if(right) x += 4;
-if(left) x -= 4;
-if(up) y += 4;
-if(down) y -= 4;
+if(right) x += 6;
+if(left) x -= 6;
+if(up) y += 6;
+if(down) y -= 6;
 
