@@ -184,11 +184,8 @@
   <rooms name="rooms">
     <room>rooms\creacion_personaje</room>
     <room>rooms\room1</room>
-<<<<<<< HEAD
-=======
     <room>rooms\player_creation</room>
     <room>rooms\rodrigayLaFela</room>
->>>>>>> origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
