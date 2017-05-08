@@ -6,12 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_cascada_large</sprite>
-    <sprite>sprites\spr_cascada_peq</sprite>
-    <sprite>sprites\spr_fuente</sprite>
-    <sprite>sprites\spr_flecha</sprite>
-    <sprite>sprites\spr_caldero</sprite>
-    <sprite>sprites\spr_hoguera</sprite>
     <sprites name="player">
       <sprites name="walk">
         <sprites name="skin">
@@ -162,6 +156,12 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_cascada_large</sprite>
+    <sprite>sprites\spr_cascada_peq</sprite>
+    <sprite>sprites\spr_fuente</sprite>
+    <sprite>sprites\spr_flecha</sprite>
+    <sprite>sprites\spr_caldero</sprite>
+    <sprite>sprites\spr_hoguera</sprite>
     <sprite>sprites\spr_reloj</sprite>
     <sprite>sprites\spr_horno</sprite>
     <sprite>sprites\spr_puerta_der</sprite>
