@@ -167,6 +167,7 @@
     <sprite>sprites\spr_puerta_der</sprite>
     <sprite>sprites\spr_puerta_izq</sprite>
     <sprite>sprites\spr_brasa</sprite>
+    <sprite>sprites\spr_bomba</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -207,8 +208,8 @@
     <object>objects\obj_hoguera</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\celdas</room>
     <room>rooms\player_creation</room>
+    <room>rooms\celdas</room>
     <room>rooms\test_room</room>
   </rooms>
   <help>
