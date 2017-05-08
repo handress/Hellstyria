@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_cascada_large</sprite>
+    <sprite>sprites\spr_cascada_peq</sprite>
+    <sprite>sprites\spr_fuente</sprite>
     <sprite>sprites\spr_flecha</sprite>
     <sprite>sprites\spr_caldero</sprite>
     <sprite>sprites\spr_hoguera</sprite>
@@ -159,6 +162,11 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_reloj</sprite>
+    <sprite>sprites\spr_horno</sprite>
+    <sprite>sprites\spr_puerta_der</sprite>
+    <sprite>sprites\spr_puerta_izq</sprite>
+    <sprite>sprites\spr_brasa</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -171,6 +179,22 @@
     <background>background\tls_casa1</background>
     <background>background\tls_casa2</background>
     <background>background\tls_varios</background>
+    <background>background\tls_casa3</background>
+    <background>background\tls_terreno</background>
+    <backgrounds name="interiores">
+      <background>background\tls_suelos</background>
+      <background>background\tls_paredes</background>
+      <background>background\tls_escaleras</background>
+      <background>background\tls_mobiliario</background>
+    </backgrounds>
+    <backgrounds name="exteriores">
+      <background>background\tls_ventanas_varios</background>
+      <background>background\tls_fachada_antigua</background>
+      <background>background\tls_fachada</background>
+      <background>background\tls_tierra</background>
+      <background>background\tls_agua</background>
+      <background>background\tls_cesped</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -180,10 +204,12 @@
     <object>objects\obj_custom_flecha</object>
     <object>objects\obj_player_creation</object>
     <object>objects\dummy</object>
+    <object>objects\obj_hoguera</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\celdas</room>
     <room>rooms\player_creation</room>
-    <room>rooms\room1</room>
+    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
