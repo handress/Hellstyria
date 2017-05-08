@@ -169,6 +169,10 @@
     <sprite>sprites\spr_brasa</sprite>
     <sprite>sprites\spr_bomba</sprite>
     <sprite>sprites\spr_antorcha</sprite>
+    <sprites name="spr_EntradaSalida">
+      <sprite>sprites\spr_Entrada</sprite>
+      <sprite>sprites\spr_Salida</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -197,6 +201,7 @@
       <background>background\tls_agua</background>
       <background>background\tls_cesped</background>
     </backgrounds>
+    <background>background\tls_puertas</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -205,10 +210,18 @@
   <objects name="objects">
     <object>objects\obj_custom_flecha</object>
     <object>objects\obj_player_creation</object>
-    <object>objects\dummy</object>
     <object>objects\obj_hoguera</object>
+    <object>objects\dummy</object>
+    <objects name="objEntradaSalida">
+      <object>objects\obj_Salida</object>
+      <object>objects\obj_Entrada</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="Cueva">
+      <room>rooms\rm_Cueva</room>
+      <room>rooms\rm_AlmacenCueva</room>
+    </rooms>
     <room>rooms\player_creation</room>
     <room>rooms\celdas</room>
     <room>rooms\test_room</room>
