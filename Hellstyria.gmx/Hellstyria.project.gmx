@@ -168,6 +168,7 @@
     <sprite>sprites\spr_puerta_izq</sprite>
     <sprite>sprites\spr_brasa</sprite>
     <sprite>sprites\spr_bomba</sprite>
+    <sprite>sprites\spr_antorcha</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
