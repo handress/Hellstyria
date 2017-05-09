@@ -173,6 +173,8 @@
       <sprite>sprites\spr_Entrada</sprite>
       <sprite>sprites\spr_Salida</sprite>
     </sprites>
+    <sprite>sprites\spr_Pared</sprite>
+    <sprite>sprites\spr_Inicio</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -210,20 +212,30 @@
   <objects name="objects">
     <object>objects\obj_custom_flecha</object>
     <object>objects\obj_player_creation</object>
-    <object>objects\obj_hoguera</object>
     <object>objects\dummy</object>
+    <object>objects\obj_hoguera</object>
     <objects name="objEntradaSalida">
       <object>objects\obj_Salida</object>
       <object>objects\obj_Entrada</object>
     </objects>
+    <objects name="miscelanea">
+      <object>objects\obj_horno</object>
+      <object>objects\obj_reloj</object>
+      <object>objects\obj_antorcha</object>
+    </objects>
+    <object>objects\obj_Pared</object>
+    <objects name="efectos">
+      <object>objects\obj_efecto_transicion</object>
+    </objects>
+    <object>objects\obj_iniciar</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\player_creation</room>
+    <room>rooms\rm_celdas</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
       <room>rooms\rm_AlmacenCueva</room>
     </rooms>
-    <room>rooms\player_creation</room>
-    <room>rooms\celdas</room>
     <room>rooms\test_room</room>
   </rooms>
   <help>

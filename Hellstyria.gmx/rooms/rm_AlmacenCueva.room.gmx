@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -51,20 +51,15 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="&lt;undefined&gt;" x="96" y="192" name="inst_0BF39433" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="288" y="192" name="inst_85DA0CED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="512" y="192" name="inst_B75C73B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="704" y="192" name="inst_5F0D9864" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="896" y="192" name="inst_589346CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Salida" x="368" y="624" name="inst_F8333CB1" locked="0" code="nombre = &quot;almacenCueva&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Salida" x="368" y="608" name="inst_EEE68D40" locked="0" code="nombre = &quot;almacen&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="368" y="656" name="inst_884B61D6" locked="0" code="roomTransporte = rm_Cueva;&#xA;salida = 'cueva2'" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_horno" x="320" y="256" name="inst_04261C6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_horno" x="448" y="256" name="inst_89FD0DE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_efecto_transicion" x="0" y="128" name="inst_8D4B92B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="640" w="32" h="32" xo="608" yo="160" id="10006965" name="inst_8A623D67" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="608" w="32" h="32" xo="608" yo="160" id="10006966" name="inst_8A9E5F14" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="0" y="576" w="32" h="32" xo="608" yo="160" id="10006967" name="inst_1997B3A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="0" y="544" w="32" h="32" xo="608" yo="160" id="10006968" name="inst_872B09D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="0" y="512" w="32" h="32" xo="608" yo="160" id="10006969" name="inst_C2A6CEF1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="0" y="480" w="32" h="32" xo="608" yo="160" id="10006970" name="inst_80F617C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="448" w="32" h="32" xo="608" yo="160" id="10006971" name="inst_2EF5FE22" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="416" w="32" h="32" xo="608" yo="160" id="10006972" name="inst_F7C351C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="384" w="32" h="32" xo="608" yo="160" id="10006973" name="inst_01065AE2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -82,63 +77,15 @@
     <tile bgName="tls_mapeado1" x="32" y="160" w="32" h="32" xo="608" yo="160" id="10006993" name="inst_C1884586" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="32" y="192" w="32" h="32" xo="608" yo="160" id="10006994" name="inst_C96B7718" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="32" y="224" w="32" h="32" xo="608" yo="160" id="10006995" name="inst_A0E10C63" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="320" w="32" h="32" xo="608" yo="160" id="10006999" name="inst_8C4CF44F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="288" w="32" h="32" xo="608" yo="160" id="10007000" name="inst_E85CC36E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="256" w="32" h="32" xo="608" yo="160" id="10007002" name="inst_AC95BF9D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="96" y="224" w="32" h="32" xo="608" yo="160" id="10007003" name="inst_34801339" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="96" y="192" w="32" h="32" xo="608" yo="160" id="10007004" name="inst_880B807F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="64" y="192" w="32" h="32" xo="608" yo="160" id="10007005" name="inst_9C44955C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="64" y="224" w="32" h="32" xo="608" yo="160" id="10007006" name="inst_D0528D74" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="256" w="32" h="32" xo="608" yo="160" id="10007007" name="inst_F3F82283" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="288" w="32" h="32" xo="608" yo="160" id="10007008" name="inst_44CADE2D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="320" w="32" h="32" xo="608" yo="160" id="10007009" name="inst_B704BC93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="352" w="32" h="32" xo="608" yo="160" id="10007010" name="inst_FA0F176C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="384" w="32" h="32" xo="608" yo="160" id="10007011" name="inst_0144542D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="32" y="640" w="32" h="32" xo="608" yo="160" id="10007012" name="inst_D36C0D67" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="608" w="32" h="32" xo="608" yo="160" id="10007013" name="inst_578322D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="576" w="32" h="32" xo="608" yo="160" id="10007014" name="inst_C7B91EEC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="544" w="32" h="32" xo="608" yo="160" id="10007015" name="inst_930E7485" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="512" w="32" h="32" xo="608" yo="160" id="10007016" name="inst_902C367A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="480" w="32" h="32" xo="608" yo="160" id="10007017" name="inst_BA60467E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="448" w="32" h="32" xo="608" yo="160" id="10007018" name="inst_295EF991" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="32" y="416" w="32" h="32" xo="608" yo="160" id="10007019" name="inst_B9373312" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="416" w="32" h="32" xo="608" yo="160" id="10007020" name="inst_494DAEC2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="448" w="32" h="32" xo="608" yo="160" id="10007021" name="inst_D528FEC0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="480" w="32" h="32" xo="608" yo="160" id="10007022" name="inst_6D6A4378" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="512" w="32" h="32" xo="608" yo="160" id="10007023" name="inst_E9B220E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="544" w="32" h="32" xo="608" yo="160" id="10007024" name="inst_1E89DF38" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="576" w="32" h="32" xo="608" yo="160" id="10007025" name="inst_26AE390E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="64" y="640" w="32" h="32" xo="608" yo="160" id="10007027" name="inst_27DD748D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="608" w="32" h="32" xo="608" yo="160" id="10007028" name="inst_AD2381B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="384" w="32" h="32" xo="608" yo="160" id="10007037" name="inst_592D3C39" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="64" y="352" w="32" h="32" xo="608" yo="160" id="10007038" name="inst_5F22E125" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="288" w="32" h="32" xo="608" yo="160" id="10007045" name="inst_67392C14" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="320" w="32" h="32" xo="608" yo="160" id="10007046" name="inst_CCEA5C53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="352" w="32" h="32" xo="608" yo="160" id="10007047" name="inst_D0209479" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="384" w="32" h="32" xo="608" yo="160" id="10007048" name="inst_C000635C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="416" w="32" h="32" xo="608" yo="160" id="10007049" name="inst_BFCB437B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="448" w="32" h="32" xo="608" yo="160" id="10007050" name="inst_10562BD9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="480" w="32" h="32" xo="608" yo="160" id="10007051" name="inst_31FE9E0B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="512" w="32" h="32" xo="608" yo="160" id="10007052" name="inst_85672616" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="544" w="32" h="32" xo="608" yo="160" id="10007053" name="inst_7E841B75" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="576" w="32" h="32" xo="608" yo="160" id="10007054" name="inst_74FDC96C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="96" y="608" w="32" h="32" xo="608" yo="160" id="10007055" name="inst_582BB54E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="96" y="640" w="32" h="32" xo="608" yo="160" id="10007056" name="inst_5D970C0F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="128" y="640" w="32" h="32" xo="608" yo="160" id="10007057" name="inst_A6056C69" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="480" w="32" h="32" xo="608" yo="160" id="10007063" name="inst_124463B6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="448" w="32" h="32" xo="608" yo="160" id="10007064" name="inst_4422230E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="384" w="32" h="32" xo="608" yo="160" id="10007071" name="inst_0AC7EAD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="416" w="32" h="32" xo="608" yo="160" id="10007072" name="inst_1FF8229F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="448" w="32" h="32" xo="608" yo="160" id="10007073" name="inst_5800AB8C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="480" w="32" h="32" xo="608" yo="160" id="10007074" name="inst_E20A2B0F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="512" w="32" h="32" xo="608" yo="160" id="10007075" name="inst_4E06A226" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="544" w="32" h="32" xo="608" yo="160" id="10007076" name="inst_8ED7DDC1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="576" w="32" h="32" xo="608" yo="160" id="10007077" name="inst_E518814C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="608" w="32" h="32" xo="608" yo="160" id="10007078" name="inst_94BCD208" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="160" y="640" w="32" h="32" xo="608" yo="160" id="10007080" name="inst_296BF428" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="608" w="32" h="32" xo="608" yo="160" id="10007081" name="inst_7B8FBE88" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="544" w="32" h="32" xo="608" yo="160" id="10007083" name="inst_547D3C4B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="576" w="32" h="32" xo="608" yo="160" id="10007084" name="inst_4D649012" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="192" y="640" w="32" h="32" xo="608" yo="160" id="10007087" name="inst_39EC0CD8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="192" y="544" w="32" h="32" xo="608" yo="160" id="10007090" name="inst_0AAC3C7F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="96" y="128" w="32" h="32" xo="608" yo="160" id="10007093" name="inst_E4077392" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -147,16 +94,6 @@
     <tile bgName="tls_mapeado1" x="128" y="160" w="32" h="32" xo="608" yo="160" id="10007099" name="inst_A5A19189" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="128" y="192" w="32" h="32" xo="608" yo="160" id="10007100" name="inst_D25E1EAD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="128" y="224" w="32" h="32" xo="608" yo="160" id="10007101" name="inst_876AB4E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="256" w="32" h="32" xo="608" yo="160" id="10007102" name="inst_C1BAFC83" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="288" w="32" h="32" xo="608" yo="160" id="10007103" name="inst_1349A556" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="320" w="32" h="32" xo="608" yo="160" id="10007104" name="inst_207C34DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="128" y="352" w="32" h="32" xo="608" yo="160" id="10007105" name="inst_2ED1AC8F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="416" w="32" h="32" xo="608" yo="160" id="10007108" name="inst_F68BAFB0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="384" w="32" h="32" xo="608" yo="160" id="10007109" name="inst_AE4CAA84" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="352" w="32" h="32" xo="608" yo="160" id="10007110" name="inst_69C3170E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="320" w="32" h="32" xo="608" yo="160" id="10007111" name="inst_8CCEB348" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="288" w="32" h="32" xo="608" yo="160" id="10007112" name="inst_2D013961" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="256" w="32" h="32" xo="608" yo="160" id="10007113" name="inst_EBF2FF77" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="160" y="224" w="32" h="32" xo="608" yo="160" id="10007114" name="inst_0228387B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="160" y="192" w="32" h="32" xo="608" yo="160" id="10007115" name="inst_F752974E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="160" y="160" w="32" h="32" xo="608" yo="160" id="10007116" name="inst_E5EE4C01" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -165,102 +102,11 @@
     <tile bgName="tls_mapeado1" x="192" y="160" w="32" h="32" xo="608" yo="160" id="10007121" name="inst_98B17C7F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="192" y="192" w="32" h="32" xo="608" yo="160" id="10007122" name="inst_1805C3D8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="192" y="224" w="32" h="32" xo="608" yo="160" id="10007123" name="inst_3ABF92D9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="256" w="32" h="32" xo="608" yo="160" id="10007124" name="inst_AA603141" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="288" w="32" h="32" xo="608" yo="160" id="10007125" name="inst_2FC0CB7B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="384" w="32" h="32" xo="608" yo="160" id="10007128" name="inst_4A560559" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="224" y="640" w="32" h="32" xo="608" yo="160" id="10007132" name="inst_1725BBB9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="640" w="32" h="32" xo="608" yo="160" id="10007133" name="inst_01184B81" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="288" y="640" w="32" h="32" xo="608" yo="160" id="10007134" name="inst_9BCF1D02" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="640" w="32" h="32" xo="608" yo="160" id="10007135" name="inst_CED93776" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="640" w="32" h="32" xo="608" yo="160" id="10007136" name="inst_387728B3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="640" w="32" h="32" xo="608" yo="160" id="10007137" name="inst_44B58A61" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="640" w="32" h="32" xo="608" yo="160" id="10007138" name="inst_476598D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="608" w="32" h="32" xo="608" yo="160" id="10007139" name="inst_5221C506" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="576" w="32" h="32" xo="608" yo="160" id="10007140" name="inst_6370ACAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="576" w="32" h="32" xo="608" yo="160" id="10007147" name="inst_0406BD96" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="576" w="32" h="32" xo="608" yo="160" id="10007148" name="inst_DA42DE40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="576" w="32" h="32" xo="608" yo="160" id="10007149" name="inst_1C84EF62" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="608" w="32" h="32" xo="608" yo="160" id="10007150" name="inst_9C82D893" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="608" w="32" h="32" xo="608" yo="160" id="10007151" name="inst_3E85C00E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="608" w="32" h="32" xo="608" yo="160" id="10007152" name="inst_288C3B09" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="608" w="32" h="32" xo="608" yo="160" id="10007153" name="inst_BEF7E18E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="576" w="32" h="32" xo="608" yo="160" id="10007154" name="inst_CB36E027" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="576" w="32" h="32" xo="608" yo="160" id="10007156" name="inst_1C222364" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="576" w="32" h="32" xo="608" yo="160" id="10007157" name="inst_7662429E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="608" w="32" h="32" xo="608" yo="160" id="10007158" name="inst_6AFE03ED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="608" w="32" h="32" xo="608" yo="160" id="10007159" name="inst_15375AB6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="608" w="32" h="32" xo="608" yo="160" id="10007160" name="inst_145FC275" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="576" w="32" h="32" xo="608" yo="160" id="10007161" name="inst_B76FD88F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="512" w="32" h="32" xo="608" yo="160" id="10007163" name="inst_8628E424" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="512" w="32" h="32" xo="608" yo="160" id="10007164" name="inst_A4C711A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="512" w="32" h="32" xo="608" yo="160" id="10007165" name="inst_300250B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="544" w="32" h="32" xo="608" yo="160" id="10007167" name="inst_255538F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="544" w="32" h="32" xo="608" yo="160" id="10007177" name="inst_042AE242" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="544" w="32" h="32" xo="608" yo="160" id="10007178" name="inst_C19A4182" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="544" w="32" h="32" xo="608" yo="160" id="10007179" name="inst_B5A61267" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="544" w="32" h="32" xo="608" yo="160" id="10007180" name="inst_3ED04839" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="544" w="32" h="32" xo="608" yo="160" id="10007181" name="inst_45657355" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="544" w="32" h="32" xo="608" yo="160" id="10007182" name="inst_7BE8F678" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="512" w="32" h="32" xo="608" yo="160" id="10007183" name="inst_9B962C95" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="480" w="32" h="32" xo="608" yo="160" id="10007184" name="inst_F568FBDF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="480" w="32" h="32" xo="608" yo="160" id="10007185" name="inst_DDC420F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="512" w="32" h="32" xo="608" yo="160" id="10007189" name="inst_5907E28F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="512" w="32" h="32" xo="608" yo="160" id="10007190" name="inst_88147B5B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="512" w="32" h="32" xo="608" yo="160" id="10007191" name="inst_4C44EE3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="160" y="512" w="32" h="32" xo="608" yo="160" id="10007193" name="inst_9BE53BFC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="512" w="32" h="32" xo="608" yo="160" id="10007194" name="inst_E3668909" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="480" w="32" h="32" xo="608" yo="160" id="10007195" name="inst_B79F677E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="480" w="32" h="32" xo="608" yo="160" id="10007199" name="inst_3962384F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="480" w="32" h="32" xo="608" yo="160" id="10007200" name="inst_EA2AF81C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="480" w="32" h="32" xo="608" yo="160" id="10007201" name="inst_9A75F6A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="480" w="32" h="32" xo="608" yo="160" id="10007202" name="inst_EC793AEC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="448" w="32" h="32" xo="608" yo="160" id="10007204" name="inst_51928D64" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="448" w="32" h="32" xo="608" yo="160" id="10007205" name="inst_5E103B1E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="448" w="32" h="32" xo="608" yo="160" id="10007206" name="inst_7EB3876A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="480" w="32" h="32" xo="608" yo="160" id="10007211" name="inst_713041DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="448" w="32" h="32" xo="608" yo="160" id="10007212" name="inst_39EBC487" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="448" w="32" h="32" xo="608" yo="160" id="10007213" name="inst_C527DA60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="416" w="32" h="32" xo="608" yo="160" id="10007214" name="inst_B6DA6091" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="416" w="32" h="32" xo="608" yo="160" id="10007215" name="inst_263F53FF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="416" w="32" h="32" xo="608" yo="160" id="10007216" name="inst_E940A91C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="416" w="32" h="32" xo="608" yo="160" id="10007217" name="inst_3587E204" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="416" w="32" h="32" xo="608" yo="160" id="10007219" name="inst_74835070" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="416" w="32" h="32" xo="608" yo="160" id="10007220" name="inst_66ACD231" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="384" w="32" h="32" xo="608" yo="160" id="10007226" name="inst_DAA8CA6B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="384" w="32" h="32" xo="608" yo="160" id="10007227" name="inst_C14501A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="384" w="32" h="32" xo="608" yo="160" id="10007228" name="inst_F27ABC7F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="352" w="32" h="32" xo="608" yo="160" id="10007237" name="inst_00FB7567" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="352" w="32" h="32" xo="608" yo="160" id="10007238" name="inst_0E51B520" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="352" w="32" h="32" xo="608" yo="160" id="10007239" name="inst_D4843A31" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="352" w="32" h="32" xo="608" yo="160" id="10007240" name="inst_ADB2B638" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="352" w="32" h="32" xo="608" yo="160" id="10007241" name="inst_34FA3EB1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="352" w="32" h="32" xo="608" yo="160" id="10007242" name="inst_A94D812B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="352" w="32" h="32" xo="608" yo="160" id="10007243" name="inst_DBEC5FCC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="192" y="320" w="32" h="32" xo="608" yo="160" id="10007244" name="inst_38E0416F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="320" w="32" h="32" xo="608" yo="160" id="10007245" name="inst_C5B3736E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="320" w="32" h="32" xo="608" yo="160" id="10007246" name="inst_2FFAF069" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="320" w="32" h="32" xo="608" yo="160" id="10007247" name="inst_A73C8E5D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="320" w="32" h="32" xo="608" yo="160" id="10007248" name="inst_4BB7C452" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="320" w="32" h="32" xo="608" yo="160" id="10007249" name="inst_99AD6337" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="320" w="32" h="32" xo="608" yo="160" id="10007250" name="inst_823B9D1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="320" w="32" h="32" xo="608" yo="160" id="10007251" name="inst_2B2ACF54" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="224" y="128" w="32" h="32" xo="608" yo="160" id="10007253" name="inst_9FF52099" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="224" y="192" w="32" h="32" xo="608" yo="160" id="10007255" name="inst_4ED59520" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="224" y="224" w="32" h="32" xo="608" yo="160" id="10007256" name="inst_C5B90BF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="256" w="32" h="32" xo="608" yo="160" id="10007257" name="inst_65FE1782" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="256" w="32" h="32" xo="608" yo="160" id="10007258" name="inst_EBCA7C46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="256" w="32" h="32" xo="608" yo="160" id="10007259" name="inst_EC00DB46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="256" w="32" h="32" xo="608" yo="160" id="10007260" name="inst_C661E78E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="256" w="32" h="32" xo="608" yo="160" id="10007261" name="inst_3642E72C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="288" w="32" h="32" xo="608" yo="160" id="10007263" name="inst_02D7CF40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="224" y="288" w="32" h="32" xo="608" yo="160" id="10007268" name="inst_F571F347" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="288" w="32" h="32" xo="608" yo="160" id="10007269" name="inst_86D81CF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="288" w="32" h="32" xo="608" yo="160" id="10007270" name="inst_9F10AFCA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="288" w="32" h="32" xo="608" yo="160" id="10007271" name="inst_89F13A0F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="288" w="32" h="32" xo="608" yo="160" id="10007272" name="inst_942A8905" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="256" w="32" h="32" xo="608" yo="160" id="10007273" name="inst_FDA72BB2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="288" w="32" h="32" xo="608" yo="160" id="10007275" name="inst_0F79176A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="256" w="32" h="32" xo="608" yo="160" id="10007276" name="inst_0CED3DF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="416" y="224" w="32" h="32" xo="608" yo="160" id="10007277" name="inst_7343434E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="384" y="224" w="32" h="32" xo="608" yo="160" id="10007280" name="inst_FEE5B5F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="352" y="224" w="32" h="32" xo="608" yo="160" id="10007281" name="inst_8F30A586" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -346,29 +192,10 @@
     <tile bgName="tls_mapeado1" x="576" y="224" w="32" h="32" xo="608" yo="160" id="10007438" name="inst_ECA2DC6B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="544" y="224" w="32" h="32" xo="608" yo="160" id="10007439" name="inst_744DA0A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="512" y="224" w="32" h="32" xo="608" yo="160" id="10007440" name="inst_622ED6F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="256" w="32" h="32" xo="608" yo="160" id="10007441" name="inst_0AAE56B9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="256" w="32" h="32" xo="608" yo="160" id="10007442" name="inst_CB452E25" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="256" w="32" h="32" xo="608" yo="160" id="10007443" name="inst_89B8A19E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="288" w="32" h="32" xo="608" yo="160" id="10007444" name="inst_33A59406" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="288" w="32" h="32" xo="608" yo="160" id="10007445" name="inst_CFCA4708" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="256" w="32" h="32" xo="608" yo="160" id="10007447" name="inst_F3A3678A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="640" y="224" w="32" h="32" xo="608" yo="160" id="10007450" name="inst_9AE87BB0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="672" y="224" w="32" h="32" xo="608" yo="160" id="10007451" name="inst_10DB7377" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="704" y="224" w="32" h="32" xo="608" yo="160" id="10007452" name="inst_FC4F301C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="736" y="224" w="32" h="32" xo="608" yo="160" id="10007453" name="inst_03A68C13" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="256" w="32" h="32" xo="608" yo="160" id="10007457" name="inst_26C53887" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="256" w="32" h="32" xo="608" yo="160" id="10007458" name="inst_1073FA2D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="256" w="32" h="32" xo="608" yo="160" id="10007463" name="inst_F13A48B9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="256" w="32" h="32" xo="608" yo="160" id="10007464" name="inst_B90660AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="256" w="32" h="32" xo="608" yo="160" id="10007465" name="inst_C6CA9CBD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="288" w="32" h="32" xo="608" yo="160" id="10007467" name="inst_487488F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="288" w="32" h="32" xo="608" yo="160" id="10007468" name="inst_530DC338" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="288" w="32" h="32" xo="608" yo="160" id="10007469" name="inst_A4FA2F90" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="288" w="32" h="32" xo="608" yo="160" id="10007470" name="inst_66B48007" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="256" w="32" h="32" xo="608" yo="160" id="10007471" name="inst_739A9509" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="256" w="32" h="32" xo="608" yo="160" id="10007472" name="inst_25C4D6FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="256" w="32" h="32" xo="608" yo="160" id="10007473" name="inst_40E68C81" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="256" w="32" h="32" xo="608" yo="160" id="10007474" name="inst_391F2A7A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="768" y="224" w="32" h="32" xo="608" yo="160" id="10007475" name="inst_3B464C1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="800" y="224" w="32" h="32" xo="608" yo="160" id="10007476" name="inst_29AF0862" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="832" y="224" w="32" h="32" xo="608" yo="160" id="10007477" name="inst_F269FE41" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -376,233 +203,389 @@
     <tile bgName="tls_mapeado1" x="864" y="256" w="32" h="32" xo="608" yo="160" id="10007479" name="inst_4FBC628E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="224" w="32" h="32" xo="608" yo="160" id="10007483" name="inst_49725AA1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="960" y="224" w="32" h="32" xo="608" yo="160" id="10007484" name="inst_F3E6D915" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="256" w="32" h="32" xo="608" yo="160" id="10007487" name="inst_9FC2CFFC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="896" y="224" w="32" h="32" xo="608" yo="160" id="10007488" name="inst_7F854BB8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="928" y="224" w="32" h="32" xo="608" yo="160" id="10007489" name="inst_A44987B3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="256" w="32" h="32" xo="608" yo="160" id="10007490" name="inst_925D761F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="256" w="32" h="32" xo="608" yo="160" id="10007491" name="inst_41A3FF30" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="256" w="32" h="32" xo="608" yo="160" id="10007492" name="inst_F7F1790E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="288" w="32" h="32" xo="608" yo="160" id="10007493" name="inst_CB5090C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="288" w="32" h="32" xo="608" yo="160" id="10007494" name="inst_705041FF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="288" w="32" h="32" xo="608" yo="160" id="10007495" name="inst_09CCB8E3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="320" w="32" h="32" xo="608" yo="160" id="10007497" name="inst_D0D4F8DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="320" w="32" h="32" xo="608" yo="160" id="10007498" name="inst_B156B0CD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="320" w="32" h="32" xo="608" yo="160" id="10007499" name="inst_5A3EA4A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="320" w="32" h="32" xo="608" yo="160" id="10007500" name="inst_DED914BA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="320" w="32" h="32" xo="608" yo="160" id="10007501" name="inst_D17AA146" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="320" w="32" h="32" xo="608" yo="160" id="10007502" name="inst_0081122B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="320" w="32" h="32" xo="608" yo="160" id="10007505" name="inst_2E197354" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="288" w="32" h="32" xo="608" yo="160" id="10007506" name="inst_095124F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="288" w="32" h="32" xo="608" yo="160" id="10007507" name="inst_E3009D44" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="288" w="32" h="32" xo="608" yo="160" id="10007508" name="inst_31D1514B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="288" w="32" h="32" xo="608" yo="160" id="10007509" name="inst_8B8E345E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="288" w="32" h="32" xo="608" yo="160" id="10007510" name="inst_7DED4F56" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="288" w="32" h="32" xo="608" yo="160" id="10007511" name="inst_D0BB4827" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="288" w="32" h="32" xo="608" yo="160" id="10007512" name="inst_CD8003AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="288" w="32" h="32" xo="608" yo="160" id="10007513" name="inst_CF15305A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="320" w="32" h="32" xo="608" yo="160" id="10007517" name="inst_80BE1ED9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="320" w="32" h="32" xo="608" yo="160" id="10007518" name="inst_F1EA0C97" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="320" w="32" h="32" xo="608" yo="160" id="10007519" name="inst_F4A64E74" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="320" w="32" h="32" xo="608" yo="160" id="10007520" name="inst_4F12A063" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="384" w="32" h="32" xo="608" yo="160" id="10007523" name="inst_087C1C2C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="384" w="32" h="32" xo="608" yo="160" id="10007524" name="inst_21F50541" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="384" w="32" h="32" xo="608" yo="160" id="10007526" name="inst_628CC719" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="384" w="32" h="32" xo="608" yo="160" id="10007527" name="inst_9397951F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="384" w="32" h="32" xo="608" yo="160" id="10007528" name="inst_7A4E1CAE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="320" w="32" h="32" xo="608" yo="160" id="10007532" name="inst_86467107" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="320" w="32" h="32" xo="608" yo="160" id="10007533" name="inst_EB40F7A2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="352" w="32" h="32" xo="608" yo="160" id="10007537" name="inst_7C4EBE3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="384" w="32" h="32" xo="608" yo="160" id="10007539" name="inst_C8216B8A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="320" w="32" h="32" xo="608" yo="160" id="10007541" name="inst_EC081CA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="352" w="32" h="32" xo="608" yo="160" id="10007542" name="inst_14F94E8C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="384" w="32" h="32" xo="608" yo="160" id="10007544" name="inst_8F755647" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="352" w="32" h="32" xo="608" yo="160" id="10007545" name="inst_D4E93899" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="320" w="32" h="32" xo="608" yo="160" id="10007546" name="inst_82384D82" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="288" w="32" h="32" xo="608" yo="160" id="10007548" name="inst_C8314FD1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="352" w="32" h="32" xo="608" yo="160" id="10007550" name="inst_D7C5FD8D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="320" w="32" h="32" xo="608" yo="160" id="10007551" name="inst_F1BDBA8C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="320" w="32" h="32" xo="608" yo="160" id="10007555" name="inst_EA67B01A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="320" w="32" h="32" xo="608" yo="160" id="10007556" name="inst_A3A27C60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="352" w="32" h="32" xo="608" yo="160" id="10007557" name="inst_544F7061" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="352" w="32" h="32" xo="608" yo="160" id="10007558" name="inst_E9D0F969" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="352" w="32" h="32" xo="608" yo="160" id="10007559" name="inst_34687837" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="352" w="32" h="32" xo="608" yo="160" id="10007560" name="inst_007B4EEE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="352" w="32" h="32" xo="608" yo="160" id="10007561" name="inst_1487663E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="352" w="32" h="32" xo="608" yo="160" id="10007566" name="inst_2F9CF48E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="384" w="32" h="32" xo="608" yo="160" id="10007567" name="inst_0A41F7CD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="416" w="32" h="32" xo="608" yo="160" id="10007568" name="inst_C5E30E75" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="256" y="448" w="32" h="32" xo="608" yo="160" id="10007569" name="inst_99B592F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="288" y="448" w="32" h="32" xo="608" yo="160" id="10007570" name="inst_D26E0251" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="448" w="32" h="32" xo="608" yo="160" id="10007571" name="inst_41554C3C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="416" w="32" h="32" xo="608" yo="160" id="10007572" name="inst_CCC0BAE7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="352" w="32" h="32" xo="608" yo="160" id="10007591" name="inst_954BDC6E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="352" w="32" h="32" xo="608" yo="160" id="10007592" name="inst_13EAD6DD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="352" w="32" h="32" xo="608" yo="160" id="10007594" name="inst_E5A3536B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="384" w="32" h="32" xo="608" yo="160" id="10007595" name="inst_A6AAB5AE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="384" w="32" h="32" xo="608" yo="160" id="10007597" name="inst_5D37C2B4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="384" w="32" h="32" xo="608" yo="160" id="10007598" name="inst_CDD8585C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="416" w="32" h="32" xo="608" yo="160" id="10007601" name="inst_A7DFE689" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="416" w="32" h="32" xo="608" yo="160" id="10007602" name="inst_315CFC45" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="416" w="32" h="32" xo="608" yo="160" id="10007603" name="inst_3D77EC78" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="416" w="32" h="32" xo="608" yo="160" id="10007604" name="inst_C36D905E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="416" w="32" h="32" xo="608" yo="160" id="10007605" name="inst_20EE4038" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="416" w="32" h="32" xo="608" yo="160" id="10007606" name="inst_FAB05C86" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="416" w="32" h="32" xo="608" yo="160" id="10007607" name="inst_C3DCD53E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="416" w="32" h="32" xo="608" yo="160" id="10007613" name="inst_A6EBE88B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="416" w="32" h="32" xo="608" yo="160" id="10007614" name="inst_E55ED76F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="384" w="32" h="32" xo="608" yo="160" id="10007616" name="inst_AFCCD7BA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="352" w="32" h="32" xo="608" yo="160" id="10007620" name="inst_573A978A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="352" w="32" h="32" xo="608" yo="160" id="10007622" name="inst_D3C3CB15" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="352" w="32" h="32" xo="608" yo="160" id="10007623" name="inst_DEE910C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="352" w="32" h="32" xo="608" yo="160" id="10007624" name="inst_FBE1C9F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="352" w="32" h="32" xo="608" yo="160" id="10007625" name="inst_B6731CCA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="384" w="32" h="32" xo="608" yo="160" id="10007626" name="inst_8B9EEA42" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="416" w="32" h="32" xo="608" yo="160" id="10007628" name="inst_EAB32A6F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="416" w="32" h="32" xo="608" yo="160" id="10007629" name="inst_F958A3D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="384" w="32" h="32" xo="608" yo="160" id="10007630" name="inst_6FF6DC23" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="384" w="32" h="32" xo="608" yo="160" id="10007631" name="inst_B713E155" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="384" w="32" h="32" xo="608" yo="160" id="10007632" name="inst_ABFF0337" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="384" w="32" h="32" xo="608" yo="160" id="10007633" name="inst_33C277B4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="384" w="32" h="32" xo="608" yo="160" id="10007634" name="inst_04821F86" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="384" w="32" h="32" xo="608" yo="160" id="10007635" name="inst_64577920" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="384" w="32" h="32" xo="608" yo="160" id="10007637" name="inst_AB0D5211" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="384" w="32" h="32" xo="608" yo="160" id="10007638" name="inst_1B891689" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="640" w="32" h="32" xo="608" yo="160" id="10007639" name="inst_8525E96E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="608" w="32" h="32" xo="608" yo="160" id="10007640" name="inst_012F23BA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="576" w="32" h="32" xo="608" yo="160" id="10007641" name="inst_832D83A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="512" w="32" h="32" xo="608" yo="160" id="10007644" name="inst_9AB7A789" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="448" w="32" h="32" xo="608" yo="160" id="10007646" name="inst_28CF0F6C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="480" w="32" h="32" xo="608" yo="160" id="10007649" name="inst_0493DD78" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="448" w="32" h="32" xo="608" yo="160" id="10007650" name="inst_CC85CC4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="480" w="32" h="32" xo="608" yo="160" id="10007651" name="inst_5E9B8ABC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="512" w="32" h="32" xo="608" yo="160" id="10007652" name="inst_C142D303" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="448" y="544" w="32" h="32" xo="608" yo="160" id="10007653" name="inst_E85225BC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="544" w="32" h="32" xo="608" yo="160" id="10007654" name="inst_C2DB9825" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="448" w="32" h="32" xo="608" yo="160" id="10007676" name="inst_1ACCFEB0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="480" w="32" h="32" xo="608" yo="160" id="10007677" name="inst_619AE60F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="576" w="32" h="32" xo="608" yo="160" id="10007680" name="inst_6E9F4D43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="608" w="32" h="32" xo="608" yo="160" id="10007681" name="inst_4C5214A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="480" y="640" w="32" h="32" xo="608" yo="160" id="10007682" name="inst_5E283B96" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="512" y="640" w="32" h="32" xo="608" yo="160" id="10007683" name="inst_064C1F98" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="608" w="32" h="32" xo="608" yo="160" id="10007684" name="inst_97CF550B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="576" w="32" h="32" xo="608" yo="160" id="10007685" name="inst_D783E115" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="544" w="32" h="32" xo="608" yo="160" id="10007686" name="inst_BE273622" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="512" y="512" w="32" h="32" xo="608" yo="160" id="10007687" name="inst_8FF7DBC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="512" w="32" h="32" xo="608" yo="160" id="10007688" name="inst_6EA04BAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="480" w="32" h="32" xo="608" yo="160" id="10007689" name="inst_65476194" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="448" w="32" h="32" xo="608" yo="160" id="10007690" name="inst_FA9815E8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="448" w="32" h="32" xo="608" yo="160" id="10007691" name="inst_442609E5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="480" w="32" h="32" xo="608" yo="160" id="10007692" name="inst_DC2FE886" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="512" w="32" h="32" xo="608" yo="160" id="10007693" name="inst_A659D52E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="544" w="32" h="32" xo="608" yo="160" id="10007694" name="inst_AF9EC991" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="544" w="32" h="32" xo="608" yo="160" id="10007695" name="inst_5345DB08" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="576" w="32" h="32" xo="608" yo="160" id="10007696" name="inst_05666680" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="576" w="32" h="32" xo="608" yo="160" id="10007699" name="inst_8A9F9717" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="544" y="640" w="32" h="32" xo="608" yo="160" id="10007702" name="inst_0D377335" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="544" y="608" w="32" h="32" xo="608" yo="160" id="10007703" name="inst_2ACC3584" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="576" y="640" w="32" h="32" xo="608" yo="160" id="10007704" name="inst_F303C620" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="576" y="608" w="32" h="32" xo="608" yo="160" id="10007705" name="inst_4E6BBB5D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="512" w="32" h="32" xo="608" yo="160" id="10007719" name="inst_2CC022FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="480" w="32" h="32" xo="608" yo="160" id="10007720" name="inst_A6B7E93A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="448" w="32" h="32" xo="608" yo="160" id="10007721" name="inst_921256A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="448" w="32" h="32" xo="608" yo="160" id="10007722" name="inst_75E43E89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="480" w="32" h="32" xo="608" yo="160" id="10007723" name="inst_7F88C744" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="512" w="32" h="32" xo="608" yo="160" id="10007724" name="inst_333785F8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="544" w="32" h="32" xo="608" yo="160" id="10007725" name="inst_9805C491" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="576" w="32" h="32" xo="608" yo="160" id="10007726" name="inst_07486A46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="608" w="32" h="32" xo="608" yo="160" id="10007727" name="inst_8706EA6C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="608" y="640" w="32" h="32" xo="608" yo="160" id="10007728" name="inst_9F160990" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="640" w="32" h="32" xo="608" yo="160" id="10007729" name="inst_93C0CCFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="576" w="32" h="32" xo="608" yo="160" id="10007732" name="inst_C90203F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="448" w="32" h="32" xo="608" yo="160" id="10007738" name="inst_99F4CA7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="480" w="32" h="32" xo="608" yo="160" id="10007739" name="inst_6F05D06C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="512" w="32" h="32" xo="608" yo="160" id="10007740" name="inst_2DA7CF9C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="544" w="32" h="32" xo="608" yo="160" id="10007741" name="inst_1CD186AC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="576" w="32" h="32" xo="608" yo="160" id="10007742" name="inst_1C89CADE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="608" w="32" h="32" xo="608" yo="160" id="10007743" name="inst_B0EF626A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="608" w="32" h="32" xo="608" yo="160" id="10007744" name="inst_FE7254EE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="576" w="32" h="32" xo="608" yo="160" id="10007745" name="inst_9D35817F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="544" w="32" h="32" xo="608" yo="160" id="10007746" name="inst_0734467D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="448" w="32" h="32" xo="608" yo="160" id="10007749" name="inst_5EAE8A4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="512" w="32" h="32" xo="608" yo="160" id="10007751" name="inst_837A7933" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="480" w="32" h="32" xo="608" yo="160" id="10007752" name="inst_7483DB48" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="448" w="32" h="32" xo="608" yo="160" id="10007754" name="inst_55C3FCE4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="480" w="32" h="32" xo="608" yo="160" id="10007755" name="inst_B1997D16" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="512" w="32" h="32" xo="608" yo="160" id="10007756" name="inst_A210C692" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="544" w="32" h="32" xo="608" yo="160" id="10007757" name="inst_30FE0C99" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="544" w="32" h="32" xo="608" yo="160" id="10007758" name="inst_A5AC5C9E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="576" w="32" h="32" xo="608" yo="160" id="10007759" name="inst_EB2CF70A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="640" y="608" w="32" h="32" xo="608" yo="160" id="10007760" name="inst_88CE47B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="608" w="32" h="32" xo="608" yo="160" id="10007761" name="inst_8A999850" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="672" y="640" w="32" h="32" xo="608" yo="160" id="10007762" name="inst_CECBBA23" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="736" y="640" w="32" h="32" xo="608" yo="160" id="10007764" name="inst_0F9C1361" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="704" y="640" w="32" h="32" xo="608" yo="160" id="10007765" name="inst_E6591061" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="416" w="32" h="32" xo="608" yo="160" id="10007766" name="inst_C47B3D83" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="448" w="32" h="32" xo="608" yo="160" id="10007767" name="inst_986DADB2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="992" y="480" w="32" h="32" xo="608" yo="160" id="10007768" name="inst_4E760F4E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="512" w="32" h="32" xo="608" yo="160" id="10007770" name="inst_B4C29248" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="640" w="32" h="32" xo="608" yo="160" id="10007775" name="inst_368B24C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="960" y="640" w="32" h="32" xo="608" yo="160" id="10007776" name="inst_4745A95E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="928" y="640" w="32" h="32" xo="608" yo="160" id="10007777" name="inst_BA3B7D26" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="896" y="640" w="32" h="32" xo="608" yo="160" id="10007778" name="inst_267E5638" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="864" y="640" w="32" h="32" xo="608" yo="160" id="10007779" name="inst_2CBA587B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="800" y="640" w="32" h="32" xo="608" yo="160" id="10007783" name="inst_EA8CBFE3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="544" w="32" h="32" xo="608" yo="160" id="10007787" name="inst_D90534A2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="512" w="32" h="32" xo="608" yo="160" id="10007788" name="inst_2C990DF4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="832" y="640" w="32" h="32" xo="608" yo="160" id="10007796" name="inst_CCEEFC77" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="544" w="32" h="32" xo="608" yo="160" id="10007799" name="inst_8F689674" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="512" w="32" h="32" xo="608" yo="160" id="10007800" name="inst_3385DCF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="512" w="32" h="32" xo="608" yo="160" id="10007804" name="inst_4CD9028F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="544" w="32" h="32" xo="608" yo="160" id="10007805" name="inst_D74175F3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="576" w="32" h="32" xo="608" yo="160" id="10007806" name="inst_117F05E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="576" w="32" h="32" xo="608" yo="160" id="10007809" name="inst_418329AC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="544" w="32" h="32" xo="608" yo="160" id="10007810" name="inst_D8DDED72" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="992" y="512" w="32" h="32" xo="608" yo="160" id="10007812" name="inst_8111704E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="544" w="32" h="32" xo="608" yo="160" id="10007813" name="inst_7AED5F0D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="576" w="32" h="32" xo="608" yo="160" id="10007814" name="inst_BAFEF29A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="992" y="608" w="32" h="32" xo="608" yo="160" id="10007815" name="inst_C1192C19" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="608" w="32" h="32" xo="608" yo="160" id="10007816" name="inst_2CF30F12" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="608" w="32" h="32" xo="608" yo="160" id="10007817" name="inst_2DEFCAA8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="608" w="32" h="32" xo="608" yo="160" id="10007818" name="inst_EBF12E26" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="544" w="32" h="32" xo="608" yo="160" id="10007821" name="inst_B5881F62" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="512" w="32" h="32" xo="608" yo="160" id="10007822" name="inst_886FD99D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="544" w="32" h="32" xo="608" yo="160" id="10007823" name="inst_ACCC0585" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="576" w="32" h="32" xo="608" yo="160" id="10007824" name="inst_9095CB37" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="576" w="32" h="32" xo="608" yo="160" id="10007825" name="inst_8E747ECF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="608" w="32" h="32" xo="608" yo="160" id="10007826" name="inst_ADE86709" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="608" w="32" h="32" xo="608" yo="160" id="10007827" name="inst_43F85706" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="576" w="32" h="32" xo="608" yo="160" id="10007828" name="inst_48388D7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="576" w="32" h="32" xo="608" yo="160" id="10007830" name="inst_F48D70D7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="608" w="32" h="32" xo="608" yo="160" id="10007831" name="inst_50973529" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="640" w="32" h="32" xo="608" yo="160" id="10007833" name="inst_6169043C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="608" w="32" h="32" xo="608" yo="160" id="10007834" name="inst_DEFA2F3E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="576" w="32" h="32" xo="608" yo="160" id="10007835" name="inst_0D9AF0F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="544" w="32" h="32" xo="608" yo="160" id="10007836" name="inst_85183338" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="512" w="32" h="32" xo="608" yo="160" id="10007837" name="inst_ED4CC131" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="480" w="32" h="32" xo="608" yo="160" id="10007840" name="inst_EDC38AF0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="768" y="448" w="32" h="32" xo="608" yo="160" id="10007841" name="inst_85915D6C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="416" w="32" h="32" xo="608" yo="160" id="10007843" name="inst_F06BCD45" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="448" w="32" h="32" xo="608" yo="160" id="10007844" name="inst_4DE545A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="800" y="480" w="32" h="32" xo="608" yo="160" id="10007845" name="inst_2CD3C483" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="512" w="32" h="32" xo="608" yo="160" id="10007847" name="inst_9032818F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="480" w="32" h="32" xo="608" yo="160" id="10007848" name="inst_215F70C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="448" w="32" h="32" xo="608" yo="160" id="10007849" name="inst_B37B2CB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="832" y="416" w="32" h="32" xo="608" yo="160" id="10007850" name="inst_5C321C41" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="416" w="32" h="32" xo="608" yo="160" id="10007851" name="inst_01ED7D78" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="480" w="32" h="32" xo="608" yo="160" id="10007853" name="inst_40DB4CD7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="864" y="448" w="32" h="32" xo="608" yo="160" id="10007854" name="inst_BDCFDC91" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="480" w="32" h="32" xo="608" yo="160" id="10007856" name="inst_75DA459F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="352" w="32" h="32" xo="608" yo="160" id="10007860" name="inst_2FA1CD71" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="384" w="32" h="32" xo="608" yo="160" id="10007868" name="inst_1798866A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="416" w="32" h="32" xo="608" yo="160" id="10007869" name="inst_DC63A7AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="448" w="32" h="32" xo="608" yo="160" id="10007870" name="inst_FF382E03" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="960" y="480" w="32" h="32" xo="608" yo="160" id="10007871" name="inst_FDCC7BBF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="480" w="32" h="32" xo="608" yo="160" id="10007874" name="inst_7F47A2C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="416" w="32" h="32" xo="608" yo="160" id="10007876" name="inst_5200962D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="928" y="448" w="32" h="32" xo="608" yo="160" id="10007877" name="inst_4893C5D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="448" w="32" h="32" xo="608" yo="160" id="10007878" name="inst_00EE261B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="896" y="416" w="32" h="32" xo="608" yo="160" id="10007879" name="inst_0F965FCB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado2" x="32" y="256" w="32" h="32" xo="32" yo="96" id="10008464" name="inst_5CEA0DEC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="256" w="32" h="32" xo="96" yo="288" id="10010124" name="inst_BC3C052B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="288" w="32" h="32" xo="96" yo="288" id="10010125" name="inst_2C98260B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="288" w="32" h="32" xo="96" yo="288" id="10010128" name="inst_F81E4346" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="288" w="32" h="32" xo="96" yo="288" id="10010130" name="inst_99C68EA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="288" w="32" h="32" xo="96" yo="288" id="10010131" name="inst_03F911F3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="288" w="32" h="32" xo="96" yo="288" id="10010135" name="inst_FDD5BACF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="288" w="32" h="32" xo="96" yo="288" id="10010136" name="inst_4DB1C826" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="256" w="32" h="32" xo="96" yo="288" id="10010137" name="inst_BA8C5210" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="256" w="32" h="32" xo="96" yo="288" id="10010138" name="inst_14B286D8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="256" w="32" h="32" xo="96" yo="288" id="10010139" name="inst_3318EBE4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="256" w="32" h="32" xo="96" yo="288" id="10010140" name="inst_0E44962E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="256" w="32" h="32" xo="96" yo="288" id="10010141" name="inst_955DBDB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="256" w="32" h="32" xo="96" yo="288" id="10010142" name="inst_EEBFC8A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="288" w="32" h="32" xo="96" yo="288" id="10010143" name="inst_EE9817A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="256" w="32" h="32" xo="96" yo="288" id="10010145" name="inst_FB68BD64" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="288" w="32" h="32" xo="96" yo="288" id="10010146" name="inst_96D97336" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="320" w="32" h="32" xo="96" yo="288" id="10010150" name="inst_B4410002" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="320" w="32" h="32" xo="96" yo="288" id="10010151" name="inst_B72BC0C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="320" w="32" h="32" xo="96" yo="288" id="10010152" name="inst_A9485233" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="320" w="32" h="32" xo="96" yo="288" id="10010153" name="inst_109AB798" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="320" w="32" h="32" xo="96" yo="288" id="10010154" name="inst_62E65979" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="320" w="32" h="32" xo="96" yo="288" id="10010155" name="inst_C713BFB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="320" w="32" h="32" xo="96" yo="288" id="10010156" name="inst_861D686E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="352" w="32" h="32" xo="96" yo="288" id="10010157" name="inst_2B2B4172" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="384" w="32" h="32" xo="96" yo="288" id="10010158" name="inst_6A4E594D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="384" w="32" h="32" xo="96" yo="288" id="10010159" name="inst_D73A6821" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="352" w="32" h="32" xo="96" yo="288" id="10010160" name="inst_A5CF0DF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="352" w="32" h="32" xo="96" yo="288" id="10010161" name="inst_D61B0636" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="352" w="32" h="32" xo="96" yo="288" id="10010162" name="inst_F77BE954" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="352" w="32" h="32" xo="96" yo="288" id="10010163" name="inst_F1F6CA93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="352" w="32" h="32" xo="96" yo="288" id="10010164" name="inst_7A995789" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="352" w="32" h="32" xo="96" yo="288" id="10010165" name="inst_46371BAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="384" w="32" h="32" xo="96" yo="288" id="10010166" name="inst_CA642F91" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="384" w="32" h="32" xo="96" yo="288" id="10010167" name="inst_1D9979A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="416" w="32" h="32" xo="96" yo="288" id="10010170" name="inst_6D928476" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="384" w="32" h="32" xo="96" yo="288" id="10010172" name="inst_189C8E12" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="384" w="32" h="32" xo="96" yo="288" id="10010173" name="inst_437FC6AE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="384" w="32" h="32" xo="96" yo="288" id="10010176" name="inst_1ADE511D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="416" w="32" h="32" xo="96" yo="288" id="10010177" name="inst_17BEC286" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="416" w="32" h="32" xo="96" yo="288" id="10010178" name="inst_6BBAD452" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="416" w="32" h="32" xo="96" yo="288" id="10010182" name="inst_5A57E352" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="416" w="32" h="32" xo="96" yo="288" id="10010183" name="inst_A6DB3C47" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="448" w="32" h="32" xo="96" yo="288" id="10010184" name="inst_1754A6D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="480" w="32" h="32" xo="96" yo="288" id="10010185" name="inst_F56D8F19" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="512" w="32" h="32" xo="96" yo="288" id="10010186" name="inst_19305BBA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="544" w="32" h="32" xo="96" yo="288" id="10010187" name="inst_FBBF1C7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="576" w="32" h="32" xo="96" yo="288" id="10010188" name="inst_8FEFABAC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="608" w="32" h="32" xo="96" yo="288" id="10010189" name="inst_D40070DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="608" w="32" h="32" xo="96" yo="288" id="10010190" name="inst_B7FFD939" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="576" w="32" h="32" xo="96" yo="288" id="10010191" name="inst_50CA1BCF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="544" w="32" h="32" xo="96" yo="288" id="10010192" name="inst_C26D6FBD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="544" w="32" h="32" xo="96" yo="288" id="10010193" name="inst_8BBD4CB6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="480" w="32" h="32" xo="96" yo="288" id="10010197" name="inst_53876C8A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="512" w="32" h="32" xo="96" yo="288" id="10010198" name="inst_7DA9A993" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="512" w="32" h="32" xo="96" yo="288" id="10010199" name="inst_9E1D9028" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="480" w="32" h="32" xo="96" yo="288" id="10010200" name="inst_AF6E541C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="448" w="32" h="32" xo="96" yo="288" id="10010201" name="inst_AC40A41B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="448" w="32" h="32" xo="96" yo="288" id="10010202" name="inst_E10750E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="448" w="32" h="32" xo="96" yo="288" id="10010203" name="inst_9664A3A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="512" w="32" h="32" xo="96" yo="288" id="10010214" name="inst_F1FEDF73" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="448" w="32" h="32" xo="96" yo="288" id="10010219" name="inst_0E8E7797" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="416" w="32" h="32" xo="96" yo="288" id="10010220" name="inst_08E6FD03" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="480" w="32" h="32" xo="96" yo="288" id="10010224" name="inst_5DA8EB46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="480" w="32" h="32" xo="96" yo="288" id="10010225" name="inst_2F431F56" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="512" w="32" h="32" xo="96" yo="288" id="10010226" name="inst_F0CFCF1B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="544" w="32" h="32" xo="96" yo="288" id="10010227" name="inst_E808FBB5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="544" w="32" h="32" xo="96" yo="288" id="10010228" name="inst_630D2854" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="512" w="32" h="32" xo="96" yo="288" id="10010229" name="inst_9C9300D8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="480" w="32" h="32" xo="96" yo="288" id="10010230" name="inst_E76AF6EE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="448" w="32" h="32" xo="96" yo="288" id="10010231" name="inst_0EA00E57" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="416" w="32" h="32" xo="96" yo="288" id="10010233" name="inst_C00C5B78" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="448" w="32" h="32" xo="96" yo="288" id="10010234" name="inst_13347197" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="480" w="32" h="32" xo="96" yo="288" id="10010235" name="inst_A4BF8F5A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="512" w="32" h="32" xo="96" yo="288" id="10010236" name="inst_DC52D338" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="544" w="32" h="32" xo="96" yo="288" id="10010237" name="inst_14FB7D59" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="576" w="32" h="32" xo="96" yo="288" id="10010238" name="inst_2FCC5D60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="576" w="32" h="32" xo="96" yo="288" id="10010239" name="inst_509173C4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="576" w="32" h="32" xo="96" yo="288" id="10010240" name="inst_B2164178" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="576" w="32" h="32" xo="96" yo="288" id="10010241" name="inst_824547C8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="576" w="32" h="32" xo="96" yo="288" id="10010242" name="inst_5A5DEE15" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="608" w="32" h="32" xo="96" yo="288" id="10010243" name="inst_3493B84F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="608" w="32" h="32" xo="96" yo="288" id="10010244" name="inst_8D846C65" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="160" y="608" w="32" h="32" xo="96" yo="288" id="10010245" name="inst_67821CA5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="608" w="32" h="32" xo="96" yo="288" id="10010246" name="inst_B6AAC7C4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="224" y="608" w="32" h="32" xo="96" yo="288" id="10010247" name="inst_94996630" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="640" w="32" h="32" xo="96" yo="288" id="10010248" name="inst_0DB590CC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="608" w="32" h="32" xo="96" yo="288" id="10010249" name="inst_8C61A9DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="608" w="32" h="32" xo="96" yo="288" id="10010250" name="inst_DD468556" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="608" w="32" h="32" xo="96" yo="288" id="10010251" name="inst_B6D984B4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="640" w="32" h="32" xo="96" yo="288" id="10010252" name="inst_73AC6EBB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="640" w="32" h="32" xo="96" yo="288" id="10010254" name="inst_4BC24D46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="640" w="32" h="32" xo="96" yo="288" id="10010255" name="inst_AA92E75F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="608" w="32" h="32" xo="96" yo="288" id="10010256" name="inst_574AB3F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="384" w="32" h="32" xo="96" yo="288" id="10010265" name="inst_72535633" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="320" w="32" h="32" xo="96" yo="288" id="10010268" name="inst_BAECC40A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="320" w="32" h="32" xo="96" yo="288" id="10010269" name="inst_1EF5532F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="352" w="32" h="32" xo="96" yo="288" id="10010272" name="inst_A439A10A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="352" w="32" h="32" xo="96" yo="288" id="10010273" name="inst_D092F9B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="384" w="32" h="32" xo="96" yo="288" id="10010274" name="inst_D43F58D4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="448" w="32" h="32" xo="96" yo="288" id="10010277" name="inst_BCA312AE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="384" w="32" h="32" xo="96" yo="288" id="10010279" name="inst_F8EF0E44" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="416" w="32" h="32" xo="96" yo="288" id="10010280" name="inst_67AC66B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="416" w="32" h="32" xo="96" yo="288" id="10010281" name="inst_D1BF54B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="448" w="32" h="32" xo="96" yo="288" id="10010282" name="inst_E7D992F8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="480" w="32" h="32" xo="96" yo="288" id="10010285" name="inst_1D743072" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="448" w="32" h="32" xo="96" yo="288" id="10010286" name="inst_2B62A250" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="416" w="32" h="32" xo="96" yo="288" id="10010287" name="inst_FC3C5D5F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="480" w="32" h="32" xo="96" yo="288" id="10010290" name="inst_E420B741" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="480" w="32" h="32" xo="96" yo="288" id="10010294" name="inst_5B736350" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="512" w="32" h="32" xo="96" yo="288" id="10010295" name="inst_45224A9D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="544" w="32" h="32" xo="96" yo="288" id="10010296" name="inst_F02543AD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="256" y="576" w="32" h="32" xo="96" yo="288" id="10010297" name="inst_C92367D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="576" w="32" h="32" xo="96" yo="288" id="10010298" name="inst_CD491656" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="576" w="32" h="32" xo="96" yo="288" id="10010299" name="inst_27A64E8E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="544" w="32" h="32" xo="96" yo="288" id="10010300" name="inst_DB23435D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="544" w="32" h="32" xo="96" yo="288" id="10010301" name="inst_6D249D32" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="512" w="32" h="32" xo="96" yo="288" id="10010302" name="inst_2A070999" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="512" w="32" h="32" xo="96" yo="288" id="10010303" name="inst_2264A210" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="480" w="32" h="32" xo="96" yo="288" id="10010304" name="inst_FB3C6066" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="448" w="32" h="32" xo="96" yo="288" id="10010305" name="inst_52E9B752" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="416" w="32" h="32" xo="96" yo="288" id="10010306" name="inst_455F6BDB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="384" w="32" h="32" xo="96" yo="288" id="10010307" name="inst_6579F7AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="352" w="32" h="32" xo="96" yo="288" id="10010309" name="inst_8C9F3EA3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="320" w="32" h="32" xo="96" yo="288" id="10010310" name="inst_2E2B1013" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="288" w="32" h="32" xo="96" yo="288" id="10010311" name="inst_130CE81B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="288" w="32" h="32" xo="96" yo="288" id="10010312" name="inst_0579DE0D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="288" y="256" w="32" h="32" xo="96" yo="288" id="10010313" name="inst_20326C00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="320" y="256" w="32" h="32" xo="96" yo="288" id="10010314" name="inst_D71404F9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="256" w="32" h="32" xo="96" yo="288" id="10010315" name="inst_DAB58568" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="256" w="32" h="32" xo="96" yo="288" id="10010316" name="inst_85D2BCC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="256" w="32" h="32" xo="96" yo="288" id="10010317" name="inst_ABC802B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="288" w="32" h="32" xo="96" yo="288" id="10010318" name="inst_8AB025C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="320" w="32" h="32" xo="96" yo="288" id="10010319" name="inst_B8E5AFFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="320" w="32" h="32" xo="96" yo="288" id="10010320" name="inst_63357506" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="288" w="32" h="32" xo="96" yo="288" id="10010321" name="inst_762570B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="288" w="32" h="32" xo="96" yo="288" id="10010322" name="inst_1B764C0E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="320" w="32" h="32" xo="96" yo="288" id="10010323" name="inst_1F547A99" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="352" w="32" h="32" xo="96" yo="288" id="10010324" name="inst_F0C0807F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="352" w="32" h="32" xo="96" yo="288" id="10010325" name="inst_543C243C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="384" w="32" h="32" xo="96" yo="288" id="10010326" name="inst_91F8A13E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="448" w="32" h="32" xo="96" yo="288" id="10010331" name="inst_E1BD6FA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="416" w="32" h="32" xo="96" yo="288" id="10010332" name="inst_F5A2CCBE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="352" w="32" h="32" xo="96" yo="288" id="10010334" name="inst_0757387F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="352" w="32" h="32" xo="96" yo="288" id="10010335" name="inst_73BF736D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="384" w="32" h="32" xo="96" yo="288" id="10010336" name="inst_720A9310" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="416" w="32" h="32" xo="96" yo="288" id="10010337" name="inst_F1C569B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="448" w="32" h="32" xo="96" yo="288" id="10010338" name="inst_BFC03120" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="480" w="32" h="32" xo="96" yo="288" id="10010339" name="inst_405FFD2D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="512" w="32" h="32" xo="96" yo="288" id="10010340" name="inst_CE9849AD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="512" w="32" h="32" xo="96" yo="288" id="10010341" name="inst_26DCB021" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="544" w="32" h="32" xo="96" yo="288" id="10010342" name="inst_450749A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="352" y="576" w="32" h="32" xo="96" yo="288" id="10010343" name="inst_399C8BE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="608" w="32" h="32" xo="96" yo="288" id="10010345" name="inst_12ECF4E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="576" w="32" h="32" xo="96" yo="288" id="10010346" name="inst_3235AB25" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="384" y="544" w="32" h="32" xo="96" yo="288" id="10010347" name="inst_8950546F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="480" w="32" h="32" xo="96" yo="288" id="10010350" name="inst_439AC533" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="512" w="32" h="32" xo="96" yo="288" id="10010351" name="inst_D0D36606" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="544" w="32" h="32" xo="96" yo="288" id="10010352" name="inst_D9C59CE4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="576" w="32" h="32" xo="96" yo="288" id="10010353" name="inst_EC49D3FE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="608" w="32" h="32" xo="96" yo="288" id="10010355" name="inst_969D0D47" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="416" y="608" w="32" h="32" xo="96" yo="288" id="10010356" name="inst_026AEDE1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="608" w="32" h="32" xo="96" yo="288" id="10010357" name="inst_8B903FF1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="608" w="32" h="32" xo="96" yo="288" id="10010358" name="inst_0D47D3CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="608" w="32" h="32" xo="96" yo="288" id="10010359" name="inst_F06BC0D9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="576" w="32" h="32" xo="96" yo="288" id="10010360" name="inst_ADBF51BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="576" w="32" h="32" xo="96" yo="288" id="10010361" name="inst_A86F224F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="608" w="32" h="32" xo="96" yo="288" id="10010362" name="inst_F94F4A19" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="608" w="32" h="32" xo="96" yo="288" id="10010363" name="inst_19F573BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="576" w="32" h="32" xo="96" yo="288" id="10010364" name="inst_F92F7559" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="480" w="32" h="32" xo="96" yo="288" id="10010371" name="inst_9DFA5E35" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="512" w="32" h="32" xo="96" yo="288" id="10010372" name="inst_883524CD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="512" w="32" h="32" xo="96" yo="288" id="10010373" name="inst_5A2120DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="512" w="32" h="32" xo="96" yo="288" id="10010376" name="inst_15974A0A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="416" w="32" h="32" xo="96" yo="288" id="10010379" name="inst_440E8A03" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="416" w="32" h="32" xo="96" yo="288" id="10010381" name="inst_AABA28ED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="416" w="32" h="32" xo="96" yo="288" id="10010390" name="inst_A4234C1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="448" w="32" h="32" xo="96" yo="288" id="10010391" name="inst_60525BBF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="512" w="32" h="32" xo="96" yo="288" id="10010394" name="inst_C33F96E5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="384" w="32" h="32" xo="96" yo="288" id="10010400" name="inst_BF0C42E8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="544" w="32" h="32" xo="96" yo="288" id="10010406" name="inst_A777F2DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="384" w="32" h="32" xo="96" yo="288" id="10010411" name="inst_0BC4098B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="384" w="32" h="32" xo="96" yo="288" id="10010412" name="inst_C186B0C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="416" w="32" h="32" xo="96" yo="288" id="10010413" name="inst_72D318DC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="512" w="32" h="32" xo="96" yo="288" id="10010417" name="inst_4CD56635" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="480" w="32" h="32" xo="96" yo="288" id="10010418" name="inst_FE27BF29" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="448" w="32" h="32" xo="96" yo="288" id="10010419" name="inst_5E9C954C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="544" w="32" h="32" xo="96" yo="288" id="10010424" name="inst_77599471" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="576" w="32" h="32" xo="96" yo="288" id="10010425" name="inst_7B962740" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="576" w="32" h="32" xo="96" yo="288" id="10010426" name="inst_6EE964FF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="576" w="32" h="32" xo="96" yo="288" id="10010427" name="inst_6A5A154B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="544" w="32" h="32" xo="96" yo="288" id="10010428" name="inst_0FAF11A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="512" w="32" h="32" xo="96" yo="288" id="10010430" name="inst_D64B85AF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="480" w="32" h="32" xo="96" yo="288" id="10010431" name="inst_AB37AAC2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="448" w="32" h="32" xo="96" yo="288" id="10010432" name="inst_056B0282" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="416" w="32" h="32" xo="96" yo="288" id="10010434" name="inst_7065F644" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="416" w="32" h="32" xo="96" yo="288" id="10010435" name="inst_24583923" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="448" w="32" h="32" xo="96" yo="288" id="10010436" name="inst_2E674145" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="448" w="32" h="32" xo="96" yo="288" id="10010437" name="inst_31CC515B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="480" w="32" h="32" xo="96" yo="288" id="10010438" name="inst_603076C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="480" w="32" h="32" xo="96" yo="288" id="10010439" name="inst_CEFBDD56" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="512" w="32" h="32" xo="96" yo="288" id="10010440" name="inst_94CDA1E3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="512" w="32" h="32" xo="96" yo="288" id="10010441" name="inst_D180E2A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="480" w="32" h="32" xo="96" yo="288" id="10010442" name="inst_B8DED3C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="448" w="32" h="32" xo="96" yo="288" id="10010443" name="inst_6668CD8D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="416" w="32" h="32" xo="96" yo="288" id="10010444" name="inst_0E05CDB7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="416" w="32" h="32" xo="96" yo="288" id="10010445" name="inst_ECD0100E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="448" w="32" h="32" xo="96" yo="288" id="10010449" name="inst_B5D8F705" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="416" w="32" h="32" xo="96" yo="288" id="10010450" name="inst_9AAA1BA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="384" w="32" h="32" xo="96" yo="288" id="10010451" name="inst_0DA6960D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="384" w="32" h="32" xo="96" yo="288" id="10010452" name="inst_EA3623CF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="352" w="32" h="32" xo="96" yo="288" id="10010453" name="inst_BB17E668" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="352" w="32" h="32" xo="96" yo="288" id="10010454" name="inst_9F3DC40A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="352" w="32" h="32" xo="96" yo="288" id="10010455" name="inst_AC58BD29" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="320" w="32" h="32" xo="96" yo="288" id="10010459" name="inst_8D7F6D21" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="320" w="32" h="32" xo="96" yo="288" id="10010460" name="inst_3369CB77" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="320" w="32" h="32" xo="96" yo="288" id="10010461" name="inst_ED19221E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="320" w="32" h="32" xo="96" yo="288" id="10010462" name="inst_49B1B9DC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="320" w="32" h="32" xo="96" yo="288" id="10010463" name="inst_126D4688" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="320" w="32" h="32" xo="96" yo="288" id="10010464" name="inst_C15F008C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="448" y="288" w="32" h="32" xo="96" yo="288" id="10010465" name="inst_4224DC92" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="288" w="32" h="32" xo="96" yo="288" id="10010466" name="inst_013AEED9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="288" w="32" h="32" xo="96" yo="288" id="10010470" name="inst_6B3B0BFF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="288" w="32" h="32" xo="96" yo="288" id="10010471" name="inst_B2391286" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="288" w="32" h="32" xo="96" yo="288" id="10010474" name="inst_866EDA59" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="288" w="32" h="32" xo="96" yo="288" id="10010475" name="inst_462A9F7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="320" w="32" h="32" xo="96" yo="288" id="10010476" name="inst_A18B88BA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="288" w="32" h="32" xo="96" yo="288" id="10010492" name="inst_99381788" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="288" w="32" h="32" xo="96" yo="288" id="10010493" name="inst_A5CB7E1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="288" w="32" h="32" xo="96" yo="288" id="10010494" name="inst_E4B0E188" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="256" w="32" h="32" xo="96" yo="288" id="10010501" name="inst_ECF8D44E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="480" y="256" w="32" h="32" xo="96" yo="288" id="10010503" name="inst_C3E4B40B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="256" w="32" h="32" xo="96" yo="288" id="10010504" name="inst_84C2FF31" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="512" y="288" w="32" h="32" xo="96" yo="288" id="10010505" name="inst_29362A94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="288" w="32" h="32" xo="96" yo="288" id="10010506" name="inst_4F461846" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="288" w="32" h="32" xo="96" yo="288" id="10010507" name="inst_C966B7CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="256" w="32" h="32" xo="96" yo="288" id="10010508" name="inst_B78C8512" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="256" w="32" h="32" xo="96" yo="288" id="10010509" name="inst_EC655921" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="256" w="32" h="32" xo="96" yo="288" id="10010510" name="inst_0BDAB077" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="256" w="32" h="32" xo="96" yo="288" id="10010511" name="inst_507009AE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="256" w="32" h="32" xo="96" yo="288" id="10010512" name="inst_3E224F45" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="256" w="32" h="32" xo="96" yo="288" id="10010513" name="inst_29BD5001" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="256" w="32" h="32" xo="96" yo="288" id="10010514" name="inst_77E0FFD2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="256" w="32" h="32" xo="96" yo="288" id="10010515" name="inst_CD045816" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="256" w="32" h="32" xo="96" yo="288" id="10010516" name="inst_B7EA8CF4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="288" w="32" h="32" xo="96" yo="288" id="10010517" name="inst_B7E20CDF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="288" w="32" h="32" xo="96" yo="288" id="10010518" name="inst_CE76EE07" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="288" w="32" h="32" xo="96" yo="288" id="10010520" name="inst_F1FF2528" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="320" w="32" h="32" xo="96" yo="288" id="10010521" name="inst_E3E0E8F8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="288" w="32" h="32" xo="96" yo="288" id="10010524" name="inst_E8B6132E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="256" w="32" h="32" xo="96" yo="288" id="10010525" name="inst_0A1284E8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="256" w="32" h="32" xo="96" yo="288" id="10010526" name="inst_19FD6965" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="256" w="32" h="32" xo="96" yo="288" id="10010527" name="inst_0581D668" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="288" w="32" h="32" xo="96" yo="288" id="10010528" name="inst_42153067" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="320" w="32" h="32" xo="96" yo="288" id="10010529" name="inst_952D9376" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="320" w="32" h="32" xo="96" yo="288" id="10010530" name="inst_38D604A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="352" w="32" h="32" xo="96" yo="288" id="10010533" name="inst_CC622B33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="384" w="32" h="32" xo="96" yo="288" id="10010536" name="inst_B71FD1A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="384" w="32" h="32" xo="96" yo="288" id="10010537" name="inst_E8B2E241" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="384" w="32" h="32" xo="96" yo="288" id="10010538" name="inst_27BD0321" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="384" w="32" h="32" xo="96" yo="288" id="10010539" name="inst_BFBF670D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="384" w="32" h="32" xo="96" yo="288" id="10010540" name="inst_0A914459" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="384" w="32" h="32" xo="96" yo="288" id="10010541" name="inst_68D7CD2A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="320" w="32" h="32" xo="96" yo="288" id="10010544" name="inst_AB78CEE3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="320" w="32" h="32" xo="96" yo="288" id="10010545" name="inst_FE955060" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="352" w="32" h="32" xo="96" yo="288" id="10010547" name="inst_7342E9F7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="352" w="32" h="32" xo="96" yo="288" id="10010548" name="inst_E07E5CC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="352" w="32" h="32" xo="96" yo="288" id="10010549" name="inst_630B5968" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="320" w="32" h="32" xo="96" yo="288" id="10010550" name="inst_6EE23195" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="320" w="32" h="32" xo="96" yo="288" id="10010551" name="inst_22B4A3AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="320" w="32" h="32" xo="96" yo="288" id="10010553" name="inst_FA5DC7FE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="320" w="32" h="32" xo="96" yo="288" id="10010554" name="inst_BE9CC01F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="352" w="32" h="32" xo="96" yo="288" id="10010560" name="inst_A887E202" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="352" w="32" h="32" xo="96" yo="288" id="10010561" name="inst_AC46A9C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="352" w="32" h="32" xo="96" yo="288" id="10010562" name="inst_9B9120D8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="352" w="32" h="32" xo="96" yo="288" id="10010563" name="inst_6980BE31" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="352" w="32" h="32" xo="96" yo="288" id="10010564" name="inst_CC73D954" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="352" w="32" h="32" xo="96" yo="288" id="10010565" name="inst_569D9DFA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="384" w="32" h="32" xo="96" yo="288" id="10010569" name="inst_E54EB6A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="384" w="32" h="32" xo="96" yo="288" id="10010570" name="inst_39ADA21E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="384" w="32" h="32" xo="96" yo="288" id="10010571" name="inst_D2C12DA2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="352" w="32" h="32" xo="96" yo="288" id="10010572" name="inst_BB7EBC94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="352" w="32" h="32" xo="96" yo="288" id="10010573" name="inst_E3FB1356" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="320" w="32" h="32" xo="96" yo="288" id="10010575" name="inst_B3238F9A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="352" w="32" h="32" xo="96" yo="288" id="10010576" name="inst_217A9D27" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="384" w="32" h="32" xo="96" yo="288" id="10010577" name="inst_0F27E199" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="416" w="32" h="32" xo="96" yo="288" id="10010578" name="inst_EF6E8D03" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="448" w="32" h="32" xo="96" yo="288" id="10010583" name="inst_E81F4ADD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="416" w="32" h="32" xo="96" yo="288" id="10010584" name="inst_D4D91A06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="384" w="32" h="32" xo="96" yo="288" id="10010585" name="inst_6A5E5488" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="384" w="32" h="32" xo="96" yo="288" id="10010586" name="inst_6EFB1F28" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="416" w="32" h="32" xo="96" yo="288" id="10010587" name="inst_08BDC412" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="544" y="544" w="32" h="32" xo="96" yo="288" id="10010588" name="inst_E7242EEF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="576" y="544" w="32" h="32" xo="96" yo="288" id="10010589" name="inst_04383A18" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="544" w="32" h="32" xo="96" yo="288" id="10010590" name="inst_220FA37D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="512" w="32" h="32" xo="96" yo="288" id="10010591" name="inst_9973CC6F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="608" y="480" w="32" h="32" xo="96" yo="288" id="10010592" name="inst_C48E44D9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="480" w="32" h="32" xo="96" yo="288" id="10010593" name="inst_C023027C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="480" w="32" h="32" xo="96" yo="288" id="10010594" name="inst_2979EE5B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="448" w="32" h="32" xo="96" yo="288" id="10010595" name="inst_AB777C57" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="448" w="32" h="32" xo="96" yo="288" id="10010596" name="inst_86BF4733" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="480" w="32" h="32" xo="96" yo="288" id="10010598" name="inst_C513B74D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="512" w="32" h="32" xo="96" yo="288" id="10010599" name="inst_273F465B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="608" w="32" h="32" xo="96" yo="288" id="10010604" name="inst_FD7BCFAE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="608" w="32" h="32" xo="96" yo="288" id="10010605" name="inst_0B5024DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="608" w="32" h="32" xo="96" yo="288" id="10010606" name="inst_748B426E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="544" w="32" h="32" xo="96" yo="288" id="10010611" name="inst_FA236A77" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="544" w="32" h="32" xo="96" yo="288" id="10010612" name="inst_870607FE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="640" y="576" w="32" h="32" xo="96" yo="288" id="10010613" name="inst_19F41C60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="672" y="576" w="32" h="32" xo="96" yo="288" id="10010614" name="inst_64D7152E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="576" w="32" h="32" xo="96" yo="288" id="10010615" name="inst_E34E6B51" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="576" w="32" h="32" xo="96" yo="288" id="10010616" name="inst_2C3DBECC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="576" w="32" h="32" xo="96" yo="288" id="10010621" name="inst_D4CFF470" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="608" w="32" h="32" xo="96" yo="288" id="10010623" name="inst_5EB640A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="608" w="32" h="32" xo="96" yo="288" id="10010624" name="inst_EB37E3C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="608" w="32" h="32" xo="96" yo="288" id="10010625" name="inst_ACBC42FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="576" w="32" h="32" xo="96" yo="288" id="10010626" name="inst_BD1AC0B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="576" w="32" h="32" xo="96" yo="288" id="10010627" name="inst_E0EBAA4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="608" w="32" h="32" xo="96" yo="288" id="10010628" name="inst_60B0051B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="608" w="32" h="32" xo="96" yo="288" id="10010629" name="inst_B4845663" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="608" w="32" h="32" xo="96" yo="288" id="10010630" name="inst_5CF58141" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="608" w="32" h="32" xo="96" yo="288" id="10010631" name="inst_34A5369A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="608" w="32" h="32" xo="96" yo="288" id="10010632" name="inst_41E68FA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="576" w="32" h="32" xo="96" yo="288" id="10010633" name="inst_DC57B32F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="544" w="32" h="32" xo="96" yo="288" id="10010634" name="inst_277A2BB3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="512" w="32" h="32" xo="96" yo="288" id="10010635" name="inst_83593F20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="480" w="32" h="32" xo="96" yo="288" id="10010636" name="inst_95A97804" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="960" y="448" w="32" h="32" xo="96" yo="288" id="10010637" name="inst_B9953665" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="448" w="32" h="32" xo="96" yo="288" id="10010638" name="inst_E7049507" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="480" w="32" h="32" xo="96" yo="288" id="10010639" name="inst_9012D01B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="512" w="32" h="32" xo="96" yo="288" id="10010640" name="inst_DF3CAC07" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="544" w="32" h="32" xo="96" yo="288" id="10010641" name="inst_71C6F9D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="928" y="576" w="32" h="32" xo="96" yo="288" id="10010642" name="inst_1621290D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="576" w="32" h="32" xo="96" yo="288" id="10010643" name="inst_2F450E64" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="576" w="32" h="32" xo="96" yo="288" id="10010644" name="inst_5A09AED1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="544" w="32" h="32" xo="96" yo="288" id="10010646" name="inst_404C577B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="480" w="32" h="32" xo="96" yo="288" id="10010650" name="inst_5FC5CB78" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="480" w="32" h="32" xo="96" yo="288" id="10010651" name="inst_5643FD3F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="480" w="32" h="32" xo="96" yo="288" id="10010652" name="inst_843B51F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="512" w="32" h="32" xo="96" yo="288" id="10010653" name="inst_1D529DFD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="512" w="32" h="32" xo="96" yo="288" id="10010654" name="inst_246314FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="512" w="32" h="32" xo="96" yo="288" id="10010655" name="inst_88B54D22" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="416" w="32" h="32" xo="96" yo="288" id="10010659" name="inst_1ACA14F8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="416" w="32" h="32" xo="96" yo="288" id="10010660" name="inst_E3D79B5B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="416" w="32" h="32" xo="96" yo="288" id="10010661" name="inst_A4F88ABB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="416" w="32" h="32" xo="96" yo="288" id="10010662" name="inst_6DB8D24D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="416" w="32" h="32" xo="96" yo="288" id="10010663" name="inst_768399A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="448" w="32" h="32" xo="96" yo="288" id="10010664" name="inst_D5DC6EA5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="448" w="32" h="32" xo="96" yo="288" id="10010665" name="inst_16883C18" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="448" w="32" h="32" xo="96" yo="288" id="10010666" name="inst_839CD124" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="448" w="32" h="32" xo="96" yo="288" id="10010667" name="inst_C6325137" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="448" w="32" h="32" xo="96" yo="288" id="10010668" name="inst_26B98F49" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="480" w="32" h="32" xo="96" yo="288" id="10010669" name="inst_F6A7E174" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="480" w="32" h="32" xo="96" yo="288" id="10010670" name="inst_5725306C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="896" y="512" w="32" h="32" xo="96" yo="288" id="10010671" name="inst_F8C9FDCC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="512" w="32" h="32" xo="96" yo="288" id="10010672" name="inst_201CFF42" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="864" y="544" w="32" h="32" xo="96" yo="288" id="10010673" name="inst_C277B833" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="832" y="544" w="32" h="32" xo="96" yo="288" id="10010674" name="inst_89785BF1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="800" y="544" w="32" h="32" xo="96" yo="288" id="10010675" name="inst_64F02BFC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="768" y="544" w="32" h="32" xo="96" yo="288" id="10010676" name="inst_36EE041E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="736" y="544" w="32" h="32" xo="96" yo="288" id="10010677" name="inst_060B1763" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="704" y="544" w="32" h="32" xo="96" yo="288" id="10010678" name="inst_6211008F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="32" y="640" w="32" h="32" xo="32" yo="64" id="10007880" name="inst_CD629774" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="640" w="32" h="32" xo="32" yo="64" id="10007881" name="inst_48B65723" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="64" y="640" w="32" h="32" xo="32" yo="64" id="10007882" name="inst_16C565DD" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -884,10 +867,7 @@
     <tile bgName="tls_mapeado1" x="224" y="256" w="32" h="32" xo="32" yo="128" id="10008264" name="inst_7182BE0C" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="256" y="256" w="32" h="32" xo="32" yo="128" id="10008265" name="inst_17D4F2E7" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="288" y="256" w="32" h="32" xo="32" yo="128" id="10008266" name="inst_7355C7B5" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="256" w="32" h="32" xo="32" yo="128" id="10008267" name="inst_080E78A4" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="256" w="32" h="32" xo="32" yo="128" id="10008268" name="inst_B4B7B176" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="256" w="32" h="32" xo="32" yo="128" id="10008269" name="inst_CC2C4EA5" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="256" w="32" h="32" xo="32" yo="128" id="10008270" name="inst_F53F302F" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="320" y="256" w="32" h="32" xo="32" yo="128" id="10008268" name="inst_B4B7B176" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="448" y="256" w="32" h="32" xo="32" yo="128" id="10008271" name="inst_A240D479" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="512" y="256" w="32" h="32" xo="32" yo="128" id="10008273" name="inst_0216084D" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="480" y="256" w="32" h="32" xo="32" yo="128" id="10008276" name="inst_02B33465" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -923,6 +903,17 @@
     <tile bgName="tls_celda" x="800" y="544" w="32" h="32" xo="64" yo="0" id="10008679" name="inst_033BD828" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="832" y="544" w="32" h="32" xo="64" yo="0" id="10008680" name="inst_7761BD1A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="864" y="544" w="32" h="32" xo="64" yo="0" id="10008681" name="inst_D1F4637C" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="320" y="224" w="32" h="32" xo="320" yo="256" id="10009111" name="inst_4726180A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="320" y="192" w="32" h="32" xo="352" yo="224" id="10009113" name="inst_6A901116" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="320" y="160" w="32" h="32" xo="352" yo="224" id="10009114" name="inst_62D31A32" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="320" y="128" w="32" h="32" xo="352" yo="224" id="10009117" name="inst_E911F1BF" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="448" y="224" w="32" h="32" xo="320" yo="256" id="10009118" name="inst_3C8108A4" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="448" y="192" w="32" h="32" xo="352" yo="224" id="10009119" name="inst_19DD144F" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="448" y="160" w="32" h="32" xo="352" yo="224" id="10009120" name="inst_761A9DBE" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="448" y="128" w="32" h="32" xo="352" yo="224" id="10009121" name="inst_4DE09971" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="352" y="256" w="32" h="32" xo="576" yo="0" id="10009126" name="inst_B44D70BD" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="384" y="256" w="32" h="32" xo="576" yo="0" id="10009127" name="inst_E192E39E" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="416" y="256" w="32" h="32" xo="576" yo="0" id="10009128" name="inst_9ABB8C62" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="32" y="160" w="32" h="32" xo="64" yo="32" id="10008249" name="inst_0D989C8E" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="960" y="192" w="32" h="32" xo="0" yo="32" id="10008251" name="inst_AFD2BB4A" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="960" y="160" w="32" h="32" xo="0" yo="32" id="10008252" name="inst_B37AE4FF" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1008,11 +999,8 @@
     <tile bgName="tls_mapeado1" x="800" y="320" w="32" h="32" xo="576" yo="0" id="10008430" name="inst_C4EEDD8F" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="352" y="288" w="32" h="32" xo="576" yo="0" id="10008431" name="inst_60A2890A" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="320" y="288" w="32" h="32" xo="576" yo="0" id="10008434" name="inst_0B78D073" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="320" y="256" w="32" h="32" xo="576" yo="0" id="10008435" name="inst_80AFE219" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="352" y="256" w="32" h="32" xo="576" yo="0" id="10008436" name="inst_8F261F1C" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="384" y="256" w="32" h="32" xo="576" yo="0" id="10008437" name="inst_69F97F98" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="320" y="256" w="32" h="32" xo="576" yo="0" id="10008436" name="inst_8F261F1C" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="384" y="288" w="32" h="32" xo="576" yo="0" id="10008438" name="inst_F86B6408" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_mapeado1" x="416" y="256" w="32" h="32" xo="576" yo="0" id="10008440" name="inst_802DBC8A" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="416" y="288" w="32" h="32" xo="576" yo="0" id="10008441" name="inst_E1666FB7" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="448" y="288" w="32" h="32" xo="576" yo="0" id="10008442" name="inst_E1DA70E8" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="448" y="256" w="32" h="32" xo="576" yo="0" id="10008443" name="inst_794F04EC" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1119,6 +1107,9 @@
     <tile bgName="tls_celda" x="640" y="416" w="32" h="32" xo="64" yo="0" id="10008662" name="inst_7B3B96AA" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="672" y="448" w="32" h="32" xo="192" yo="32" id="10008700" name="inst_7CEE9409" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="640" y="448" w="32" h="32" xo="192" yo="32" id="10008705" name="inst_9C975620" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="352" y="256" w="32" h="32" xo="32" yo="128" id="10009129" name="inst_D63B1A3F" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="384" y="256" w="32" h="32" xo="32" yo="128" id="10009130" name="inst_92748B27" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mapeado1" x="416" y="256" w="32" h="32" xo="32" yo="128" id="10009131" name="inst_FAF8A6A0" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="800" y="256" w="32" h="32" xo="96" yo="288" id="10008481" name="inst_617C654F" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="800" y="224" w="32" h="32" xo="96" yo="256" id="10008482" name="inst_897194EB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="736" y="224" w="32" h="32" xo="224" yo="96" id="10008483" name="inst_85646EDC" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1185,6 +1176,12 @@
     <tile bgName="tls_mapeado2" x="96" y="592" w="32" h="32" xo="352" yo="224" id="10008755" name="inst_6C69F343" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado2" x="144" y="592" w="32" h="32" xo="352" yo="224" id="10008756" name="inst_7E1C2BAE" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado2" x="192" y="592" w="32" h="32" xo="352" yo="224" id="10008757" name="inst_4353320E" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="642" y="428" w="32" h="32" xo="288" yo="64" id="10009132" name="inst_FD1159FF" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="748" y="556" w="32" h="32" xo="288" yo="64" id="10009133" name="inst_89D17BCB" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="832" y="441" w="32" h="32" xo="288" yo="32" id="10009134" name="inst_98D46E3E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="736" y="438" w="32" h="32" xo="288" yo="32" id="10009135" name="inst_14CCB66E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="642" y="553" w="32" h="32" xo="320" yo="64" id="10009136" name="inst_29BDD8B3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_muebles1" x="794" y="428" w="32" h="32" xo="320" yo="64" id="10009137" name="inst_6F9C6B83" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
