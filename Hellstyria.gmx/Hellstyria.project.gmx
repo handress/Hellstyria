@@ -239,6 +239,10 @@
       <room>rooms\rm_celdas</room>
     </rooms>
     <room>rooms\test_room</room>
+    <room>rooms\cueva</room>
+    <rooms name="Ciudad Goblin">
+      <room>rooms\Ciudad_Goblin</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
