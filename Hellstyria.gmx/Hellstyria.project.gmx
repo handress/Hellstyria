@@ -228,13 +228,15 @@
       <object>objects\obj_efecto_transicion</object>
     </objects>
     <object>objects\obj_iniciar</object>
+    <object>objects\obj_pruebas</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_InteriorCasaGoblin1</room>
     <room>rooms\player_creation</room>
-    <room>rooms\rm_celdas</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
       <room>rooms\rm_AlmacenCueva</room>
+      <room>rooms\rm_celdas</room>
     </rooms>
     <room>rooms\test_room</room>
   </rooms>
