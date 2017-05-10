@@ -204,6 +204,12 @@
       <background>background\tls_cesped</background>
     </backgrounds>
     <background>background\tls_puertas</background>
+    <backgrounds name="casa">
+      <background>background\fachada</background>
+      <background>background\puertas</background>
+      <background>background\tejados</background>
+      <background>background\ventanas</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -229,6 +235,9 @@
     </objects>
     <object>objects\obj_iniciar</object>
     <object>objects\obj_pruebas</object>
+    <object>objects\obj_brasa</object>
+    <object>objects\obj_cascada_large</object>
+    <object>objects\obj_cascada_peq</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_room</room>
@@ -238,9 +247,19 @@
       <room>rooms\rm_AlmacenCueva</room>
       <room>rooms\rm_celdas</room>
     </rooms>
-    <room>rooms\rm_InteriorCasaGoblin1</room>
-    <room>rooms\rm_cuevaCiudadBosque</room>
-    <room>rooms\rm_InteriorCasaGoblin2</room>
+    <rooms name="bosque">
+      <room>rooms\rm_bosque</room>
+      <room>rooms\rm_casa_bosque</room>
+      <room>rooms\rm_cuevaCiudadBosque</room>
+    </rooms>
+    <rooms name="pueblo_goblin">
+      <room>rooms\Ciudad_Goblin</room>
+      <room>rooms\rm_InteriorCasaGoblin1</room>
+      <room>rooms\rm_InteriorCasaGoblin2</room>
+    </rooms>
+    <rooms name="ciudad">
+      <room>rooms\rm_ciudad2</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
