@@ -208,6 +208,9 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\movimiento.gml</script>
+    <scripts name="scripts_menu">
+      <script>scripts\scp_title_screen.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_custom_flecha</object>
@@ -229,19 +232,22 @@
     </objects>
     <object>objects\obj_iniciar</object>
     <object>objects\obj_pruebas</object>
+    <objects name="title screen">
+      <object>objects\obj_title_1</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_InteriorCasaGoblin1</room>
-    <room>rooms\player_creation</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
       <room>rooms\rm_AlmacenCueva</room>
       <room>rooms\rm_celdas</room>
     </rooms>
+    <room>rooms\rm_InteriorCasaGoblin1</room>
+    <room>rooms\player_creation</room>
     <room>rooms\test_room</room>
-    <room>rooms\cueva</room>
     <rooms name="Ciudad Goblin">
       <room>rooms\Ciudad_Goblin</room>
+      <room>rooms\room7</room>
     </rooms>
   </rooms>
   <help>
