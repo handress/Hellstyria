@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -1182,6 +1182,7 @@
     <tile bgName="tls_muebles1" x="736" y="438" w="32" h="32" xo="288" yo="32" id="10009135" name="inst_14CCB66E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="642" y="553" w="32" h="32" xo="320" yo="64" id="10009136" name="inst_29BDD8B3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="794" y="428" w="32" h="32" xo="320" yo="64" id="10009137" name="inst_6F9C6B83" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_casa3" x="368" y="144" w="64" h="64" xo="320" yo="320" id="10014262" name="inst_BF24F69E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

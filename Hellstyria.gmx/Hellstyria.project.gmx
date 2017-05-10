@@ -231,14 +231,16 @@
     <object>objects\obj_pruebas</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_InteriorCasaGoblin1</room>
+    <room>rooms\test_room</room>
     <room>rooms\player_creation</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
       <room>rooms\rm_AlmacenCueva</room>
       <room>rooms\rm_celdas</room>
     </rooms>
-    <room>rooms\test_room</room>
+    <room>rooms\rm_InteriorCasaGoblin1</room>
+    <room>rooms\rm_cuevaCiudadBosque</room>
+    <room>rooms\rm_InteriorCasaGoblin2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
