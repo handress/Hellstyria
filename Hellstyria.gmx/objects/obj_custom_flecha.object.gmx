@@ -27,9 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0.2
 
-global.Skin = 0
-global.Clothes = 0
-global.Hair = 0
+global.Player = 0
 </string>
           </argument>
         </arguments>
@@ -53,23 +51,11 @@ global.Hair = 0
           <argument>
             <kind>1</kind>
             <string>if(mouse_check_button_pressed(mb_left)) &amp;&amp; (mouse_x &gt;= x-8) &amp;&amp; (mouse_x &lt;= x+8) &amp;&amp; (mouse_y &gt;= y-8) &amp;&amp; (mouse_y &lt;= y+8){
-    if((y = 64) &amp;&amp; (x =117)){
-        global.Hair -= 1
-    }
-    if((y = 64) &amp;&amp; (x =224)){
-        global.Hair += 1
-    }
     if((y = 96) &amp;&amp; (x =117)){
-        global.Skin -= 1
+        global.Player -= 1
     }
     if((y = 96) &amp;&amp; (x =224)){
-        global.Skin += 1
-    }
-    if((y = 128) &amp;&amp; (x =117)){
-        global.Clothes -= 1
-    }
-    if((y = 128) &amp;&amp; (x =224)){
-        global.Clothes += 1
+        global.Player += 1
     }
 }
 </string>

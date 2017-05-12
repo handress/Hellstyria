@@ -186,8 +186,8 @@
     <object>objects\obj_fuente</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test_room</room>
     <room>rooms\player_creation</room>
+    <room>rooms\test_room</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
       <room>rooms\rm_AlmacenCueva</room>

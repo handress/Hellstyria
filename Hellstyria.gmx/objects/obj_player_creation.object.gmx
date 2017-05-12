@@ -27,9 +27,7 @@
             <kind>1</kind>
             <string>///Variables 
 
-Skin = 0
-Clothes = 0
-Hair = 0
+Player = 0
 </string>
           </argument>
         </arguments>
@@ -52,62 +50,30 @@ Hair = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Piel
-if(global.Skin = 0){
-    draw_sprite(spr_skin1_stand_down,1,x,y)
+            <string>///Cambio de sprite
+if(global.Player = 0){
+    draw_sprite(spr_caballero_stand_down,1,x,y)
 }
-if(global.Skin = 1){
-    draw_sprite(spr_skin2_stand_down,1,x,y)
+if(global.Player = 1){
+    draw_sprite(spr_picaro_stand_down,1,x,y)
 }
-if(global.Skin = 2){
-    draw_sprite(spr_skin3_stand_down,1,x,y)
+if(global.Player = 2){
+    draw_sprite(spr_lancero_stand_down,1,x,y)
 }
-//Ropa
-if(global.Clothes = 0){
-    draw_sprite(spr_clothes1_stand_down,1,x,y)
-}
-if(global.Clothes = 1){
-    draw_sprite(spr_clothes2_stand_down,1,x,y)
-}
-if(global.Clothes = 2){
-    draw_sprite(spr_clothes3_stand_down,1,x,y)
-}
-if(global.Clothes = 3){
-    draw_sprite(spr_clothes4_stand_down,1,x,y)
-}
-//Pelo
-if(global.Hair = 0){
-    draw_sprite(spr_hair1_stand_down,1,x,y)
-}
-if(global.Hair = 1){
-    draw_sprite(spr_hair2_stand_down,1,x,y)
-}
-if(global.Hair = 2){
-    draw_sprite(spr_hair3_stand_down,1,x,y)
-}
-if(global.Hair = 3){
-    draw_sprite(spr_hair4_stand_down,1,x,y)
+if(global.Player = 3){
+    draw_sprite(spr_clerigo_stand_down,1,x,y)
 }
 //Bucle hacia adelante
-if(global.Hair&gt;4){
-    global.Hair = 0
+if(global.Player&gt;3){
+    global.Player = 0
 }
-if(global.Clothes&gt;3){
-    global.Clothes = 0
-}
-if(global.Skin&gt;2){
-    global.Skin = 0
-}
+
 //Bucle hacia atrás
-if(global.Hair&lt;0){
-    global.Hair = 4
+if(global.Player&lt;0){
+    global.Player = 3
 }
-if(global.Clothes&lt;0){
-    global.Clothes = 3
-}
-if(global.Skin&lt;0){
-    global.Skin = 2
-}
+
+
 </string>
           </argument>
         </arguments>
