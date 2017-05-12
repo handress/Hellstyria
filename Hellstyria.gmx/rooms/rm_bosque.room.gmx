@@ -6,12 +6,12 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="dummy" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="300" vborder="300" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -52,6 +52,13 @@
   </views>
   <instances>
     <instance objName="obj_cascada_peq" x="832" y="256" name="inst_766BC8BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Salida" x="1808" y="560" name="inst_A9DDBF25" locked="0" code="nombre = &quot;entradaBosque&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="1884" y="561" name="inst_EB1CE3EA" locked="0" code="roomTransporte = rm_Ciudad_Goblin;&#xA;salida = 'entradaCiudadGoblin';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_efecto_transicion" x="0" y="0" name="inst_70C2A0D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Salida" x="1232" y="405" name="inst_9F38F2D5" locked="0" code="nombre = &quot;salidaBosque2&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="1232" y="336" name="inst_706715F1" locked="0" code="roomTransporte = rm_casa_bosque;&#xA;salida = 'casaBosque1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Salida" x="286" y="303" name="inst_719B7AB5" locked="0" code="nombre = &quot;salidaBosque3&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="287" y="240" name="inst_AE34DF8B" locked="0" code="roomTransporte = rm_cuevaCiudadBosque;&#xA;salida = 'cuevaCiudadBosque1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="0" yo="800" id="10010710" name="inst_BF770DC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

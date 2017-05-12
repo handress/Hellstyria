@@ -65,6 +65,9 @@
     <instance objName="obj_antorcha" x="608" y="192" name="inst_EE2612EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_antorcha" x="224" y="192" name="inst_900F718A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_antorcha" x="789" y="192" name="inst_80E6EA6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Salida" x="512" y="1967" name="inst_B13897D2" locked="0" code="nombre = &quot;cuevaCiudadBosque1&quot;;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="512" y="2030" name="inst_A00B68E6" locked="0" code="roomTransporte = rm_bosque;&#xA;salida = 'salidaBosque3';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_efecto_transicion" x="128" y="128" name="inst_CD5D35E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="192" y="192" w="32" h="32" xo="32" yo="96" id="10018027" name="inst_BFD69DCD" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -3196,7 +3199,6 @@
     <tile bgName="tls_celda" x="320" y="176" w="32" h="32" xo="0" yo="0" id="10023931" name="inst_827B70E1" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="672" y="208" w="32" h="32" xo="0" yo="32" id="10023932" name="inst_C1AC549B" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="672" y="176" w="32" h="32" xo="0" yo="0" id="10023933" name="inst_25336055" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_celda" x="496" y="160" w="32" h="64" xo="0" yo="256" id="10023934" name="inst_42E3F75C" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

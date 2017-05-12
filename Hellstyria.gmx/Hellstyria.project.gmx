@@ -213,7 +213,8 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\movimiento.gml</script>
+    <script>scripts\scr_Dummy_Parado.gml</script>
+    <script>scripts\scr_Dummy_Caminando.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_custom_flecha</object>
@@ -240,8 +241,8 @@
     <object>objects\obj_cascada_peq</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test_room</room>
     <room>rooms\player_creation</room>
+    <room>rooms\test_room</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
       <room>rooms\rm_AlmacenCueva</room>
@@ -253,12 +254,14 @@
       <room>rooms\rm_cuevaCiudadBosque</room>
     </rooms>
     <rooms name="pueblo_goblin">
-      <room>rooms\Ciudad_Goblin</room>
+      <room>rooms\rm_Ciudad_Goblin</room>
       <room>rooms\rm_InteriorCasaGoblin1</room>
       <room>rooms\rm_InteriorCasaGoblin2</room>
+      <room>rooms\rm_TiendaGoblin</room>
     </rooms>
     <rooms name="ciudad">
       <room>rooms\rm_ciudad2</room>
+      <room>rooms\rm_Interior_Casa1_Ciudad</room>
     </rooms>
   </rooms>
   <help>
