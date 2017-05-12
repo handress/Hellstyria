@@ -119,8 +119,9 @@
     </sprites>
     <sprite>sprites\spr_Inicio</sprite>
     <sprites name="colisiones">
-      <sprite>sprites\spr_Pared</sprite>
+      <sprite>sprites\spr_Pared_32</sprite>
       <sprite>sprites\spr_Mascara_Prota</sprite>
+      <sprite>sprites\spr_Pared_16</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -177,7 +178,6 @@
       <object>objects\obj_reloj</object>
       <object>objects\obj_antorcha</object>
     </objects>
-    <object>objects\obj_Pared</object>
     <objects name="efectos">
       <object>objects\obj_efecto_transicion</object>
     </objects>
@@ -187,6 +187,10 @@
     <object>objects\obj_cascada_peq</object>
     <object>objects\obj_fuente</object>
     <object>objects\obj_Prota</object>
+    <objects name="colisiones">
+      <object>objects\obj_Pared_32</object>
+      <object>objects\obj_Pared_16</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\player_creation</room>

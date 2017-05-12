@@ -181,11 +181,11 @@ if (keyboard_check_pressed(ord('Q')) and estado != ej.atacando) {
           <argument>
             <kind>1</kind>
             <string>/// Gestión de colisiones contra paredes y objetos interactivos
-if (instance_place(x+vh,y,obj_Pared)) { 
+if (instance_place(x+vh,y,obj_Pared_32) || instance_place(x+vh,y,obj_Pared_16)) { 
     vh = 0; 
 }
 
-if (instance_place(x,y+vv,obj_Pared)) { 
+if (instance_place(x,y+vv,obj_Pared_32) || instance_place(x,y+vv,obj_Pared_16)) { 
     vv = 0; 
 }
 
