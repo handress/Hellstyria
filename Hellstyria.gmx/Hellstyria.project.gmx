@@ -117,8 +117,11 @@
       <sprite>sprites\spr_Entrada</sprite>
       <sprite>sprites\spr_Salida</sprite>
     </sprites>
-    <sprite>sprites\spr_Pared</sprite>
     <sprite>sprites\spr_Inicio</sprite>
+    <sprites name="colisiones">
+      <sprite>sprites\spr_Pared</sprite>
+      <sprite>sprites\spr_Mascara_Prota</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -157,13 +160,13 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Dummy_Caminando.gml</script>
-    <script>scripts\scr_Dummy_Parado.gml</script>
+    <script>scripts\scr_Prota_Atacando.gml</script>
+    <script>scripts\scr_Prota_Caminando.gml</script>
+    <script>scripts\scr_Prota_Parado.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_custom_flecha</object>
     <object>objects\obj_player_creation</object>
-    <object>objects\dummy</object>
     <object>objects\obj_hoguera</object>
     <objects name="objEntradaSalida">
       <object>objects\obj_Salida</object>
@@ -179,11 +182,11 @@
       <object>objects\obj_efecto_transicion</object>
     </objects>
     <object>objects\obj_iniciar</object>
-    <object>objects\obj_pruebas</object>
     <object>objects\obj_brasa</object>
     <object>objects\obj_cascada_large</object>
     <object>objects\obj_cascada_peq</object>
     <object>objects\obj_fuente</object>
+    <object>objects\obj_Prota</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\player_creation</room>

@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>spr_Mascara_Prota</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -25,22 +25,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Variables
+            <string>/// Inicializacion
 image_speed = 0;
 
-//estados
 enum ej {
-    parado = scr_Dummy_Parado,
-    caminando = scr_Dummy_Caminando
+     parado = scr_Prota_Parado,
+     caminando = scr_Prota_Caminando,
+     atacando = scr_Prota_Atacando
+    
 }
 
+dir = "abajo";          // direccion por defecto
+estado = ej.parado;     // estado por defecto
+salida = -1;            // por defecto no aparecemos sobre una salida
 
-//estados
-dir = "abajo";// direccion por defecto
-estado = ej.parado;
 
-//variable de transporte entre rooms
-salida = -1;
 </string>
           </argument>
         </arguments>
@@ -63,12 +62,11 @@ salida = -1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Movimiento
-
-vv = 0; //velcidad vertical
-vh = 0; //velocidad horizontal
-v = 3; // velocidad a 2 pixeles por fotograma
-depth = -y // esto rive para la profundidad de los objetos 
+            <string>/// Inicializar el movimiento
+vv = 0;
+vh = 0;
+v = 2;
+depth = -y;
 </string>
           </argument>
         </arguments>
@@ -89,10 +87,8 @@ depth = -y // esto rive para la profundidad de los objetos
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Captura de movimiento por teclado
-
+            <string>/// Capturar movimiento por teclado
 vh = (-keyboard_check(vk_left) + keyboard_check(vk_right)) * v;
-
 vv = (-keyboard_check(vk_up) + keyboard_check(vk_down)) * v;
 </string>
           </argument>
@@ -114,25 +110,29 @@ vv = (-keyboard_check(vk_up) + keyboard_check(vk_down)) * v;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Gestión de estado de movimiento
+            <string>/// Gestión de estados de movimiento
 
-//Determinamos la direccion
-if(vv &gt; 0){
-    dir = "abajo";
-}else if(vv &lt; 0){
-    dir = "arriba";
-}else if(vh &gt; 0){
-    dir = "derecha";
-}else if(vh &lt; 0){
-    dir = "izquierda";
+// Determinamos direccion
+if (vv &gt; 0) dir = "abajo";
+else if (vv &lt; 0) dir = "arriba";
+else if (vh &gt; 0) dir = "derecha";
+else if (vh &lt; 0) dir = "izquierda";
+
+// Si no estamos atacando comprobamos estados parado y caminar
+if (estado != ej.atacando){
+    // Si tenemos una dirección establecemos el estado caminar
+    if (dir != "") {
+        estado = ej.caminando;
+    }
+    // Pero si no nos movemos establecemos el estado parado
+    if (vh == 0 and vv == 0){
+        estado = ej.parado;
+    } 
 }
-
-//Cambio de estados
-if(dir!=""){
-    script_execute(ej.caminando);
-} 
-if(vv == 0 &amp;&amp; vh == 0){
-    script_execute(ej.parado);
+// Si estamos atacando paramos el movimiento
+else {
+    vh = 0;
+    vv = 0;
 }
 </string>
           </argument>
@@ -154,13 +154,67 @@ if(vv == 0 &amp;&amp; vh == 0){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Movimiento final y estado
+            <string>/// Gestión de estados de ataque
+if (keyboard_check_pressed(ord('Q')) and estado != ej.atacando) {
+    // Atacar si no estamos atacando y reiniciamos animación
+    estado = ej.atacando;
+    image_index = 0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Gestión de colisiones contra paredes y objetos interactivos
+if (instance_place(x+vh,y,obj_Pared)) { 
+    vh = 0; 
+}
 
+if (instance_place(x,y+vv,obj_Pared)) { 
+    vv = 0; 
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Establecer movimiento final y estado
 x += vh;
 y += vv;
 
-
-
+script_execute(estado);
 </string>
           </argument>
         </arguments>
@@ -214,16 +268,19 @@ with(entrada){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Transportar hacia salida
-if(salida !=-1){
+            <string>/// Transportar al salida point si hay
+if (salida != -1){
+    // Iterar todas las salidas hasta encontrar destino
     with(obj_Salida){
-        if(other.salida == nombre){
+        if (other.salida == nombre){
+            // Mover al jugar y reiniciar su próxima salida
             other.x = x;
             other.y = y;
-            other.salida = -1
+            other.salida = -1;
         }
     }
 }
+
 
 </string>
           </argument>
