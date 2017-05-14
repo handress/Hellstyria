@@ -325,6 +325,7 @@
     <instance objName="obj_Pared_16" x="304" y="480" name="inst_8D10A9F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="704" y="528" name="inst_C605BE5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="745" y="572" name="inst_41EC7B98" locked="0" code="" scaleX="0.9375" scaleY="0.9375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="432" y="240" name="inst_B0B076C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="128" y="160" w="64" h="96" xo="0" yo="192" id="10027344" name="inst_0EF0B4A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
