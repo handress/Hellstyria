@@ -123,6 +123,11 @@
       <sprite>sprites\spr_Mascara_Prota</sprite>
       <sprite>sprites\spr_Pared_16</sprite>
     </sprites>
+    <sprites name="spr_PantallaTitulo">
+      <sprite>sprites\spr_InicioTitulo</sprite>
+      <sprite>sprites\spr_quit</sprite>
+      <sprite>sprites\spr_Titulo</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -158,6 +163,10 @@
       <background>background\tejados</background>
       <background>background\ventanas</background>
     </backgrounds>
+    <backgrounds name="castillo">
+      <background>background\tls_castillo</background>
+      <background>background\tls_stairs</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -191,8 +200,14 @@
       <object>objects\obj_Pared_32</object>
       <object>objects\obj_Pared_16</object>
     </objects>
+    <objects name="objPantalaTitulo">
+      <object>objects\iniciar</object>
+      <object>objects\salir</object>
+      <object>objects\titulo</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_pantallaTitulo</room>
     <room>rooms\player_creation</room>
     <room>rooms\test_room</room>
     <rooms name="Cueva">
@@ -214,6 +229,10 @@
     <rooms name="ciudad">
       <room>rooms\rm_ciudad_Castillo</room>
       <room>rooms\rm_Interior_Casa1_Ciudad</room>
+    </rooms>
+    <rooms name="castillo">
+      <room>rooms\rm_entradaCastillo</room>
+      <room>rooms\rm_salaDelTrono</room>
     </rooms>
   </rooms>
   <help>
