@@ -209,8 +209,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\player_creation</room>
     <room>rooms\rm_pantallaTitulo</room>
+    <room>rooms\player_creation</room>
     <room>rooms\test_room</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
