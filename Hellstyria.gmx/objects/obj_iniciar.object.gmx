@@ -28,7 +28,7 @@
             <string>///Cambiar de room
 
 if(keyboard_check(vk_enter)){
-    room_goto(rm_TiendaArmas);
+    room_goto(rm_Ciudad_Castillo);
 }
 </string>
           </argument>

@@ -208,8 +208,8 @@
     <instance objName="obj_Pared_16" x="576" y="288" name="inst_C77C7609" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="592" y="288" name="inst_17ECEEF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="608" y="288" name="inst_D2AB0A92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Prota" x="496" y="384" name="inst_0F3AEC9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Entrada" x="880" y="592" name="inst_8F4B8286" locked="0" code="roomTransporte = rm_Ciudad_Castillo;&#xA;salida = 'salidaCiudad1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="880" y="640" name="inst_8F4B8286" locked="0" code="roomTransporte = rm_Ciudad_Castillo;&#xA;salida = 'salidaCiudad1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Salida" x="880" y="560" name="inst_B46A3365" locked="0" code="nombre = &quot;tiendaArmasCiudad&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="64" y="96" w="64" h="96" xo="0" yo="0" id="10025832" name="inst_91AEB764" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

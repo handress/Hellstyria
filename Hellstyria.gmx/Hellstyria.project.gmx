@@ -232,6 +232,8 @@
       <room>rooms\rm_TiendaArmas</room>
       <room>rooms\rm_TiendaPociones</room>
       <room>rooms\rm_PosadaCiudad</room>
+      <room>rooms\rm_Ciudad_Castillo</room>
+      <room>rooms\rm_Interior_Casa1_Ciudad</room>
     </rooms>
     <rooms name="castillo">
       <room>rooms\rm_entradaCastillo</room>
