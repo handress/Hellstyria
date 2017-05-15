@@ -221,6 +221,7 @@
       <room>rooms\rm_bosque</room>
       <room>rooms\rm_casa_bosque</room>
       <room>rooms\rm_cuevaCiudadBosque</room>
+      <room>rooms\rm_bosqueBoss</room>
     </rooms>
     <rooms name="pueblo_goblin">
       <room>rooms\rm_InteriorCasaGoblin1</room>
@@ -234,6 +235,7 @@
       <room>rooms\rm_PosadaCiudad</room>
       <room>rooms\rm_Ciudad_Castillo</room>
       <room>rooms\rm_Interior_Casa1_Ciudad</room>
+      <room>rooms\rm_entradaCiudad</room>
     </rooms>
     <rooms name="castillo">
       <room>rooms\rm_entradaCastillo</room>
