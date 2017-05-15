@@ -7,49 +7,49 @@ image_speed = 0.2;
 
 switch(dir){
     case  "abajo":
-        if(global.Player == 0){
+        if(obj_Prota.sprite == 0){
             sprite_index = spr_caballero_walk_down;
-        }else if(global.Player == 1){
+        }else if(obj_Prota.sprite == 1){
             sprite_index = spr_picaro_walk_down;
-        }else if(global.Player == 2){
+        }else if(obj_Prota.sprite == 2){
             sprite_index = spr_lancero_walk_down;
-        }else if(global.Player == 3){
+        }else if(obj_Prota.sprite == 3){
             sprite_index = spr_clerigo_walk_down;
         }
         break;
         
     case  "arriba":
-        if(global.Player == 0){
+        if(obj_Prota.sprite == 0){
             sprite_index = spr_caballero_walk_up;
-        }else if(global.Player == 1){
+        }else if(obj_Prota.sprite == 1){
             sprite_index = spr_picaro_walk_up;
-        }else if(global.Player == 2){
+        }else if(obj_Prota.sprite == 2){
             sprite_index = spr_lancero_walk_up;
-        }else if(global.Player == 3){
+        }else if(obj_Prota.sprite == 3){
             sprite_index = spr_clerigo_walk_up;
         }
         break;
         
     case  "derecha":
-        if(global.Player == 0){
+        if(obj_Prota.sprite == 0){
             sprite_index = spr_caballero_walk_right;
-        }else if(global.Player == 1){
+        }else if(obj_Prota.sprite == 1){
             sprite_index = spr_picaro_walk_right;
-        }else if(global.Player == 2){
+        }else if(obj_Prota.sprite == 2){
             sprite_index = spr_lancero_walk_right;
-        }else if(global.Player == 3){
+        }else if(obj_Prota.sprite == 3){
             sprite_index = spr_clerigo_walk_right;
         }
         break;
         
     case  "izquierda":
-        if(global.Player == 0){
+        if(obj_Prota.sprite == 0){
             sprite_index = spr_caballero_walk_left;
-        }else if(global.Player == 1){
+        }else if(obj_Prota.sprite == 1){
             sprite_index = spr_picaro_walk_left;
-        }else if(global.Player == 2){
+        }else if(obj_Prota.sprite == 2){
             sprite_index = spr_lancero_walk_left;
-        }else if(global.Player == 3){
+        }else if(obj_Prota.sprite == 3){
             sprite_index = spr_clerigo_walk_left;
         }
         break;

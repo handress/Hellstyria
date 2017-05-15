@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>/// Inicializacion
 image_speed = 0;
+var hp = 10;
 
 enum ej {
      parado = scr_Prota_Parado,
@@ -35,6 +36,7 @@ enum ej {
     
 }
 
+sprite = global.Player
 dir = "abajo";          // direccion por defecto
 estado = ej.parado;     // estado por defecto
 salida = -1;            // por defecto no aparecemos sobre una salida
@@ -189,6 +191,21 @@ if (instance_place(x,y+vv,obj_Pared_32) || instance_place(x,y+vv,obj_Pared_16)) 
     vv = 0; 
 }
 
+
+//Colisiones entre objetos interactivos /carteles/guardados
+interactivo = instance_place(x+vh,y,obj_Interactivo);
+if(interactivo){
+    if(interactivo.colision == true){
+        vh = 0;
+    }
+}
+
+interactivo = instance_place(x,y+vv,obj_Interactivo);
+if(interactivo){
+    if(interactivo.colision == true){
+        vv = 0;
+    }
+}
 
 </string>
           </argument>
