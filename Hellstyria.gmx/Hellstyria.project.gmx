@@ -129,6 +129,12 @@
       <sprite>sprites\spr_Titulo</sprite>
       <sprite>sprites\spr_continuarPartida</sprite>
     </sprites>
+    <sprite>sprites\sprite75</sprite>
+    <sprites name="vida">
+      <sprite>sprites\spr_vidaFondo</sprite>
+      <sprite>sprites\spr_vidaMarco</sprite>
+      <sprite>sprites\spr_vida</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -206,6 +212,9 @@
       <object>objects\obj_salirJuego</object>
       <object>objects\obj_Titulo</object>
       <object>objects\obj_ContinuarPartida</object>
+    </objects>
+    <objects name="HUD">
+      <object>objects\obj_barraVida</object>
     </objects>
   </objects>
   <rooms name="rooms">

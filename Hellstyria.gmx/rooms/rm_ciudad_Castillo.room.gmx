@@ -61,6 +61,7 @@
     <instance objName="obj_Salida" x="1937" y="1943" name="inst_0E3DE9E3" locked="0" code="nombre = &quot;salidaCiudad3&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="1935" y="1859" name="inst_C5EC7709" locked="0" code="roomTransporte = rm_PosadaCiudad;&#xA;salida = 'salidaPosadaCiudad';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="2032" y="2515" name="inst_DFBD04DE" locked="0" code="nombre = &quot;salidaCiudad4&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_barraVida" x="96" y="0" name="inst_4AF9C0A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="704" yo="96" id="10016896" name="inst_C619B249" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
