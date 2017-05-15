@@ -127,6 +127,7 @@
       <sprite>sprites\spr_InicioTitulo</sprite>
       <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_Titulo</sprite>
+      <sprite>sprites\spr_continuarPartida</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -201,14 +202,15 @@
       <object>objects\obj_Pared_16</object>
     </objects>
     <objects name="objPantalaTitulo">
-      <object>objects\iniciar</object>
-      <object>objects\salir</object>
-      <object>objects\titulo</object>
+      <object>objects\obj_iniciarPartida</object>
+      <object>objects\obj_salirJuego</object>
+      <object>objects\obj_Titulo</object>
+      <object>objects\obj_ContinuarPartida</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_pantallaTitulo</room>
     <room>rooms\player_creation</room>
+    <room>rooms\rm_pantallaTitulo</room>
     <room>rooms\test_room</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
