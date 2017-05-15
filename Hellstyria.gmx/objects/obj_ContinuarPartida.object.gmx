@@ -25,24 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if file_exists(working_directory + "save.ini"){
-    ini_open(working_directory + "save.ini");
-    var rm = ini_read_real("prota","rm",0);
-    var px = ini_read_real("prota","x",0);
-    var py = ini_read_real("prota","y",0);
-    //var v = ini_read_real("prota","vida",3);
-    ini_close();
-    
-    if (room_exists(rm)){
-        obj_Prota.x = px;
-        obj_Prota.y = py;
-        //obj_Prota.vida = v;
-        if (room != rm) room_goto(rm);
-     
-    
-    }
-}
+            <string>///Cargar Partida
+script_execute(scr_Juego_Cargar());
 </string>
           </argument>
         </arguments>
