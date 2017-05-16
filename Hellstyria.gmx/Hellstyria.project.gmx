@@ -129,7 +129,6 @@
       <sprite>sprites\spr_Titulo</sprite>
       <sprite>sprites\spr_continuarPartida</sprite>
     </sprites>
-    <sprite>sprites\sprite75</sprite>
     <sprites name="vida">
       <sprite>sprites\spr_vidaFondo</sprite>
       <sprite>sprites\spr_vidaMarco</sprite>
@@ -138,6 +137,34 @@
       <sprite>sprites\spr_Cartel</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="NPC">
+      <sprites name="npcs_c_goblin">
+        <sprites name="npc1_a_goblin">
+          <sprite>sprites\npc1_goblin_stand_up</sprite>
+          <sprite>sprites\npc1_goblin_stand_down</sprite>
+          <sprite>sprites\npc1_goblin_stand_left</sprite>
+          <sprite>sprites\npc1_goblin_stand_right</sprite>
+        </sprites>
+        <sprites name="npc2_goblin">
+          <sprite>sprites\npc2_goblin_stand_up</sprite>
+          <sprite>sprites\npc2_goblin_stand_down</sprite>
+          <sprite>sprites\npc2_goblin_stand_left</sprite>
+          <sprite>sprites\npc2_goblin_stand_right</sprite>
+        </sprites>
+        <sprites name="npc3_goblin">
+          <sprite>sprites\npc3_goblin_stand_up</sprite>
+          <sprite>sprites\npc3_goblin_stand_down</sprite>
+          <sprite>sprites\npc3_goblin_stand_right</sprite>
+          <sprite>sprites\npc3_goblin_stand_left</sprite>
+        </sprites>
+        <sprites name="npc4_goblin">
+          <sprite>sprites\npc4_goblin_stand_up</sprite>
+          <sprite>sprites\npc4_goblin_stand_down</sprite>
+          <sprite>sprites\npc4_goblin_stand_right</sprite>
+          <sprite>sprites\npc4_goblin_stand_left</sprite>
+        </sprites>
       </sprites>
     </sprites>
   </sprites>
