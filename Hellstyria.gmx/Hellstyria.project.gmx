@@ -188,6 +188,34 @@
       </sprites>
       <sprites name="death">
         <sprite>sprites\spr_goblinFuerte_death</sprite>
+        <sprites name="NPC">
+          <sprites name="npcs_c_goblin">
+            <sprites name="npc1_a_goblin">
+              <sprite>sprites\npc1_goblin_stand_up</sprite>
+              <sprite>sprites\npc1_goblin_stand_down</sprite>
+              <sprite>sprites\npc1_goblin_stand_left</sprite>
+              <sprite>sprites\npc1_goblin_stand_right</sprite>
+            </sprites>
+            <sprites name="npc2_goblin">
+              <sprite>sprites\npc2_goblin_stand_up</sprite>
+              <sprite>sprites\npc2_goblin_stand_down</sprite>
+              <sprite>sprites\npc2_goblin_stand_left</sprite>
+              <sprite>sprites\npc2_goblin_stand_right</sprite>
+            </sprites>
+            <sprites name="npc3_goblin">
+              <sprite>sprites\npc3_goblin_stand_up</sprite>
+              <sprite>sprites\npc3_goblin_stand_down</sprite>
+              <sprite>sprites\npc3_goblin_stand_right</sprite>
+              <sprite>sprites\npc3_goblin_stand_left</sprite>
+            </sprites>
+            <sprites name="npc4_goblin">
+              <sprite>sprites\npc4_goblin_stand_up</sprite>
+              <sprite>sprites\npc4_goblin_stand_down</sprite>
+              <sprite>sprites\npc4_goblin_stand_right</sprite>
+              <sprite>sprites\npc4_goblin_stand_left</sprite>
+            </sprites>
+          </sprites>
+        </sprites>
       </sprites>
     </sprites>
   </sprites>
@@ -264,6 +292,11 @@
     <object>objects\obj_cascada_large</object>
     <object>objects\obj_cascada_peq</object>
     <object>objects\obj_fuente</object>
+    <objects name="objetosGuardar">
+      <object>objects\objGuardarCiudadGoblin</object>
+      <object>objects\objGuardarBosque</object>
+      <object>objects\objGuardarCiudad</object>
+    </objects>
     <object>objects\obj_Prota</object>
     <objects name="colisiones">
       <object>objects\obj_Pared_32</object>
@@ -284,9 +317,6 @@
           <object>objects\obj_CarterCueva1</object>
           <object>objects\obj_CarterCueva2</object>
           <object>objects\obj_CarterCueva3</object>
-        </objects>
-        <objects name="objetosGuardar">
-          <object>objects\objGuardarCueva</object>
         </objects>
       </objects>
     </objects>
