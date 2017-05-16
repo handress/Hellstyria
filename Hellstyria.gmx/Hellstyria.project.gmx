@@ -384,6 +384,11 @@
       <objects name="cartelesCiudadGoblin">
         <object>objects\obj_CarteCiudadGoblin</object>
       </objects>
+      <objects name="cartelesBosque">
+        <object>objects\obj_CartelBosque</object>
+        <object>objects\obj_CartelBosque2</object>
+        <object>objects\obj_CartelBosque3</object>
+      </objects>
     </objects>
     <objects name="colisiones">
       <object>objects\obj_Pared_32</object>
@@ -408,6 +413,9 @@
       </objects>
       <object>objects\obj_TenderoColision</object>
       <object>objects\obj_Tendero</object>
+      <objects name="Bosque">
+        <object>objects\obj_Npc_Bosque</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
