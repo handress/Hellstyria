@@ -139,31 +139,82 @@
         <sprite>sprites\spr_HUD_Texto</sprite>
       </sprites>
     </sprites>
-    <sprites name="NPC">
-      <sprites name="npcs_c_goblin">
-        <sprites name="npc1_a_goblin">
-          <sprite>sprites\npc1_goblin_stand_up</sprite>
-          <sprite>sprites\npc1_goblin_stand_down</sprite>
-          <sprite>sprites\npc1_goblin_stand_left</sprite>
-          <sprite>sprites\npc1_goblin_stand_right</sprite>
-        </sprites>
-        <sprites name="npc2_goblin">
-          <sprite>sprites\npc2_goblin_stand_up</sprite>
-          <sprite>sprites\npc2_goblin_stand_down</sprite>
-          <sprite>sprites\npc2_goblin_stand_left</sprite>
-          <sprite>sprites\npc2_goblin_stand_right</sprite>
-        </sprites>
-        <sprites name="npc3_goblin">
-          <sprite>sprites\npc3_goblin_stand_up</sprite>
-          <sprite>sprites\npc3_goblin_stand_down</sprite>
-          <sprite>sprites\npc3_goblin_stand_right</sprite>
-          <sprite>sprites\npc3_goblin_stand_left</sprite>
-        </sprites>
-        <sprites name="npc4_goblin">
-          <sprite>sprites\npc4_goblin_stand_up</sprite>
-          <sprite>sprites\npc4_goblin_stand_down</sprite>
-          <sprite>sprites\npc4_goblin_stand_right</sprite>
-          <sprite>sprites\npc4_goblin_stand_left</sprite>
+    <sprites name="tioBosque">
+      <sprites name="stand">
+        <sprite>sprites\spr_tioBosque_stand_down</sprite>
+        <sprite>sprites\spr_tioBosque_stand_left</sprite>
+        <sprite>sprites\spr_tioBosque_stand_right</sprite>
+        <sprite>sprites\spr_tioBosque_stand_up</sprite>
+      </sprites>
+      <sprites name="walk">
+        <sprite>sprites\spr_tioBosque_walk_down</sprite>
+        <sprite>sprites\spr_tioBosque_walk_left</sprite>
+        <sprite>sprites\spr_tioBosque_walk_right</sprite>
+        <sprite>sprites\spr_tioBosque_walk_up</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_tioBosque_death</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="goblin">
+      <sprites name="walk">
+        <sprite>sprites\spr_goblin_walk_down</sprite>
+        <sprite>sprites\spr_goblin_walk_right</sprite>
+        <sprite>sprites\spr_goblin_walk_up</sprite>
+        <sprite>sprites\spr_goblin_walk_left</sprite>
+      </sprites>
+      <sprites name="stand">
+        <sprite>sprites\spr_goblin_stand_down</sprite>
+        <sprite>sprites\spr_goblin_stand_right</sprite>
+        <sprite>sprites\spr_goblin_stand_up</sprite>
+        <sprite>sprites\spr_goblin_stand_left</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_goblin_death</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="goblinFuerte">
+      <sprites name="walk">
+        <sprite>sprites\spr_goblinFuerte_walk_down</sprite>
+        <sprite>sprites\spr_goblinFuerte_walk_right</sprite>
+        <sprite>sprites\spr_goblinFuerte_walk_left</sprite>
+        <sprite>sprites\spr_goblinFuerte_walk_up</sprite>
+      </sprites>
+      <sprites name="stand">
+        <sprite>sprites\spr_goblinFuerte_stand_down</sprite>
+        <sprite>sprites\spr_goblinFuerte_stand_up</sprite>
+        <sprite>sprites\spr_goblinFuerte_stand_right</sprite>
+        <sprite>sprites\spr_goblinFuerte_stand_left</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_goblinFuerte_death</sprite>
+        <sprites name="NPC">
+          <sprites name="npcs_c_goblin">
+            <sprites name="npc1_a_goblin">
+              <sprite>sprites\npc1_goblin_stand_up</sprite>
+              <sprite>sprites\npc1_goblin_stand_down</sprite>
+              <sprite>sprites\npc1_goblin_stand_left</sprite>
+              <sprite>sprites\npc1_goblin_stand_right</sprite>
+            </sprites>
+            <sprites name="npc2_goblin">
+              <sprite>sprites\npc2_goblin_stand_up</sprite>
+              <sprite>sprites\npc2_goblin_stand_down</sprite>
+              <sprite>sprites\npc2_goblin_stand_left</sprite>
+              <sprite>sprites\npc2_goblin_stand_right</sprite>
+            </sprites>
+            <sprites name="npc3_goblin">
+              <sprite>sprites\npc3_goblin_stand_up</sprite>
+              <sprite>sprites\npc3_goblin_stand_down</sprite>
+              <sprite>sprites\npc3_goblin_stand_right</sprite>
+              <sprite>sprites\npc3_goblin_stand_left</sprite>
+            </sprites>
+            <sprites name="npc4_goblin">
+              <sprite>sprites\npc4_goblin_stand_up</sprite>
+              <sprite>sprites\npc4_goblin_stand_down</sprite>
+              <sprite>sprites\npc4_goblin_stand_right</sprite>
+              <sprite>sprites\npc4_goblin_stand_left</sprite>
+            </sprites>
+          </sprites>
         </sprites>
       </sprites>
       <sprites name="npcs_tienda">
