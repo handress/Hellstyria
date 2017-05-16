@@ -166,6 +166,80 @@
           <sprite>sprites\npc4_goblin_stand_left</sprite>
         </sprites>
       </sprites>
+      <sprites name="npcs_tienda">
+        <sprites name="npc_tendero_arma">
+          <sprite>sprites\npc_tendero_stand_down</sprite>
+        </sprites>
+        <sprites name="npc_tendero_pociones">
+          <sprite>sprites\npc_tendero_pociones_stand_down</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="npcs_ciudad">
+        <sprites name="npc1_ciudad">
+          <sprite>sprites\npc1_ciudad_stand_up</sprite>
+          <sprite>sprites\npc1_ciudad_stand_down</sprite>
+          <sprite>sprites\npc1_ciudad_stand_left</sprite>
+          <sprite>sprites\npc1_ciudad_stand_right</sprite>
+        </sprites>
+        <sprites name="npc2_ciudad">
+          <sprite>sprites\npc2_ciudad_stand_up</sprite>
+          <sprite>sprites\npc2_ciudad_stand_down</sprite>
+          <sprite>sprites\npc2_ciudad_stand_left</sprite>
+          <sprite>sprites\npc2_ciudad_stand_right</sprite>
+        </sprites>
+        <sprites name="npc3_ciudad">
+          <sprite>sprites\npc3_ciudad_stand_up</sprite>
+          <sprite>sprites\npc3_ciudad_stand_down</sprite>
+          <sprite>sprites\npc3_ciudad_stand_left</sprite>
+          <sprite>sprites\npc3_ciudad_stand_right</sprite>
+        </sprites>
+        <sprites name="npc4_ciudad">
+          <sprite>sprites\npc4_ciudad_stand_up</sprite>
+          <sprite>sprites\npc4_ciudad_sprite_down</sprite>
+          <sprite>sprites\npc4_ciudad_stand_left</sprite>
+          <sprite>sprites\npc4_ciudad_stand_right</sprite>
+        </sprites>
+        <sprites name="npc5_ciudad">
+          <sprite>sprites\npc5_ciudad_stand_up</sprite>
+          <sprite>sprites\npc5_ciudad_stand_down</sprite>
+          <sprite>sprites\npc5_ciudad_stand_left</sprite>
+          <sprite>sprites\npc5_ciudad_stand_right</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="npcs_castillo">
+        <sprites name="npc_guardia">
+          <sprite>sprites\npc_guardia_stand_up</sprite>
+          <sprite>sprites\npc_guardia_stand_down</sprite>
+          <sprite>sprites\npc_guardia_stand_left</sprite>
+          <sprite>sprites\npc_guardia_stand_right</sprite>
+        </sprites>
+        <sprites name="npc_rey_caballero">
+          <sprite>sprites\npc_rey_stand_up</sprite>
+          <sprite>sprites\npc_rey_stand_down</sprite>
+          <sprite>sprites\npc_rey_stand_left</sprite>
+          <sprite>sprites\npc_rey_stand_right</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="npcs_posada">
+        <sprites name="npc1_posada">
+          <sprite>sprites\npc1_posada_stand_up</sprite>
+          <sprite>sprites\npc1_posada_stand_down</sprite>
+          <sprite>sprites\npc1_posada_stand_left</sprite>
+          <sprite>sprites\npc1_posada_stand_right</sprite>
+        </sprites>
+        <sprites name="npc2_posada">
+          <sprite>sprites\npc2_posada_stand_up</sprite>
+          <sprite>sprites\npc2_posada_stand_down</sprite>
+          <sprite>sprites\npc2_posada_stand_left</sprite>
+          <sprite>sprites\npc2_posada_stand_right</sprite>
+        </sprites>
+        <sprites name="npc3_posada">
+          <sprite>sprites\npc3_posada_stand_up</sprite>
+          <sprite>sprites\npc3_posada_stand_down</sprite>
+          <sprite>sprites\npc3_posada_stand_left</sprite>
+          <sprite>sprites\npc3_posada_stand_right</sprite>
+        </sprites>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
