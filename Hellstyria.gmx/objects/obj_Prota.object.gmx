@@ -36,7 +36,10 @@ enum ej {
     
 }
 
-sprite = global.Player
+vh = 0;
+vv = 0;
+
+sprite = global.Player;
 dir = "abajo";          // direccion por defecto
 estado = ej.parado;     // estado por defecto
 salida = -1;            // por defecto no aparecemos sobre una salida
@@ -157,7 +160,7 @@ else {
           <argument>
             <kind>1</kind>
             <string>/// Gestión de estados de ataque
-if (keyboard_check_pressed(ord('Q')) and estado != ej.atacando) {
+if (keyboard_check_pressed(ord('Z')) and estado != ej.atacando) {
     // Atacar si no estamos atacando y reiniciamos animación
     estado = ej.atacando;
     image_index = 0;

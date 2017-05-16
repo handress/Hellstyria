@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Cargar Partida
-script_execute(scr_Juego_Cargar());
+scr_Juego_Cargar();
+
 </string>
           </argument>
         </arguments>
