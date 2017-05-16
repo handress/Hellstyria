@@ -59,6 +59,9 @@
     <instance objName="obj_Entrada" x="1232" y="336" name="inst_706715F1" locked="0" code="roomTransporte = rm_casa_bosque;&#xA;salida = 'casaBosque1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="286" y="303" name="inst_719B7AB5" locked="0" code="nombre = &quot;salidaBosque3&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="287" y="240" name="inst_AE34DF8B" locked="0" code="roomTransporte = rm_cuevaCiudadBosque;&#xA;salida = 'cuevaCiudadBosque1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="231" y="943" name="inst_805384EE" locked="0" code="roomTransporte = rm_bosqueBoss;&#xA;salida = 'salidaBosqueBoss';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Salida" x="303" y="943" name="inst_4E32DFAE" locked="0" code="nombre = &quot;salidaBosque4&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGuardarBosque" x="288" y="818" name="inst_03426083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="0" yo="800" id="10010710" name="inst_BF770DC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

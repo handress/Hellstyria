@@ -241,6 +241,11 @@
     <object>objects\obj_cascada_large</object>
     <object>objects\obj_cascada_peq</object>
     <object>objects\obj_fuente</object>
+    <objects name="objetosGuardar">
+      <object>objects\objGuardarCiudadGoblin</object>
+      <object>objects\objGuardarBosque</object>
+      <object>objects\objGuardarCiudad</object>
+    </objects>
     <object>objects\obj_Prota</object>
     <objects name="colisiones">
       <object>objects\obj_Pared_32</object>
@@ -261,9 +266,6 @@
           <object>objects\obj_CarterCueva1</object>
           <object>objects\obj_CarterCueva2</object>
           <object>objects\obj_CarterCueva3</object>
-        </objects>
-        <objects name="objetosGuardar">
-          <object>objects\objGuardarCueva</object>
         </objects>
       </objects>
     </objects>

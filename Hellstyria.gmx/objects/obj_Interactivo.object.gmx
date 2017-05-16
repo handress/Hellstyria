@@ -31,8 +31,6 @@ depth = -y;         // El truco de la profundidad
 vida = 1;           // Vida base 1 punto
 colision = true;    // Colisiones activadas
 
-vv = 0;
-vh = 0;
 </string>
           </argument>
         </arguments>

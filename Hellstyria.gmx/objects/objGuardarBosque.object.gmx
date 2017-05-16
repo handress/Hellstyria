@@ -30,7 +30,7 @@
 event_inherited();
 image_speed = 0.05;
 
-paginas[0]= "Desea Guardar? # Pulsa S para guardar partida."
+paginas[0]= "Desea Guardar? # Pulsa A para guardar partida."
 paginas[1]= "Juego Guardado";
 mostrar = false;
 pagina = -1;
@@ -131,13 +131,13 @@ if(keyboard_check_pressed(ord('A')) and mostrar){
             <string>///Dibujado
 
 if(mostrar){
-    draw_sprite(spr_HUD_Texto,0,vv-vh,vh+vv);
+    draw_sprite(spr_HUD_Texto,0,350,250);
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
     draw_set_color(c_black);
-    draw_text(34,37,paginas[pagina]);
+    draw_text(384,260,paginas[pagina]);
     draw_set_color(c_white);
-    draw_text(33,36,paginas[pagina]);
+    draw_text(383,259,paginas[pagina]);
 }
 </string>
           </argument>
