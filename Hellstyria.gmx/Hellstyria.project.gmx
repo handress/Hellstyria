@@ -129,7 +129,6 @@
       <sprite>sprites\spr_Titulo</sprite>
       <sprite>sprites\spr_continuarPartida</sprite>
     </sprites>
-    <sprite>sprites\sprite75</sprite>
     <sprites name="vida">
       <sprite>sprites\spr_vidaFondo</sprite>
       <sprite>sprites\spr_vidaMarco</sprite>
@@ -138,6 +137,57 @@
       <sprite>sprites\spr_Cartel</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="tioBosque">
+      <sprites name="stand">
+        <sprite>sprites\spr_tioBosque_stand_down</sprite>
+        <sprite>sprites\spr_tioBosque_stand_left</sprite>
+        <sprite>sprites\spr_tioBosque_stand_right</sprite>
+        <sprite>sprites\spr_tioBosque_stand_up</sprite>
+      </sprites>
+      <sprites name="walk">
+        <sprite>sprites\spr_tioBosque_walk_down</sprite>
+        <sprite>sprites\spr_tioBosque_walk_left</sprite>
+        <sprite>sprites\spr_tioBosque_walk_right</sprite>
+        <sprite>sprites\spr_tioBosque_walk_up</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_tioBosque_death</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="goblin">
+      <sprites name="walk">
+        <sprite>sprites\spr_goblin_walk_down</sprite>
+        <sprite>sprites\spr_goblin_walk_right</sprite>
+        <sprite>sprites\spr_goblin_walk_up</sprite>
+        <sprite>sprites\spr_goblin_walk_left</sprite>
+      </sprites>
+      <sprites name="stand">
+        <sprite>sprites\spr_goblin_stand_down</sprite>
+        <sprite>sprites\spr_goblin_stand_right</sprite>
+        <sprite>sprites\spr_goblin_stand_up</sprite>
+        <sprite>sprites\spr_goblin_stand_left</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_goblin_death</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="goblinFuerte">
+      <sprites name="walk">
+        <sprite>sprites\spr_goblinFuerte_walk_down</sprite>
+        <sprite>sprites\spr_goblinFuerte_walk_right</sprite>
+        <sprite>sprites\spr_goblinFuerte_walk_left</sprite>
+        <sprite>sprites\spr_goblinFuerte_walk_up</sprite>
+      </sprites>
+      <sprites name="stand">
+        <sprite>sprites\spr_goblinFuerte_stand_down</sprite>
+        <sprite>sprites\spr_goblinFuerte_stand_up</sprite>
+        <sprite>sprites\spr_goblinFuerte_stand_right</sprite>
+        <sprite>sprites\spr_goblinFuerte_stand_left</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_goblinFuerte_death</sprite>
       </sprites>
     </sprites>
   </sprites>

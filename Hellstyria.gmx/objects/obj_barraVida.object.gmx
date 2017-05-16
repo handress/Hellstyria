@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_sprite(spr_vidaFondo,1,view_xview[0]+46,view_yview[0]+34);
+draw_sprite_ext(spr_vida,1,view_xview[0]+46,view_yview[0]+34, obj_Prota.hp/10,1,0,c_white,1);
 draw_sprite(spr_vidaMarco,1,view_xview[0]+15,view_yview[0]+15);
 </string>
           </argument>

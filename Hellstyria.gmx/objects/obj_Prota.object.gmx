@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Inicializacion
 image_speed = 0;
-var hp = 10;
+hp = 10;
 
 enum ej {
      parado = scr_Prota_Parado,
