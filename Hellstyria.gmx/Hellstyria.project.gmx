@@ -372,6 +372,15 @@
       <object>objects\objGuardarCiudad</object>
     </objects>
     <object>objects\obj_Prota</object>
+    <objects name="objetosInteractivos">
+      <object>objects\obj_Interactivo</object>
+      <object>objects\obj_cartel</object>
+      <objects name="cartelesCueva">
+        <object>objects\obj_CarterCueva1</object>
+        <object>objects\obj_CarterCueva2</object>
+        <object>objects\obj_CarterCueva3</object>
+      </objects>
+    </objects>
     <objects name="colisiones">
       <object>objects\obj_Pared_32</object>
       <object>objects\obj_Pared_16</object>
@@ -384,14 +393,10 @@
     </objects>
     <objects name="HUD">
       <object>objects\obj_barraVida</object>
-      <objects name="objetosInteractivos">
-        <object>objects\obj_Interactivo</object>
-        <object>objects\obj_cartel</object>
-        <objects name="cartelesCueva">
-          <object>objects\obj_CarterCueva1</object>
-          <object>objects\obj_CarterCueva2</object>
-          <object>objects\obj_CarterCueva3</object>
-        </objects>
+    </objects>
+    <objects name="NPC">
+      <objects name="CiudadGoblin">
+        <object>objects\obj_Npc1_Ciudad_Goblin</object>
       </objects>
     </objects>
   </objects>
