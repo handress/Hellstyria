@@ -134,10 +134,11 @@
       <sprite>sprites\spr_vidaFondo</sprite>
       <sprite>sprites\spr_vidaMarco</sprite>
       <sprite>sprites\spr_vida</sprite>
-    <sprite>sprites\spr_Guardar</sprite>
-    <sprite>sprites\spr_Cartel</sprite>
-    <sprites name="HUD">
-      <sprite>sprites\spr_HUD_Texto</sprite>
+      <sprite>sprites\spr_Guardar</sprite>
+      <sprite>sprites\spr_Cartel</sprite>
+      <sprites name="HUD">
+        <sprite>sprites\spr_HUD_Texto</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -226,16 +227,17 @@
     </objects>
     <objects name="HUD">
       <object>objects\obj_barraVida</object>
-    <objects name="objetosInteractivos">
-      <object>objects\obj_Interactivo</object>
-      <object>objects\obj_cartel</object>
-      <objects name="cartelesCueva">
-        <object>objects\obj_CarterCueva1</object>
-        <object>objects\obj_CarterCueva2</object>
-        <object>objects\obj_CarterCueva3</object>
-      </objects>
-      <objects name="objetosGuardar">
-        <object>objects\objGuardarCueva</object>
+      <objects name="objetosInteractivos">
+        <object>objects\obj_Interactivo</object>
+        <object>objects\obj_cartel</object>
+        <objects name="cartelesCueva">
+          <object>objects\obj_CarterCueva1</object>
+          <object>objects\obj_CarterCueva2</object>
+          <object>objects\obj_CarterCueva3</object>
+        </objects>
+        <objects name="objetosGuardar">
+          <object>objects\objGuardarCueva</object>
+        </objects>
       </objects>
     </objects>
   </objects>
