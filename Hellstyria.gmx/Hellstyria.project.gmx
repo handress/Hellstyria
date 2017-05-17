@@ -293,6 +293,9 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_hojaPapel</sprite>
+    <sprites name="mascara">
+      <sprite>sprites\spr_mascGoblin</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -341,6 +344,10 @@
     <scripts name="Guardar">
       <script>scripts\scr_Juego_Guardar.gml</script>
       <script>scripts\scr_Juego_Cargar.gml</script>
+    </scripts>
+    <scripts name="Goblin">
+      <script>scripts\Goblin_Parado.gml</script>
+      <script>scripts\Goblin_Corriendo.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -416,6 +423,9 @@
       <objects name="Bosque">
         <object>objects\obj_Npc_Bosque</object>
       </objects>
+    </objects>
+    <objects name="Enemigos">
+      <object>objects\obj_Goblin</object>
     </objects>
   </objects>
   <rooms name="rooms">
