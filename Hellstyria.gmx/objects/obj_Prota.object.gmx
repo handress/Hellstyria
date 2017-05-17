@@ -27,7 +27,9 @@
             <kind>1</kind>
             <string>/// Inicializacion
 image_speed = 0;
-hp = 10;
+hp = 3;
+maxhp = 6;
+
 
 enum ej {
      parado = scr_Prota_Parado,
@@ -266,6 +268,28 @@ with(entrada){
     
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Control de la vida
+hp = clamp(hp,0,maxhp);
 </string>
           </argument>
         </arguments>
