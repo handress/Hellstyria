@@ -34,7 +34,9 @@ maxhp = 6;
 enum ej {
      parado = scr_Prota_Parado,
      caminando = scr_Prota_Caminando,
-     atacando = scr_Prota_Atacando
+     atacando = scr_Prota_Atacando,
+     muriendo = scr_Prota_Muriendo
+     
     
 }
 
@@ -187,6 +189,55 @@ if (keyboard_check_pressed(ord('Z')) and estado != ej.atacando) {
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Control de la vida
+hp = clamp(hp,0,maxhp);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Muerte
+
+if(hp &lt;= 0){
+    estado = ej.muriendo;
+    vh = 0;
+    vv = 0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>/// Gestión de colisiones contra paredes y objetos interactivos
 if (instance_place(x+vh,y,obj_Pared_32) || instance_place(x+vh,y,obj_Pared_16)) { 
     vh = 0; 
@@ -268,28 +319,6 @@ with(entrada){
     
     }
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Control de la vida
-hp = clamp(hp,0,maxhp);
 </string>
           </argument>
         </arguments>

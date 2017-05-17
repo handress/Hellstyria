@@ -234,6 +234,7 @@
     <sprites name="vida">
       <sprite>sprites\spr_Guardar</sprite>
       <sprite>sprites\spr_Cartel</sprite>
+      <sprite>sprites\spr_corazonVacio</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
       </sprites>
@@ -273,6 +274,12 @@
       <sprites name="death">
         <sprite>sprites\spr_goblin_death</sprite>
       </sprites>
+      <sprites name="attack">
+        <sprite>sprites\spr_goblin_attack_down</sprite>
+        <sprite>sprites\spr_goblin_attack_right</sprite>
+        <sprite>sprites\spr_goblin_attack_up</sprite>
+        <sprite>sprites\spr_goblin_attack_left</sprite>
+      </sprites>
     </sprites>
     <sprites name="goblinFuerte">
       <sprites name="walk">
@@ -289,6 +296,12 @@
       </sprites>
       <sprites name="death">
         <sprite>sprites\spr_goblinFuerte_death</sprite>
+      </sprites>
+      <sprites name="attack">
+        <sprite>sprites\spr_goblinFuerte_attack_down</sprite>
+        <sprite>sprites\spr_goblinFuerte_attack_right</sprite>
+        <sprite>sprites\spr_goblinFuerte_attack_up</sprite>
+        <sprite>sprites\spr_goblinFuerte_attack_left</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_hojaPapel</sprite>
@@ -345,8 +358,6 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Prota_Caminando.gml</script>
-    <script>scripts\scr_Prota_Parado.gml</script>
     <scripts name="Guardar">
       <script>scripts\scr_Juego_Guardar.gml</script>
       <script>scripts\scr_Juego_Cargar.gml</script>
@@ -354,8 +365,15 @@
     <scripts name="Goblin">
       <script>scripts\Goblin_Parado.gml</script>
       <script>scripts\Goblin_Corriendo.gml</script>
+      <script>scripts\Goblin_Atacando.gml</script>
+      <script>scripts\Goblin_Muriendo.gml</script>
     </scripts>
-    <script>scripts\scr_Prota_Atacando.gml</script>
+    <scripts name="Prota">
+      <script>scripts\scr_Prota_Caminando.gml</script>
+      <script>scripts\scr_Prota_Atacando.gml</script>
+      <script>scripts\scr_Prota_Parado.gml</script>
+      <script>scripts\scr_Prota_Muriendo.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_Texto</font>
@@ -433,6 +451,7 @@
     </objects>
     <objects name="Enemigos">
       <object>objects\obj_Goblin</object>
+      <object>objects\obj_Goblin_Ataque</object>
     </objects>
     <object>objects\obj_HierbaAtacable</object>
     <object>objects\obj_ProtaAtaqueGrande</object>

@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1920</width>
   <height>1080</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -514,10 +514,14 @@
     <instance objName="obj_Pared_16" x="208" y="240" name="inst_38B55C74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="208" y="224" name="inst_95C0E9D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="200" y="551" name="inst_D8B05A9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="&lt;undefined&gt;" x="32" y="64" name="inst_8D062138" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+>>>>>>> origin/master
     <instance objName="obj_CartelBosque" x="1728" y="512" name="inst_941783E5" locked="0" code="paginas[0] = &quot; &lt;- Bosque# -&gt; Hellsterya&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_CartelBosque2" x="353" y="551" name="inst_FB867842" locked="0" code="paginas[0] = &quot;Paso de las calaveras salvajes#Poblado Elfo - &gt;&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_CartelBosque3" x="267" y="895" name="inst_81258C49" locked="0" code="paginas[0] = &quot; &lt;- Hacia una mejor vida# -&gt; Hacia una peor vida&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_corazon" x="32" y="32" name="inst_0418AFE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="0" yo="800" id="10010710" name="inst_BF770DC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
