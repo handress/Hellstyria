@@ -234,6 +234,7 @@
     <sprites name="vida">
       <sprite>sprites\spr_Guardar</sprite>
       <sprite>sprites\spr_Cartel</sprite>
+      <sprite>sprites\spr_corazonVacio</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
       </sprites>
@@ -273,6 +274,12 @@
       <sprites name="death">
         <sprite>sprites\spr_goblin_death</sprite>
       </sprites>
+      <sprites name="attack">
+        <sprite>sprites\spr_goblin_attack_down</sprite>
+        <sprite>sprites\spr_goblin_attack_right</sprite>
+        <sprite>sprites\spr_goblin_attack_up</sprite>
+        <sprite>sprites\spr_goblin_attack_left</sprite>
+      </sprites>
     </sprites>
     <sprites name="goblinFuerte">
       <sprites name="walk">
@@ -289,6 +296,12 @@
       </sprites>
       <sprites name="death">
         <sprite>sprites\spr_goblinFuerte_death</sprite>
+      </sprites>
+      <sprites name="attack">
+        <sprite>sprites\spr_goblinFuerte_attack_down</sprite>
+        <sprite>sprites\spr_goblinFuerte_attack_right</sprite>
+        <sprite>sprites\spr_goblinFuerte_attack_up</sprite>
+        <sprite>sprites\spr_goblinFuerte_attack_left</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_hojaPapel</sprite>
