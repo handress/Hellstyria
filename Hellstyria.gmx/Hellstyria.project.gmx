@@ -232,14 +232,13 @@
       <sprite>sprites\spr_continuarPartida</sprite>
     </sprites>
     <sprites name="vida">
-      <sprite>sprites\spr_vidaFondo</sprite>
-      <sprite>sprites\spr_vidaMarco</sprite>
-      <sprite>sprites\spr_vida</sprite>
       <sprite>sprites\spr_Guardar</sprite>
       <sprite>sprites\spr_Cartel</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
       </sprites>
+      <sprite>sprites\spr_corazon</sprite>
+      <sprite>sprites\spr_corazonVacio</sprite>
     </sprites>
     <sprites name="tioBosque">
       <sprites name="stand">
@@ -296,8 +295,6 @@
     <sprites name="mascara">
       <sprite>sprites\spr_mascGoblin</sprite>
     </sprites>
-    <sprite>sprites\spr_corazon</sprite>
-    <sprite>sprites\spr_corazonVacio</sprite>
     <sprite>sprites\spr_Hierba</sprite>
     <sprite>sprites\spr_Hierba_Cortada</sprite>
     <sprite>sprites\spr_Ataque</sprite>
@@ -344,8 +341,6 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Prota_Caminando.gml</script>
-    <script>scripts\scr_Prota_Parado.gml</script>
     <scripts name="Guardar">
       <script>scripts\scr_Juego_Guardar.gml</script>
       <script>scripts\scr_Juego_Cargar.gml</script>
@@ -353,8 +348,15 @@
     <scripts name="Goblin">
       <script>scripts\Goblin_Parado.gml</script>
       <script>scripts\Goblin_Corriendo.gml</script>
+      <script>scripts\Goblin_Atacando.gml</script>
+      <script>scripts\Goblin_Muriendo.gml</script>
     </scripts>
-    <script>scripts\scr_Prota_Atacando.gml</script>
+    <scripts name="Prota">
+      <script>scripts\scr_Prota_Caminando.gml</script>
+      <script>scripts\scr_Prota_Atacando.gml</script>
+      <script>scripts\scr_Prota_Parado.gml</script>
+      <script>scripts\scr_Prota_Muriendo.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_Texto</font>
@@ -414,7 +416,6 @@
       <object>objects\obj_ContinuarPartida</object>
     </objects>
     <objects name="HUD">
-      <object>objects\obj_barraVida</object>
       <object>objects\obj_corazon</object>
     </objects>
     <objects name="NPC">
@@ -433,6 +434,7 @@
     </objects>
     <objects name="Enemigos">
       <object>objects\obj_Goblin</object>
+      <object>objects\obj_Goblin_Ataque</object>
     </objects>
     <object>objects\obj_HierbaAtacable</object>
     <object>objects\obj_ProtaAtaqueGrande</object>

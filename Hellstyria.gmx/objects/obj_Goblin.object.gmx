@@ -30,12 +30,9 @@
 enum eg{
     
     parado = Goblin_Parado,
-    corriendo = Goblin_Corriendo/*,
+    corriendo = Goblin_Corriendo,
     atacando = Goblin_Atacando,
-    muriendo = Goblin_Muriendo*/
-
-
-
+    muriendo = Goblin_Muriendo
 }
 
 dir = "abajo"; // direccion donde miramos
@@ -43,8 +40,8 @@ estado = eg.parado;
 
 vida = 3;
 radio_vision = 96;
-/*radio_ataque = 24;*/
-/*crear_ataque = true;*/
+radio_ataque = 24;
+crear_ataque = true;
 </string>
           </argument>
         </arguments>
@@ -132,8 +129,67 @@ else if (vv &lt; 0) dir = "arriba";
 else if (vh &gt; 0) dir = "derecha";
 else if (vh &lt; 0) dir = "izquierda";
 
-if (dir != "") estado = eg.corriendo;
-    if (vh == 0 and vv == 0) estado = eg.parado;
+// Si estamos atacando comprovamos estado parado y caminar
+if(estado != eg.atacando){
+    if(dir != ""){
+        estado = eg.corriendo;
+    }
+    if(vh== 0 and vv ==0){
+        estado = eg.parado;
+    }
+}else{// Determinamos que si ataca se para
+    vh = 0;
+    vv = 0;
+    //Arreglar la direccion solo si atacamos
+    grados = point_direction(x,y,obj_Prota.x,obj_Prota.y);
+    if(obj_Prota.dir = "arriba"){
+        dir = "arriba";
+    }else if (obj_Prota.dir = "derecha"){
+        dir = "derecha";
+    }else if(obj_Prota.dir == "izquierda"){
+        dir = "izquierda";
+    }else if(obj_Prota.dir == "abajo"){
+        dir = "abajo";
+    }
+    
+}
+
+if(vida &lt;= 0){
+    estado = eg.muriendo;
+    colision = false;
+    vh = 0;
+    vv = 0;
+}
+ 
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Gestion de ataques
+
+if(distance_to_point(obj_Prota.x,obj_Prota.y) &lt; radio_ataque and estado != eg.atacando and estado != eg.muriendo){
+    //Atacar si no estamos tacando y reiniciar animacion
+    
+    estado = eg.atacando;
+    image_index = 0;
+}
 </string>
           </argument>
         </arguments>
@@ -192,37 +248,6 @@ x += vh;
 y += vv;
 
 script_execute(estado);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_set_alpha(0.15);
-draw_set_color(c_red);
-draw_circle(x,y,radio_vision+5,false);
-/*draw_circle(x,y,radio_ataque+5,false);*/
-draw_set_color(c_black);
-draw_set_alpha(1);
-draw_text(x,y+50,string(vida));
-
-draw_self();
 </string>
           </argument>
         </arguments>
