@@ -5,19 +5,19 @@ image_speed = 0.05;
 animacion_ataque = image_index  >= image_number-2 and crear_ataque;
 switch(dir){
     case "abajo":
-        sprite_index = spr_goblin_attack_down;
+        sprite_index = spr_Goblin_Abajo_Ataque;
         if (animacion_ataque) { instance_create(x,y+32,obj_Goblin_Ataque); }
         break;
     case "arriba":
-                sprite_index = spr_goblin_attack_up;
+        sprite_index = spr_Goblin_Arriba_Ataque;
         if (animacion_ataque) { instance_create(x,y-8,obj_Goblin_Ataque); }
         break;
     case "izquierda":
-               sprite_index = spr_goblin_attack_left;
+        sprite_index = spr_Goblin_Izquierda_Ataque;
         if (animacion_ataque) { instance_create(x-16,y+8,obj_Goblin_Ataque); }
         break;
     case "derecha":
-                sprite_index = spr_goblin_attack_right;
+        sprite_index = spr_Goblin_Derecha_Ataque;
         if (animacion_ataque) { instance_create(x+16,y+8,obj_Goblin_Ataque); }
         break;
 }

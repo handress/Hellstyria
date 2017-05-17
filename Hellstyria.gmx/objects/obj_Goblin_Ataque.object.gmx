@@ -76,7 +76,7 @@ instance_destroy();
             <kind>1</kind>
             <string>///Quitar Vida al colisionar
 
-other.hp--;
+other.vida--;
 instance_destroy();
 </string>
           </argument>

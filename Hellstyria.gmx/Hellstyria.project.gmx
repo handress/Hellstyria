@@ -234,6 +234,7 @@
     <sprites name="vida">
       <sprite>sprites\spr_Guardar</sprite>
       <sprite>sprites\spr_Cartel</sprite>
+      <sprite>sprites\spr_corazonVacio</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
       </sprites>
