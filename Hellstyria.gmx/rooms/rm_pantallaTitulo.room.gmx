@@ -51,10 +51,10 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Titulo" x="190" y="123" name="inst_44054762" locked="0" code="" scaleX="1.14438498020172" scaleY="2.21212124824524" colour="4294967295" rotation="0"/>
-    <instance objName="obj_salirJuego" x="227" y="349" name="inst_728AD7E3" locked="0" code="" scaleX="1.94000005722046" scaleY="2.35714292526245" colour="4294967295" rotation="0"/>
-    <instance objName="obj_iniciarPartida" x="223" y="222" name="inst_BAD94860" locked="0" code="" scaleX="1.50943398475647" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ContinuarPartida" x="204" y="285" name="inst_823CCF7E" locked="0" code="" scaleX="1.24675321578979" scaleY="2.28999996185303" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Titulo" x="386" y="130" name="inst_44054762" locked="0" code="" scaleX="1.14438498020172" scaleY="2.21212124824524" colour="4294967295" rotation="0"/>
+    <instance objName="obj_iniciarPartida" x="405" y="195" name="inst_17B24F8C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_salirJuego" x="429" y="320" name="inst_DF77B686" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ContinuarPartida" x="359" y="257" name="inst_DD4D3D41" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

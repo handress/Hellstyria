@@ -7,7 +7,7 @@
   <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
   <code></code>
@@ -56,7 +56,7 @@
     <instance objName="obj_efecto_transicion" x="0" y="32" name="inst_6DC0E60E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="190" y="347" name="inst_DC999654" locked="0" code="nombre = &quot;casaBosque1&quot;;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="190" y="394" name="inst_DC9529FB" locked="0" code="roomTransporte = rm_bosque;&#xA;salida = 'salidaBosque2';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_barraVida" x="80" y="32" name="inst_7A3E69C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="80" y="32" name="inst_7A3E69C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Npc_Bosque" x="497" y="122" name="inst_171BCBB2" locked="0" code="paginas[0] = &quot;Dios...#Han acabado con todos... -&gt;&quot;;&#xA;paginas[1] = &quot;No me queda mucho...#Visita al rey -&gt;&quot;;&#xA;paginas[2] = &quot;DEPRISA...&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="224" y="432" name="inst_A460F3D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="240" y="432" name="inst_0460A4D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -296,6 +296,7 @@
     <instance objName="obj_Pared_16" x="0" y="368" name="inst_6B73741F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="0" y="384" name="inst_81B4B1F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="0" y="400" name="inst_9EDA9486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cofre_casa_bosque" x="560" y="144" name="inst_D363CD59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="0" y="96" w="32" h="32" xo="0" yo="96" id="10016519" name="inst_79A08357" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -7,7 +7,7 @@
   <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
   <code></code>
@@ -70,6 +70,7 @@
     <instance objName="obj_efecto_transicion" x="128" y="128" name="inst_CD5D35E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="513" y="301" name="inst_738C0DAD" locked="0" code="nombre = &quot;salidaCuevaCiudad2&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="512" y="240" name="inst_482BA696" locked="0" code="roomTransporte = rm_entradaCiudad;&#xA;salida = 'salidaEntradaCiudad';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cofre_cueva_bosque" x="1392" y="592" name="inst_38A9196D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="192" y="192" w="32" h="32" xo="32" yo="96" id="10018027" name="inst_BFD69DCD" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

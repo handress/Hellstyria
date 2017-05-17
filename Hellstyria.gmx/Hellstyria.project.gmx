@@ -232,14 +232,13 @@
       <sprite>sprites\spr_continuarPartida</sprite>
     </sprites>
     <sprites name="vida">
-      <sprite>sprites\spr_vidaFondo</sprite>
-      <sprite>sprites\spr_vidaMarco</sprite>
-      <sprite>sprites\spr_vida</sprite>
       <sprite>sprites\spr_Guardar</sprite>
       <sprite>sprites\spr_Cartel</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
       </sprites>
+      <sprite>sprites\spr_corazon</sprite>
+      <sprite>sprites\spr_corazonVacio</sprite>
     </sprites>
     <sprites name="tioBosque">
       <sprites name="stand">
@@ -296,12 +295,14 @@
     <sprites name="mascara">
       <sprite>sprites\spr_mascGoblin</sprite>
     </sprites>
-    <sprite>sprites\spr_corazon</sprite>
-    <sprite>sprites\spr_corazonVacio</sprite>
     <sprite>sprites\spr_Hierba</sprite>
     <sprite>sprites\spr_Hierba_Cortada</sprite>
     <sprite>sprites\spr_Ataque</sprite>
     <sprite>sprites\spr_Ataque_Grande</sprite>
+    <sprites name="cofre">
+      <sprite>sprites\spr_cofre</sprite>
+      <sprite>sprites\spr_open_cofre</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -414,7 +415,6 @@
       <object>objects\obj_ContinuarPartida</object>
     </objects>
     <objects name="HUD">
-      <object>objects\obj_barraVida</object>
       <object>objects\obj_corazon</object>
     </objects>
     <objects name="NPC">
@@ -437,6 +437,9 @@
     <object>objects\obj_HierbaAtacable</object>
     <object>objects\obj_ProtaAtaqueGrande</object>
     <object>objects\obj_ProtaAtaquePeque</object>
+    <object>objects\obj_cofre_cueva</object>
+    <object>objects\obj_cofre_casa_bosque</object>
+    <object>objects\obj_cofre_cueva_bosque</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_pantallaTitulo</room>
