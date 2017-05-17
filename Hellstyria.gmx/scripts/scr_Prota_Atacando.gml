@@ -1,19 +1,13 @@
 
-animacion_ataque = image_index >= image_number-2 and crear_ataque;
+
 switch(dir){
     case  "abajo":
         if(obj_Prota.sprite == 0){
             image_speed = 0.15;
             sprite_index = spr_caballero_attack_down;
-            if(animacion_ataque){
-                instance_create(x,y+48,obj_ProtaAtaqueGrande);
-            }
         }else if(obj_Prota.sprite == 1){
             image_speed = 0.40;
             sprite_index = spr_picaro_attack_down;
-            if(animacion_ataque){
-                instance_create(x,y+32,obj_ProtaAtaquePeque);
-            }
         }else if(obj_Prota.sprite == 2){
             image_speed = 0.25;
             sprite_index = spr_lancero_attack_down;
@@ -27,15 +21,9 @@ switch(dir){
         if(obj_Prota.sprite == 0){
             image_speed = 0.15;
             sprite_index = spr_caballero_attack_up;
-            if(animacion_ataque){
-                instance_create(x,y-16,obj_ProtaAtaqueGrande);
-            }
         }else if(obj_Prota.sprite == 1){
             image_speed = 0.40;
             sprite_index = spr_picaro_attack_up;
-            if(animacion_ataque){
-                instance_create(x,y-8,obj_ProtaAtaquePeque);
-            }
         }else if(obj_Prota.sprite == 2){
             image_speed = 0.25;
             sprite_index = spr_lancero_attack_up;
@@ -49,15 +37,9 @@ switch(dir){
         if(obj_Prota.sprite == 0){
             image_speed = 0.15;
             sprite_index = spr_caballero_attack_right;
-            if(animacion_ataque){
-                instance_create(x+32,y+16,obj_ProtaAtaqueGrande);
-            }
         }else if(obj_Prota.sprite == 1){
             image_speed = 0.40;
             sprite_index = spr_picaro_attack_right;
-            if(animacion_ataque){
-                instance_create(x+16,y+8,obj_ProtaAtaquePeque);
-            }
         }else if(obj_Prota.sprite == 2){
             image_speed = 0.25;
             sprite_index = spr_lancero_attack_right;
@@ -71,15 +53,9 @@ switch(dir){
         if(obj_Prota.sprite == 0){
             image_speed = 0.15;
             sprite_index = spr_caballero_attack_left;
-            if(animacion_ataque){
-                instance_create(x-32,y+16,obj_ProtaAtaqueGrande);
-            }
         }else if(obj_Prota.sprite == 1){
             image_speed = 0.40;
             sprite_index = spr_picaro_attack_left;
-            if(animacion_ataque){
-                instance_create(x-16,y+8,obj_ProtaAtaquePeque);
-            }
         }else if(obj_Prota.sprite == 2){
             image_speed = 0.25;
             sprite_index = spr_lancero_attack_left;
@@ -90,13 +66,7 @@ switch(dir){
         break;
 }
 
-// Ya no puede atacar hasta el proximo ciclo
-if(animacion_ataque){
-    crear_ataque = false;
-}
-
 //Reiniciar el estado al final de la animacion
 if (image_index >= image_number-1){
-    crear_ataque = true;
     estado = ej.parado;
 }
