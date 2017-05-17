@@ -154,7 +154,7 @@ if(estado != eg.atacando){
     
 }
 
-if(vida &lt;= 0){
+if(vida == 0){
     estado = eg.muriendo;
     colision = false;
     vh = 0;
