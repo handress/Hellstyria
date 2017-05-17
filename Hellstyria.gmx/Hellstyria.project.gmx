@@ -234,7 +234,6 @@
     <sprites name="vida">
       <sprite>sprites\spr_Guardar</sprite>
       <sprite>sprites\spr_Cartel</sprite>
-      <sprite>sprites\spr_corazonVacio</sprite>
       <sprites name="HUD">
         <sprite>sprites\spr_HUD_Texto</sprite>
       </sprites>
@@ -308,7 +307,6 @@
     <sprites name="mascara">
       <sprite>sprites\spr_mascGoblin</sprite>
     </sprites>
-<<<<<<< HEAD
     <sprite>sprites\spr_Hierba</sprite>
     <sprite>sprites\spr_Hierba_Cortada</sprite>
     <sprite>sprites\spr_Ataque</sprite>
@@ -317,10 +315,6 @@
       <sprite>sprites\spr_cofre</sprite>
       <sprite>sprites\spr_open_cofre</sprite>
     </sprites>
-=======
->>>>>>> parent of 6597556... Ataque y objetos destruibles.
-    <sprite>sprites\spr_corazon</sprite>
-    <sprite>sprites\spr_corazonVacio</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -363,9 +357,6 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Prota_Atacando.gml</script>
-    <script>scripts\scr_Prota_Caminando.gml</script>
-    <script>scripts\scr_Prota_Parado.gml</script>
     <scripts name="Guardar">
       <script>scripts\scr_Juego_Guardar.gml</script>
       <script>scripts\scr_Juego_Cargar.gml</script>
@@ -377,10 +368,10 @@
       <script>scripts\Goblin_Muriendo.gml</script>
     </scripts>
     <scripts name="Prota">
-      <script>scripts\scr_Prota_Caminando.gml</script>
       <script>scripts\scr_Prota_Atacando.gml</script>
       <script>scripts\scr_Prota_Parado.gml</script>
       <script>scripts\scr_Prota_Muriendo.gml</script>
+      <script>scripts\scr_Prota_Caminando.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -461,18 +452,12 @@
       <object>objects\obj_Goblin</object>
       <object>objects\obj_Goblin_Ataque</object>
     </objects>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <object>objects\obj_HierbaAtacable</object>
     <object>objects\obj_ProtaAtaqueGrande</object>
     <object>objects\obj_ProtaAtaquePeque</object>
     <object>objects\obj_cofre_cueva</object>
     <object>objects\obj_cofre_casa_bosque</object>
     <object>objects\obj_cofre_cueva_bosque</object>
-=======
->>>>>>> parent of 6597556... Ataque y objetos destruibles.
-=======
->>>>>>> parent of 6597556... Ataque y objetos destruibles.
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_pantallaTitulo</room>
