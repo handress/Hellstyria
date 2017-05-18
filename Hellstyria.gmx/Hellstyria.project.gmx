@@ -315,6 +315,15 @@
       <sprite>sprites\spr_cofre</sprite>
       <sprite>sprites\spr_open_cofre</sprite>
     </sprites>
+    <sprite>sprites\spr_easterEgg</sprite>
+    <sprites name="armas">
+      <sprite>sprites\spr_daga</sprite>
+      <sprite>sprites\spr_espada</sprite>
+      <sprite>sprites\spr_maza</sprite>
+      <sprite>sprites\spr_lanza</sprite>
+    </sprites>
+    <sprite>sprites\spr_boton</sprite>
+    <sprite>sprites\spr_botonPulsado</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -458,6 +467,13 @@
     <object>objects\obj_Prota</object>
     <object>objects\obj_ProtaAtaqueGrande</object>
     <object>objects\obj_ProtaAtaquePeque</object>
+    <object>objects\obj_easterEgg</object>
+    <objects name="armas">
+      <object>objects\obj_lanza</object>
+      <object>objects\obj_maza</object>
+      <object>objects\obj_espada</object>
+      <object>objects\obj_daga</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_pantallaTitulo</room>
