@@ -63,14 +63,17 @@ vh = y;
 
 if(keyboard_check_pressed(ord('A')) and distance_to_object(obj_Prota)&lt;3){
     mostrar = true;
+    obj_Prota.hp = obj_Prota.maxhp;
     show_debug_message(string(x));
      show_debug_message(string(y));
+     
 }
 
 // si se aleja cerramos el cartel
 if(distance_to_object(obj_Prota)&gt;3){
     mostrar = false;
     pagina = -1;
+    
 }
 
 </string>

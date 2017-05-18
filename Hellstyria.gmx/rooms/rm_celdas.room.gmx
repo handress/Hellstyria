@@ -55,7 +55,6 @@
     <instance objName="obj_Entrada" x="800" y="357" name="inst_44D86055" locked="0" code="roomTransporte = rm_Cueva;&#xA;salida = 'cueva1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="800" y="288" name="inst_1C80C30A" locked="0" code="nombre = &quot;celda1&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_efecto_transicion" x="0" y="0" name="inst_2419B3D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="64" y="112" name="inst_1043092F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="16" y="352" name="inst_C9AADE7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="32" y="352" name="inst_1424F887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="48" y="352" name="inst_9BAD5921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
