@@ -8,11 +8,13 @@ if file_exists(working_directory + "save.ini"){
     var py = ini_read_real("prota","y",0);
     var spr = ini_read_real("prota","sprite",0);
     var dir = ini_read_string("prota","direccion","abajo");
+    var vida = ini_read_real("prota","vida",1);
+    
     ini_close();
     
     //Si la room existe cargamos las variables del objeto
     if (room_exists(rm)){
-         global.Player = spr;
+        global.Player = spr;
         var inst;
         inst = instance_create(x, y,obj_Prota);
         with (inst)
@@ -20,12 +22,11 @@ if file_exists(working_directory + "save.ini"){
             inst.x = px;
             inst.y = py;
             inst.sprite = spr;
+            inst.dir = dir;
+            inst.hp = vida;
+            inst.cofreAtaque = true;
         }
-               
-         
                 
-      
-    
         if (room != rm){
             room_goto(rm);
         } 

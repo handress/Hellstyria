@@ -48,7 +48,9 @@ dir = "abajo";          // direccion por defecto
 estado = ej.parado;     // estado por defecto
 salida = -1;            // por defecto no aparecemos sobre una salida
 
-crear_ataque=true;
+crear_ataque= true;
+cofreAtaque = false;
+
 </string>
           </argument>
         </arguments>
@@ -99,6 +101,8 @@ depth = -y;
             <string>/// Capturar movimiento por teclado
 vh = (-keyboard_check(vk_left) + keyboard_check(vk_right)) * v;
 vv = (-keyboard_check(vk_up) + keyboard_check(vk_down)) * v;
+
+
 </string>
           </argument>
         </arguments>

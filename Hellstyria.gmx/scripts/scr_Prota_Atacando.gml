@@ -1,11 +1,15 @@
 
-animacion_ataque = image_index >= image_number-2 and crear_ataque;
+
+ 
+if (cofreAtaque  == true){
+    animacion_ataque = image_index >= image_number-2 and crear_ataque;
 switch(dir){
     case  "abajo":
         if(obj_Prota.sprite == 0){
-            image_speed = 0.15;
-            sprite_index = spr_caballero_attack_down;
+             image_speed = 0.15;
+                sprite_index = spr_caballero_attack_down;
             if(animacion_ataque){
+               
                 instance_create(x,y+48,obj_ProtaAtaqueGrande);
             }
         }else if(obj_Prota.sprite == 1){
@@ -88,15 +92,29 @@ switch(dir){
             sprite_index = spr_clerigo_attack_left;
         }
         break;
+        
+    
 }
-
-// Ya no puede atacar hasta el proximo ciclo
-if(animacion_ataque){
-    crear_ataque = false;
-}
-
+    if(animacion_ataque){
+        crear_ataque = false;
+    }
+        
 //Reiniciar el estado al final de la animacion
 if (image_index >= image_number-1){
     crear_ataque = true;
     estado = ej.parado;
 }
+
+}else{
+        estado = ej.parado;
+}
+
+
+ 
+
+
+
+
+
+
+

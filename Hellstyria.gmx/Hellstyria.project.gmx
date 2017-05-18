@@ -373,6 +373,9 @@
       <script>scripts\scr_Prota_Atacando.gml</script>
       <script>scripts\scr_Prota_Muriendo.gml</script>
     </scripts>
+    <scripts name="NPC">
+      <script>scripts\script10.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_Texto</font>
