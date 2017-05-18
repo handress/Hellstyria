@@ -362,16 +362,16 @@
       <script>scripts\scr_Juego_Cargar.gml</script>
     </scripts>
     <scripts name="Goblin">
-      <script>scripts\Goblin_Parado.gml</script>
-      <script>scripts\Goblin_Corriendo.gml</script>
       <script>scripts\Goblin_Atacando.gml</script>
+      <script>scripts\Goblin_Corriendo.gml</script>
       <script>scripts\Goblin_Muriendo.gml</script>
+      <script>scripts\Goblin_Parado.gml</script>
     </scripts>
     <scripts name="Prota">
-      <script>scripts\scr_Prota_Atacando.gml</script>
       <script>scripts\scr_Prota_Parado.gml</script>
-      <script>scripts\scr_Prota_Muriendo.gml</script>
       <script>scripts\scr_Prota_Caminando.gml</script>
+      <script>scripts\scr_Prota_Atacando.gml</script>
+      <script>scripts\scr_Prota_Muriendo.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -403,7 +403,6 @@
       <object>objects\objGuardarBosque</object>
       <object>objects\objGuardarCiudad</object>
     </objects>
-    <object>objects\obj_Prota</object>
     <objects name="objetosInteractivos">
       <object>objects\obj_Interactivo</object>
       <object>objects\obj_cartel</object>
@@ -453,11 +452,12 @@
       <object>objects\obj_Goblin_Ataque</object>
     </objects>
     <object>objects\obj_HierbaAtacable</object>
-    <object>objects\obj_ProtaAtaqueGrande</object>
-    <object>objects\obj_ProtaAtaquePeque</object>
     <object>objects\obj_cofre_cueva</object>
     <object>objects\obj_cofre_casa_bosque</object>
     <object>objects\obj_cofre_cueva_bosque</object>
+    <object>objects\obj_Prota</object>
+    <object>objects\obj_ProtaAtaqueGrande</object>
+    <object>objects\obj_ProtaAtaquePeque</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_pantallaTitulo</room>

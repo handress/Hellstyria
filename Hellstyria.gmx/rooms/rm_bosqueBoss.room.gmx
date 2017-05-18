@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1500</width>
   <height>1000</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_Salida" x="1378" y="786" name="inst_07DBA1C1" locked="0" code="nombre = &quot;salidaBosqueBoss&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="1463" y="783" name="inst_DF7D3705" locked="0" code="roomTransporte = rm_bosque;&#xA;salida = 'salidaBosque4';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_corazon" x="32" y="32" name="inst_33C854D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="224" yo="864" id="10038916" name="inst_0207394B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

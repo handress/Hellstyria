@@ -3,8 +3,8 @@
   <caption></caption>
   <width>2976</width>
   <height>1280</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -55,6 +55,7 @@
     <instance objName="obj_Salida" x="1472" y="1153" name="inst_CCD3C293" locked="0" code="nombre = &quot;salidaEntradaCiudad&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="1471" y="245" name="inst_517DE8C2" locked="0" code="roomTransporte = rm_Ciudad_Castillo;&#xA;salida = 'ciudadCastilloEntradaPrincipal'&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="1471" y="311" name="inst_FCC6F1A2" locked="0" code="nombre = &quot;salidaEntradaCiudad2&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_corazon" x="32" y="32" name="inst_8C3CD926" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado2" x="0" y="0" w="32" h="32" xo="704" yo="96" id="10041804" name="inst_68B9AB30" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

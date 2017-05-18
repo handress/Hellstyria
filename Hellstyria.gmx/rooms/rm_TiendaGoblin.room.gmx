@@ -62,6 +62,7 @@
     <instance objName="obj_Tendero" x="161" y="235" name="inst_F1FABFD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TenderoColision" x="465" y="294" name="inst_7C9D4A32" locked="0" code="paginas[0] = &quot;Ahora no disponemos de armaduras # tu carne parece tierna...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tendero" x="449" y="235" name="inst_AFB3152E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_corazon" x="32" y="32" name="inst_4BCDD7FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="64" y="96" w="64" h="96" xo="0" yo="0" id="10025832" name="inst_91AEB764" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

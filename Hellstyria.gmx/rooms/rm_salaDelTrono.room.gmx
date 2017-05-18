@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>1536</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_Entrada" x="511" y="1461" name="inst_22D99BCD" locked="0" code="roomTransporte = rm_entradaCastillo;&#xA;salida = 'salidaCastillo1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="511" y="1407" name="inst_6CADC375" locked="0" code="nombre = &quot;salidaCastillo1&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_corazon" x="32" y="32" name="inst_7D52C37D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_castillo" x="128" y="1344" w="32" h="32" xo="160" yo="0" id="10025289" name="inst_828951AC" depth="50000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

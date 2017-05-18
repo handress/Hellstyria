@@ -72,6 +72,7 @@
     <instance objName="obj_efecto_transicion" x="16" y="192" name="inst_0C4AA082" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="1018" y="896" name="inst_787E7F9E" locked="0" code="nombre = &quot;entradaCasaGoblin1&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="1017" y="936" name="inst_B94FB9A6" locked="0" code="roomTransporte = rm_Ciudad_Goblin;&#xA;salida = 'ciudadGoblin1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_corazon" x="32" y="32" name="inst_589B59B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="32" y="192" w="64" h="32" xo="0" yo="192" id="10010710" name="inst_484EBB6C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
