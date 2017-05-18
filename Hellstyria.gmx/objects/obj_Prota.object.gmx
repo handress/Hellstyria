@@ -48,7 +48,7 @@ dir = "abajo";          // direccion por defecto
 estado = ej.parado;     // estado por defecto
 salida = -1;            // por defecto no aparecemos sobre una salida
 
-
+crear_ataque=true;
 </string>
           </argument>
         </arguments>

@@ -55,7 +55,7 @@
     <instance objName="obj_Entrada" x="800" y="357" name="inst_44D86055" locked="0" code="roomTransporte = rm_Cueva;&#xA;salida = 'cueva1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="800" y="288" name="inst_1C80C30A" locked="0" code="nombre = &quot;celda1&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_efecto_transicion" x="0" y="0" name="inst_2419B3D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Prota" x="64" y="112" name="inst_1043092F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="64" y="112" name="inst_1043092F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="16" y="352" name="inst_C9AADE7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="32" y="352" name="inst_1424F887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="48" y="352" name="inst_9BAD5921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -244,6 +244,7 @@
     <instance objName="obj_Pared_16" x="-16" y="272" name="inst_1822446B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="112" y="176" name="inst_0BDF9388" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_AF426249" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Prota" x="48" y="96" name="inst_5C0A5892" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="960" y="0" w="32" h="32" xo="32" yo="32" id="10005070" name="inst_481E2997" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

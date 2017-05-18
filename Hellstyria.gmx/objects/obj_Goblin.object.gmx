@@ -142,19 +142,19 @@ if(estado != eg.atacando){
     vv = 0;
     //Arreglar la direccion solo si atacamos
     grados = point_direction(x,y,obj_Prota.x,obj_Prota.y);
-    if(obj_Prota.dir = "arriba"){
+    if(grados &gt;= 45 and grados&lt; 135){
         dir = "arriba";
-    }else if (obj_Prota.dir = "derecha"){
+    }else if (grados &lt;45 or grados &gt; 315 ){
         dir = "derecha";
-    }else if(obj_Prota.dir == "izquierda"){
+    }else if(grados &gt;= 135 and grados &lt;225){
         dir = "izquierda";
-    }else if(obj_Prota.dir == "abajo"){
+    }else if(grados &gt;= 225 and grados &lt;=315){
         dir = "abajo";
     }
     
 }
 
-if(vida &lt;= 0){
+if(vida == 0){
     estado = eg.muriendo;
     colision = false;
     vh = 0;
