@@ -481,8 +481,8 @@
     <object>objects\obj_controlador</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_game_over</room>
     <room>rooms\rm_pantallaTitulo</room>
+    <room>rooms\rm_game_over</room>
     <room>rooms\player_creation</room>
     <room>rooms\test_room</room>
     <rooms name="Cueva">
@@ -501,6 +501,18 @@
       <room>rooms\rm_InteriorCasaGoblin2</room>
       <room>rooms\rm_TiendaGoblin</room>
       <room>rooms\rm_Ciudad_Goblin</room>
+    </rooms>
+    <rooms name="ciudad">
+      <room>rooms\rm_ciudad_Castillo</room>
+      <room>rooms\rm_entradaCiudad</room>
+      <room>rooms\rm_TiendaArmas</room>
+      <room>rooms\rm_TiendaPociones</room>
+      <room>rooms\rm_PosadaCiudad</room>
+      <room>rooms\rm_Interior_Casa1_Ciudad</room>
+    </rooms>
+    <rooms name="castillo">
+      <room>rooms\rm_entradaCastillo</room>
+      <room>rooms\rm_salaDelTrono</room>
     </rooms>
   </rooms>
   <help>
