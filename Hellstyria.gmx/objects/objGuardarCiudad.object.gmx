@@ -63,8 +63,7 @@ vh = y;
 
 if(keyboard_check_pressed(ord('A')) and distance_to_object(obj_Prota)&lt;3){
     mostrar = true;
-    show_debug_message(string(x));
-     show_debug_message(string(y));
+    obj_Prota.hp = obj_Prota.maxhp;
 }
 
 // si se aleja cerramos el cartel

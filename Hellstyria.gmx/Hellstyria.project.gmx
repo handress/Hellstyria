@@ -496,7 +496,6 @@
       <room>rooms\rm_InteriorCasaGoblin1</room>
       <room>rooms\rm_InteriorCasaGoblin2</room>
       <room>rooms\rm_TiendaGoblin</room>
-      <room>rooms\rm_Ciudad_Goblin</room>
     </rooms>
     <rooms name="ciudad">
       <room>rooms\rm_TiendaArmas</room>
