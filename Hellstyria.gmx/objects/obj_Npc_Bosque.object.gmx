@@ -96,8 +96,8 @@ if(keyboard_check_pressed(ord('A')) and mostrar){
     }else{
         mostrar = false;
         pagina = -1;
-        image_speed = 0.05;
-        sprite_index = spr_tioBosque_death;
+        scr_Muerte_TioBosque();
+    
         
     }
 }
