@@ -381,7 +381,7 @@
       <script>scripts\scr_Prota_Muriendo.gml</script>
     </scripts>
     <scripts name="NPC">
-      <script>scripts\script10.gml</script>
+      <script>scripts\scr_Muerte_TioBosque.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">

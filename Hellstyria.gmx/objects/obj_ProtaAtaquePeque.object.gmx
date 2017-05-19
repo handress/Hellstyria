@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_Ataque</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Variables
 
-alarm[0] = 15;
+alarm[0] = 1;
 </string>
           </argument>
         </arguments>
