@@ -113,6 +113,8 @@
     <sprite>sprites\spr_brasa</sprite>
     <sprite>sprites\spr_bomba</sprite>
     <sprite>sprites\spr_antorcha</sprite>
+    <sprite>sprites\spr_Guardar</sprite>
+    <sprite>sprites\spr_Cartel</sprite>
     <sprites name="spr_EntradaSalida">
       <sprite>sprites\spr_Entrada</sprite>
       <sprite>sprites\spr_Salida</sprite>
@@ -220,6 +222,13 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprites name="HUD">
+      <sprite>sprites\spr_HUD_Texto</sprite>
+      <sprite>sprites\spr_botonPulsado</sprite>
+      <sprite>sprites\spr_boton</sprite>
+      <sprite>sprites\spr_corazon</sprite>
+      <sprite>sprites\spr_corazonVacio</sprite>
+    </sprites>
     <sprites name="colisiones">
       <sprite>sprites\spr_Pared_32</sprite>
       <sprite>sprites\spr_Mascara_Prota</sprite>
@@ -230,15 +239,6 @@
       <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_Titulo</sprite>
       <sprite>sprites\spr_continuarPartida</sprite>
-    </sprites>
-    <sprites name="vida">
-      <sprite>sprites\spr_Guardar</sprite>
-      <sprite>sprites\spr_Cartel</sprite>
-      <sprites name="HUD">
-        <sprite>sprites\spr_HUD_Texto</sprite>
-      </sprites>
-      <sprite>sprites\spr_corazon</sprite>
-      <sprite>sprites\spr_corazonVacio</sprite>
     </sprites>
     <sprites name="tioBosque">
       <sprites name="stand">
@@ -322,8 +322,6 @@
       <sprite>sprites\spr_maza</sprite>
       <sprite>sprites\spr_lanza</sprite>
     </sprites>
-    <sprite>sprites\spr_boton</sprite>
-    <sprite>sprites\spr_botonPulsado</sprite>
     <sprite>sprites\spr_game_over</sprite>
   </sprites>
   <backgrounds name="background">
@@ -445,6 +443,7 @@
     </objects>
     <objects name="HUD">
       <object>objects\obj_corazon</object>
+      <object>objects\obj_botonAtaque</object>
     </objects>
     <objects name="NPC">
       <objects name="CiudadGoblin">
