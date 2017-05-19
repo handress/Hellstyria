@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_Ataque_Grande</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -100,7 +100,7 @@ other.vida--;
             <kind>1</kind>
             <string>///Muerte enemigo goblin
 
-other.vida-=1;
+other.vida--;
 </string>
           </argument>
         </arguments>
