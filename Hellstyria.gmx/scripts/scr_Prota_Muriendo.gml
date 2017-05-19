@@ -13,4 +13,11 @@ image_blend = c_gray; //pinta el sprite
         
 if(image_index >= image_number - 1){
     image_index = image_number -1;
+    if (global.perdido == -1){
+     global.perdido = 0;
+     instance_destroy()
+    }
 }
+
+
+
