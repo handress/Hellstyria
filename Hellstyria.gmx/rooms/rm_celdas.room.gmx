@@ -1013,7 +1013,6 @@
     <tile bgName="tls_celda" x="32" y="160" w="32" h="64" xo="256" yo="192" id="10038804" name="inst_75649D9D" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="64" y="160" w="32" h="64" xo="256" yo="192" id="10038805" name="inst_506B87C7" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="96" y="160" w="32" h="64" xo="256" yo="192" id="10038806" name="inst_AA7B5BA1" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_celda" x="192" y="160" w="32" h="64" xo="256" yo="192" id="10038808" name="inst_2C73DE84" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="96" w="32" h="32" xo="64" yo="32" id="10038990" name="inst_8F4E54F5" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="128" w="32" h="32" xo="64" yo="32" id="10038991" name="inst_39E21283" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="192" w="32" h="32" xo="64" yo="32" id="10038993" name="inst_723519DB" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1106,6 +1105,7 @@
     <tile bgName="tls_mapeado1" x="224" y="352" w="32" h="32" xo="32" yo="32" id="10039111" name="inst_05B5B0F9" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="256" y="352" w="32" h="32" xo="32" yo="32" id="10039112" name="inst_2C8A079A" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="288" y="352" w="32" h="32" xo="32" yo="32" id="10039113" name="inst_5F70E501" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="192" y="160" w="32" h="32" xo="256" yo="192" id="10049714" name="inst_A12817C3" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
