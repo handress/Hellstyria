@@ -54,8 +54,6 @@ direccion = ""
             <kind>1</kind>
             <string>///Dibujado
 
-///Dibujado
-
 if(mostrar){
     draw_sprite(spr_HUD_Texto,0,350,250);
     draw_set_font(f_Texto);
@@ -76,7 +74,7 @@ if(mostrar){
     }
     
 }else{
-    sprite_index = npc1_goblin_stand_down;
+    sprite_index = npc1_ciudad_stand_down;
 }
 </string>
           </argument>

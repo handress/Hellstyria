@@ -514,7 +514,7 @@
       <room>rooms\rm_Ciudad_Goblin</room>
     </rooms>
     <rooms name="ciudad">
-      <room>rooms\rm_ciudad_Castillo</room>
+      <room>rooms\rm_Ciudad_Castillo</room>
       <room>rooms\rm_entradaCiudad</room>
       <room>rooms\rm_TiendaArmas</room>
       <room>rooms\rm_TiendaPociones</room>
