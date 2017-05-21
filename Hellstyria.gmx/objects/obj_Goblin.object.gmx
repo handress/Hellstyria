@@ -154,6 +154,11 @@ if(estado != eg.atacando){
     
 }
 
+//Genera un corazon
+if(colision == true and vida&lt;=0){
+    scr_Generar_Corazon(25);
+}
+
 if(vida == 0){
     estado = eg.muriendo;
     colision = false;
@@ -221,6 +226,9 @@ if (interactivo) { if (interactivo.colision) vh = 0; }
 // Colision vertical de objeto interactivo sólo si está habilitada
 interactivo = instance_place(x,y+vv,obj_Interactivo);
 if (interactivo) { if (interactivo.colision) vv = 0; }
+
+
+
 
 
 </string>

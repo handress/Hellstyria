@@ -323,6 +323,7 @@
       <sprite>sprites\spr_lanza</sprite>
     </sprites>
     <sprite>sprites\spr_game_over</sprite>
+    <sprite>sprites\spr_Recoger_Corazon</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -390,6 +391,7 @@
       <script>scripts\Goblin_Fuerte_Muriendo.gml</script>
       <script>scripts\Goblin_Fuerte_Parado.gml</script>
     </scripts>
+    <script>scripts\scr_Generar_Corazon.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_Texto</font>
@@ -490,6 +492,7 @@
     </objects>
     <object>objects\obj_game_over</object>
     <object>objects\obj_controlador</object>
+    <object>objects\obj_Recoger_Corazon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_pantallaTitulo</room>
