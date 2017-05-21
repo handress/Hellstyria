@@ -267,6 +267,15 @@ if(interactivo){
     }
 }
 
+//Gestion de colisiones contra corazones
+corazon = instance_place(x+vh,y+vv,obj_Recoger_Corazon)
+if(corazon){
+    hp = clamp(hp+1,0,maxhp);
+    with(corazon){
+        instance_destroy();
+    }
+}
+
 </string>
           </argument>
         </arguments>

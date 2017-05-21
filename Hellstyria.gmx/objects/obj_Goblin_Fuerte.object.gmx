@@ -156,6 +156,11 @@ if(estado != eg2.atacando){
     
 }
 
+//Genera un corazon
+if(colision == true and vida&lt;=0){
+    scr_Generar_Corazon(25);
+}
+
 if(vida == 0){
     estado = eg2.muriendo;
     colision = false;
