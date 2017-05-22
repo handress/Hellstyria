@@ -102,6 +102,7 @@
     </sprites>
     <sprite>sprites\spr_cascada_large</sprite>
     <sprite>sprites\spr_cascada_peq</sprite>
+    <sprite>sprites\spr_m3games</sprite>
     <sprite>sprites\spr_fuente</sprite>
     <sprite>sprites\spr_flecha</sprite>
     <sprite>sprites\spr_caldero</sprite>
@@ -323,6 +324,7 @@
       <sprite>sprites\spr_lanza</sprite>
     </sprites>
     <sprite>sprites\spr_game_over</sprite>
+    <sprite>sprites\spr_opciones_game_over</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -479,10 +481,14 @@
     </objects>
     <object>objects\obj_game_over</object>
     <object>objects\obj_controlador</object>
+    <object>objects\obj_opciones_game_over</object>
+    <object>objects\obj_logo_m3g</object>
+    <object>objects\obj_boton_hover</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_pantallaTitulo</room>
+    <room>rooms\rm_inicio_previo</room>
     <room>rooms\rm_game_over</room>
+    <room>rooms\rm_pantallaTitulo</room>
     <room>rooms\player_creation</room>
     <room>rooms\test_room</room>
     <rooms name="Cueva">
@@ -500,6 +506,7 @@
       <room>rooms\rm_InteriorCasaGoblin1</room>
       <room>rooms\rm_InteriorCasaGoblin2</room>
       <room>rooms\rm_TiendaGoblin</room>
+      <room>rooms\rm_Ciudad_Goblin</room>
     </rooms>
     <rooms name="ciudad">
       <room>rooms\rm_ciudad_Castillo</room>
@@ -513,6 +520,7 @@
       <room>rooms\rm_entradaCastillo</room>
       <room>rooms\rm_salaDelTrono</room>
     </rooms>
+    <room>rooms\rm_prueba</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
