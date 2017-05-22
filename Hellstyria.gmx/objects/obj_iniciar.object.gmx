@@ -28,7 +28,7 @@
             <string>///Cambiar de room
 
 if(keyboard_check(vk_enter)){
-    room_goto(rm_prueba);
+    room_goto(rm_celdas);
 }
 </string>
           </argument>
