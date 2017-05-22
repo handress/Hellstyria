@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1920</width>
   <height>1080</height>
-  <vsnap>8</vsnap>
-  <hsnap>8</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -940,6 +940,72 @@
     <instance objName="obj_Pared_16" x="40" y="208" name="inst_53A1A751" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1048" y="216" name="inst_0DE9DCA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1240" y="280" name="inst_B8660A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="160" y="800" name="inst_271AB08D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="800" name="inst_ED0EB27F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="800" name="inst_DBC20E4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="800" name="inst_EA2823D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="160" y="832" name="inst_2403A07E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="832" name="inst_675F5ED3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="832" name="inst_DC2E0E72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="832" name="inst_C5EAF9ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="160" y="864" name="inst_5B0056B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="864" name="inst_32774096" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="864" name="inst_C719B401" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="864" name="inst_F4476461" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="176" name="inst_68560981" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="208" name="inst_828FDDAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="240" name="inst_D12E6C30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="272" name="inst_283A406D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="304" name="inst_6E6ECA9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="336" name="inst_8FB51FA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="368" name="inst_9EF40B74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="208" y="400" name="inst_A49D2C3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="176" name="inst_317C0A83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="208" name="inst_E11A74EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="240" name="inst_EFDB7691" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="272" name="inst_87FEEC34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="304" name="inst_09EBFD17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="336" name="inst_537EC416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="368" name="inst_0277CF8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="256" y="400" name="inst_52D27932" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="176" name="inst_3D646D4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="208" name="inst_B2E55A8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="240" name="inst_576F3AA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="272" name="inst_1684E7BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="304" name="inst_0F9449D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="336" name="inst_195E5B51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="368" name="inst_4D6F0079" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="304" y="400" name="inst_C7D1ED4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1504" y="384" name="inst_3E26B7BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1504" y="416" name="inst_957450A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1504" y="448" name="inst_DFE5928F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1504" y="480" name="inst_4BA9737D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1536" y="384" name="inst_DE0E6A20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1536" y="416" name="inst_36A28DD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1536" y="448" name="inst_A05186FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1536" y="480" name="inst_0FD51138" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1568" y="384" name="inst_5C8C5334" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1568" y="416" name="inst_E8966105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1568" y="448" name="inst_934ABC9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1568" y="480" name="inst_40D162C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1600" y="384" name="inst_1770ACB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1600" y="416" name="inst_36AB633C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1600" y="448" name="inst_17683918" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1600" y="480" name="inst_9234FC6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="528" y="960" name="inst_49BBB6B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="576" y="960" name="inst_4B032A54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="624" y="960" name="inst_9808F180" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="672" y="960" name="inst_10A0074D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="720" y="960" name="inst_773D4DFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="768" y="960" name="inst_D0026323" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1040" y="432" name="inst_63E7C6DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1040" y="464" name="inst_6481D7B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1088" y="432" name="inst_14F064B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1088" y="464" name="inst_3F08B80B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1056" y="320" name="inst_3CF3727C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1088" y="320" name="inst_E86FC2B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1088" y="352" name="inst_E10FDBB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HierbaAtacable" x="1088" y="384" name="inst_E7F820A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="704" yo="96" id="10004368" name="inst_DC3E8FDB" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
