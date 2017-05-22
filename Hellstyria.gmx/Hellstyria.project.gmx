@@ -505,7 +505,6 @@
     <room>rooms\rm_game_over</room>
     <room>rooms\rm_pantallaTitulo</room>
     <room>rooms\player_creation</room>
-    <room>rooms\test_room</room>
     <rooms name="Cueva">
       <room>rooms\rm_Cueva</room>
       <room>rooms\rm_celdas</room>
@@ -535,7 +534,6 @@
       <room>rooms\rm_entradaCastillo</room>
       <room>rooms\rm_salaDelTrono</room>
     </rooms>
-    <room>rooms\rm_prueba</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
