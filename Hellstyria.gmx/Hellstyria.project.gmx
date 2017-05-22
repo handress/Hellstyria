@@ -493,6 +493,7 @@
     <object>objects\obj_game_over</object>
     <object>objects\obj_controlador</object>
     <object>objects\obj_Recoger_Corazon</object>
+    <object>objects\obj_caldero</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_pantallaTitulo</room>
