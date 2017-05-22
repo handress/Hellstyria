@@ -54,6 +54,10 @@ image_index = irandom(image_number);
             <kind>1</kind>
             <string>///Comprobar si esta cortada
 
+if(sprite_index == spr_Hierba and vida &lt;=0){
+    scr_Generar_Corazon(15);
+}
+
 if(vida &lt;=0){
     sprite_index = spr_Hierba_Cortada;
     depth= 100000;
