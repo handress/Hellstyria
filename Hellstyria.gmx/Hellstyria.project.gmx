@@ -326,6 +326,35 @@
     <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_opciones_game_over</sprite>
     <sprite>sprites\spr_Recoger_Corazon</sprite>
+    <sprites name="boss">
+      <sprites name="walk">
+        <sprite>sprites\spr_boss_walk_down</sprite>
+        <sprite>sprites\spr_boss_walk_left</sprite>
+        <sprite>sprites\spr_boss_walk_right</sprite>
+        <sprite>sprites\spr_boss_walk_up</sprite>
+      </sprites>
+      <sprites name="stand">
+        <sprite>sprites\spr_boss_stand_down</sprite>
+        <sprite>sprites\spr_boss_stand_left</sprite>
+        <sprite>sprites\spr_boss_stand_right</sprite>
+        <sprite>sprites\spr_boss_stand_up</sprite>
+      </sprites>
+      <sprites name="attack">
+        <sprite>sprites\spr_boss_attack_down</sprite>
+        <sprite>sprites\spr_boss_attack_left</sprite>
+        <sprite>sprites\spr_boss_attack_right</sprite>
+        <sprite>sprites\spr_boss_attack_up</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_boss_death</sprite>
+      </sprites>
+      <sprites name="spell">
+        <sprite>sprites\spr_boss_spell_down</sprite>
+        <sprite>sprites\spr_boss_spell_left</sprite>
+        <sprite>sprites\spr_boss_spell_right</sprite>
+        <sprite>sprites\spr_boss_spell_up</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -477,6 +506,7 @@
       <object>objects\obj_Goblin_Ataque</object>
       <object>objects\obj_Goblin_Fuerte</object>
       <object>objects\obj_Goblin_Ataque_Fuerte</object>
+      <object>objects\obj_boss</object>
     </objects>
     <object>objects\obj_HierbaAtacable</object>
     <object>objects\obj_cofre_cueva</object>
