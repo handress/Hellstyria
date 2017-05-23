@@ -212,6 +212,7 @@
     <instance objName="obj_Salida" x="880" y="560" name="inst_BEFEA292" locked="0" code="nombre = &quot;tiendaPocionesCiudad&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="880" y="640" name="inst_238BB2D9" locked="0" code="roomTransporte = rm_Ciudad_Castillo;&#xA;salida = 'salidaCiudad2'&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_5C33AF54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controlador" x="80" y="160" name="inst_D58D3AB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="64" y="96" w="64" h="96" xo="0" yo="0" id="10025832" name="inst_91AEB764" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

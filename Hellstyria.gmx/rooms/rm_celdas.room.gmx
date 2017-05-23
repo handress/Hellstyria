@@ -246,6 +246,7 @@
     <instance objName="obj_Prota" x="48" y="96" name="inst_5C0A5892" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="192" y="176" name="inst_97F63FF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="208" y="176" name="inst_CEFC6C2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controlador" x="16" y="368" name="inst_8CF8CE01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="960" y="0" w="32" h="32" xo="32" yo="32" id="10005070" name="inst_481E2997" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

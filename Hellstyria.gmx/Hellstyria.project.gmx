@@ -449,6 +449,18 @@
       <script>scripts\Goblin_Fuerte_Parado.gml</script>
     </scripts>
     <script>scripts\scr_Generar_Corazon.gml</script>
+    <scripts name="Esqueleto">
+      <script>scripts\scr_Esqueleto_Atacando.gml</script>
+      <script>scripts\scr_Esqueleto_Corriendo.gml</script>
+      <script>scripts\scr_Esqueleto_Muriendo.gml</script>
+      <script>scripts\scr_Esqueleto_Parado.gml</script>
+    </scripts>
+    <scripts name="Boss">
+      <script>scripts\scr_Boss_Atacando.gml</script>
+      <script>scripts\scr_Boss_Corriendo.gml</script>
+      <script>scripts\scr_Boss_Muriendo.gml</script>
+      <script>scripts\scr_Boss_Parado.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_Texto</font>
@@ -533,6 +545,7 @@
       <object>objects\obj_Goblin_Fuerte</object>
       <object>objects\obj_Goblin_Ataque_Fuerte</object>
       <object>objects\obj_boss</object>
+      <object>objects\obj_Esqueleto</object>
     </objects>
     <object>objects\obj_HierbaAtacable</object>
     <object>objects\obj_cofre_cueva</object>
