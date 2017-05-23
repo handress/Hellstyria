@@ -29,6 +29,7 @@
 image_speed = 0;
 hp = 3;
 maxhp = 6;
+arma = 4;
 
 
 enum ej {

@@ -225,10 +225,12 @@
     </sprites>
     <sprites name="HUD">
       <sprite>sprites\spr_HUD_Texto</sprite>
-      <sprite>sprites\spr_botonPulsado</sprite>
-      <sprite>sprites\spr_boton</sprite>
       <sprite>sprites\spr_corazon</sprite>
       <sprite>sprites\spr_corazonVacio</sprite>
+      <sprite>sprites\spr_boton</sprite>
+      <sprite>sprites\spr_botonDorado</sprite>
+      <sprite>sprites\spr_botonPulsado</sprite>
+      <sprite>sprites\spr_botonDoradoPulsado</sprite>
     </sprites>
     <sprites name="colisiones">
       <sprite>sprites\spr_Pared_32</sprite>
@@ -322,6 +324,7 @@
       <sprite>sprites\spr_espada</sprite>
       <sprite>sprites\spr_maza</sprite>
       <sprite>sprites\spr_lanza</sprite>
+      <sprite>sprites\spr_vacio</sprite>
     </sprites>
     <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_opciones_game_over</sprite>
