@@ -56,6 +56,7 @@ estado_abierto=false;
 
 if(mostrar and estado_abierto=false){
     obj_Prota.cofreAtaque = true;
+    obj_Prota.arma = global.Player;
     draw_sprite(spr_HUD_Texto,0,350,450);
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
