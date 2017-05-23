@@ -347,6 +347,8 @@
         <sprite>sprites\spr_esqueleto_attack_left</sprite>
         <sprite>sprites\spr_esqueleto_attack_down</sprite>
         <sprite>sprites\spr_esqueleto_attack_right</sprite>
+      </sprites>
+    </sprites>
     <sprites name="boss">
       <sprites name="walk">
         <sprite>sprites\spr_boss_walk_down</sprite>
