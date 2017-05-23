@@ -352,6 +352,17 @@
     <instance objName="obj_Pared_16" x="112" y="552" name="inst_FC12D150" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="96" y="552" name="inst_C996F280" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="208" y="304" name="inst_DB9BE644" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boss" x="752" y="464" name="inst_B799EC0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="560" y="432" name="inst_6AB10596" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="880" y="432" name="inst_33F7A0D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="720" y="304" name="inst_E2E8FF90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="736" y="560" name="inst_92E49218" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="848" y="528" name="inst_E1F95374" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="832" y="336" name="inst_B37D6651" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="624" y="352" name="inst_8D630B89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="624" y="512" name="inst_F025C34F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controlador" x="16" y="112" name="inst_6E670638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_efecto_transicion" x="16" y="80" name="inst_B524684E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="224" yo="864" id="10038916" name="inst_0207394B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

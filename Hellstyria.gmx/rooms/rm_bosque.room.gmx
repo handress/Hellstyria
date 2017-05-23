@@ -623,6 +623,12 @@
     <instance objName="obj_Pared_16" x="0" y="960" name="inst_964D8B61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="0" y="976" name="inst_F8A1C2E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="0" y="992" name="inst_1C1DD3B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="336" y="640" name="inst_0FC4F4DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="528" y="720" name="inst_14D1F6B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="640" y="640" name="inst_53980518" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="1168" y="432" name="inst_7E89BCD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Esqueleto" x="1248" y="432" name="inst_E8938139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controlador" x="16" y="176" name="inst_64E6B7B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="0" yo="800" id="10010710" name="inst_BF770DC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

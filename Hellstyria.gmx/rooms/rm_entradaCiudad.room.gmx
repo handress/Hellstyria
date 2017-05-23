@@ -234,6 +234,8 @@
     <instance objName="obj_Pared_16" x="1328" y="768" name="inst_75A8E142" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1328" y="752" name="inst_6EB4EFFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1328" y="1152" name="inst_E348CE29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_efecto_transicion" x="32" y="64" name="inst_989267EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controlador" x="32" y="128" name="inst_B94C17AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado2" x="0" y="0" w="32" h="32" xo="704" yo="96" id="10041804" name="inst_68B9AB30" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
