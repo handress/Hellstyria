@@ -326,6 +326,29 @@
     <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_opciones_game_over</sprite>
     <sprite>sprites\spr_Recoger_Corazon</sprite>
+    <sprites name="esqueleto">
+      <sprites name="walk">
+        <sprite>sprites\spr_esqueleto_walk_up</sprite>
+        <sprite>sprites\spr_esqueleto_walk_left</sprite>
+        <sprite>sprites\spr_esqueleto_walk_down</sprite>
+        <sprite>sprites\spr_esqueleto_walk_right</sprite>
+      </sprites>
+      <sprites name="stand">
+        <sprite>sprites\spr_esqueleto_stand_up</sprite>
+        <sprite>sprites\spr_esqueleto_stand_left</sprite>
+        <sprite>sprites\spr_esqueleto_stand_right</sprite>
+        <sprite>sprites\spr_esqueleto_stand_down</sprite>
+      </sprites>
+      <sprites name="death">
+        <sprite>sprites\spr_esqueleto_death</sprite>
+      </sprites>
+      <sprites name="attack">
+        <sprite>sprites\spr_esqueleto_attack_up</sprite>
+        <sprite>sprites\spr_esqueleto_attack_left</sprite>
+        <sprite>sprites\spr_esqueleto_attack_down</sprite>
+        <sprite>sprites\spr_esqueleto_attack_right</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
