@@ -51,10 +51,10 @@ global.Player = 0
           <argument>
             <kind>1</kind>
             <string>if(mouse_check_button_pressed(mb_left)) &amp;&amp; (mouse_x &gt;= x-8) &amp;&amp; (mouse_x &lt;= x+8) &amp;&amp; (mouse_y &gt;= y-8) &amp;&amp; (mouse_y &lt;= y+8){
-    if((y = 96) &amp;&amp; (x =117)){
+    if((y = 160) &amp;&amp; (x =834)){
         global.Player -= 1
     }
-    if((y = 96) &amp;&amp; (x =224)){
+    if((y = 160) &amp;&amp; (x =512)){
         global.Player += 1
     }
 }

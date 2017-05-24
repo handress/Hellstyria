@@ -381,6 +381,7 @@
         <sprite>sprites\spr_boss_spell_up</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_selecciona_clase</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -568,6 +569,8 @@
     <object>objects\obj_boton_hover</object>
     <object>objects\obj_Recoger_Corazon</object>
     <object>objects\obj_caldero</object>
+    <object>objects\obj_selecciona_clase</object>
+    <object>objects\obj_pausa</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_inicio_previo</room>
