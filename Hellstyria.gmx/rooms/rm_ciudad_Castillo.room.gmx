@@ -1130,6 +1130,7 @@
     <instance objName="obj_HierbaAtacable" x="1648" y="2496" name="inst_23637182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_efecto_transicion" x="32" y="80" name="inst_A6514535" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="32" y="128" name="inst_471AB1B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pausa" x="1728" y="2608" name="inst_D9AB1C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="704" yo="96" id="10016896" name="inst_C619B249" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
