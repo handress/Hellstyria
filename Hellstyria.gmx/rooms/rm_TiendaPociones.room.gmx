@@ -213,6 +213,10 @@
     <instance objName="obj_Entrada" x="880" y="640" name="inst_238BB2D9" locked="0" code="roomTransporte = rm_Ciudad_Castillo;&#xA;salida = 'salidaCiudad2'&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_5C33AF54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="80" y="160" name="inst_D58D3AB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Tendero_Pociones" x="192" y="272" name="inst_12E56BBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Tendero_Pociones" x="464" y="272" name="inst_D0973352" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TenderoColision" x="173" y="294" name="inst_B00D8BBE" locked="0" code="paginas[0] = &quot;Ahora no disponemos de nada&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TenderoColision" x="449" y="293" name="inst_0253BD0B" locked="0" code="paginas[0] = &quot;Ahora no disponemos de nada&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="64" y="96" w="64" h="96" xo="0" yo="0" id="10025832" name="inst_91AEB764" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -970,8 +974,6 @@
     <tile bgName="tls_muebles1" x="362" y="299" w="32" h="32" xo="320" yo="32" id="10026996" name="inst_5BC187CE" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="544" y="299" w="32" h="32" xo="320" yo="32" id="10026997" name="inst_489777EA" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="656" y="298" w="32" h="32" xo="320" yo="32" id="10026998" name="inst_04F41A7D" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_muebles1" x="181" y="291" w="32" h="32" xo="288" yo="64" id="10026999" name="inst_BA899492" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_muebles1" x="455" y="288" w="32" h="32" xo="288" yo="64" id="10027000" name="inst_A0FF66A0" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="832" y="160" w="32" h="64" xo="96" yo="256" id="10027013" name="inst_C9217266" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="800" y="160" w="32" h="64" xo="96" yo="256" id="10027014" name="inst_CAEFCAF4" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_muebles1" x="736" y="160" w="32" h="64" xo="96" yo="256" id="10027015" name="inst_9D303A3B" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

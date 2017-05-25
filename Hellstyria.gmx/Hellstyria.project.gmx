@@ -440,9 +440,6 @@
       <script>scripts\scr_Prota_Atacando.gml</script>
       <script>scripts\scr_Prota_Muriendo.gml</script>
     </scripts>
-    <scripts name="NPC">
-      <script>scripts\scr_Muerte_TioBosque.gml</script>
-    </scripts>
     <scripts name="GoblinFuerte">
       <script>scripts\Goblin_Fuerte_Atacando.gml</script>
       <script>scripts\Goblin_Fuerte_Corriendo.gml</script>
@@ -538,7 +535,22 @@
       </objects>
       <objects name="Ciudad">
         <object>objects\obj_Npc1_Ciudad</object>
+        <object>objects\obj_Npc2_Ciudad</object>
+        <objects name="Posada">
+          <object>objects\obj_Npc1_Posada</object>
+          <object>objects\obj_Npc2_Posada</object>
+          <object>objects\obj_Npc3_Posada</object>
+        </objects>
+        <object>objects\obj_Npc3_Ciudad</object>
       </objects>
+      <objects name="EntradaCiudad">
+        <object>objects\obj_NPC_Entrada</object>
+      </objects>
+      <object>objects\obj_Tendero_Pociones</object>
+      <object>objects\obj_Npc_Guardia</object>
+      <object>objects\obj_Npc_Guardia_Izquierda</object>
+      <object>objects\obj_Npc_Guardia_Derecha</object>
+      <object>objects\obj_Rey</object>
     </objects>
     <objects name="Enemigos">
       <object>objects\obj_Goblin</object>

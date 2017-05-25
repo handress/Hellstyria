@@ -62,7 +62,7 @@
     <instance objName="obj_Salida" x="2032" y="2515" name="inst_DFBD04DE" locked="0" code="nombre = &quot;salidaCiudad4&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="1472" y="2544" name="inst_990601F8" locked="0" code="nombre = &quot;ciudadCastilloEntradaPrincipal&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="1472" y="2688" name="inst_BD6DE853" locked="0" code="roomTransporte = rm_entradaCiudad;&#xA;salida = 'salidaEntradaCiudad2';&#xA;" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Entrada" x="1472" y="592" name="inst_A28D3BEE" locked="0" code="roomTransporte = rm_entradaCastillo;&#xA;salida = 'salidaInteriorCastillo1';&#xA;" scaleX="4" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="1472" y="592" name="inst_A28D3BEE" locked="0" code="roomTransporte = rm_entradaCastillo;&#xA;salida = 'salidaInteriorCastillo1';" scaleX="4" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="1472" y="640" name="inst_9822B330" locked="0" code="nombre = &quot;salidaCiudad5&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGuardarCiudad" x="1328" y="2336" name="inst_7492DF58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1584" y="960" name="inst_5810A6A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1131,6 +1131,16 @@
     <instance objName="obj_efecto_transicion" x="32" y="80" name="inst_A6514535" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="32" y="128" name="inst_471AB1B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pausa" x="1728" y="2608" name="inst_D9AB1C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc2_Ciudad" x="624" y="1904" name="inst_2B8D09B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="1344" y="1440" name="inst_4040C23C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="1600" y="1440" name="inst_CEDACB6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="1360" y="768" name="inst_6567F054" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="1584" y="768" name="inst_221120C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_NPC_Entrada" x="1968" y="2080" name="inst_43EA0781" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc3_Ciudad_Goblin" x="2016" y="2080" name="inst_1AEA5039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc3_Ciudad" x="1264" y="1744" name="inst_F382C8CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc1_Ciudad" x="1248" y="2192" name="inst_0E0363BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc5_Ciudad_Goblin" x="1248" y="2240" name="inst_A9907A95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="704" yo="96" id="10016896" name="inst_C619B249" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

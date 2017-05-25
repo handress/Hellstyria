@@ -54,7 +54,7 @@
     <instance objName="obj_Entrada" x="481" y="382" name="inst_E7FE82D3" locked="0" code="roomTransporte= rm_salaDelTrono;&#xA;salida = 'salidaCastillo1';" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="480" y="464" name="inst_E19A9580" locked="0" code="nombre = &quot;salidaCastillo1&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="480" y="580" name="inst_F3BC16DC" locked="0" code="nombre= &quot;salidaInteriorCastillo1&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Entrada" x="480" y="640" name="inst_52D48A02" locked="0" code="roomTransporte = rm_ciudad_Castillo;&#xA;salida = 'salidaCiudad5';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="480" y="640" name="inst_52D48A02" locked="0" code="roomTransporte = rm_Ciudad_Castillo;&#xA;salida = 'salidaCiudad5';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_DAADC981" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="80" y="288" name="inst_D75A692D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="80" y="304" name="inst_88CBBDC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -450,6 +450,13 @@
     <instance objName="obj_Pared_16" x="840" y="176" name="inst_3E2EFBE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_efecto_transicion" x="16" y="104" name="inst_FE00736B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="16" y="184" name="inst_80689220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia_Izquierda" x="376" y="448" name="inst_8851DB2F" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia_Izquierda" x="376" y="592" name="inst_441DCA24" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia_Izquierda" x="376" y="520" name="inst_1CDA0FD6" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia_Derecha" x="1176" y="440" name="inst_5EA25877" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia_Derecha" x="1176" y="592" name="inst_A29C3F7F" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia_Derecha" x="576" y="448" name="inst_B5A52A0E" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia_Derecha" x="576" y="592" name="inst_11141E14" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_castillo" x="128" y="192" w="32" h="32" xo="160" yo="0" id="10028464" name="inst_EED88949" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
