@@ -368,6 +368,7 @@
     <instance objName="obj_Pared_16" x="864" y="592" name="inst_C7D4AADB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="864" y="608" name="inst_47FFF323" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="48" y="96" name="inst_4157D22C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="16" y="64" name="inst_66FDC7E3" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="128" y="160" w="64" h="96" xo="0" yo="192" id="10027344" name="inst_0EF0B4A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -3,8 +3,8 @@
   <caption></caption>
   <width>2048</width>
   <height>768</height>
-  <vsnap>8</vsnap>
-  <hsnap>8</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -457,6 +457,7 @@
     <instance objName="obj_Npc_Guardia_Derecha" x="1176" y="592" name="inst_A29C3F7F" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Npc_Guardia_Derecha" x="576" y="448" name="inst_B5A52A0E" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Npc_Guardia_Derecha" x="576" y="592" name="inst_11141E14" locked="0" code="paginas[0] = &quot;El rey te está esperando&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="16" y="64" name="inst_1A1B79A9" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_castillo" x="128" y="192" w="32" h="32" xo="160" yo="0" id="10028464" name="inst_EED88949" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

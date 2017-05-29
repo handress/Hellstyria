@@ -1141,6 +1141,7 @@
     <instance objName="obj_Npc3_Ciudad" x="1264" y="1744" name="inst_F382C8CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Npc1_Ciudad" x="1248" y="2192" name="inst_0E0363BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Npc5_Ciudad_Goblin" x="1248" y="2240" name="inst_A9907A95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="16" y="64" name="inst_8283AF86" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="704" yo="96" id="10016896" name="inst_C619B249" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

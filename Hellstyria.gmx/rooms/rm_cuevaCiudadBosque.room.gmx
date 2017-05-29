@@ -3,8 +3,8 @@
   <caption></caption>
   <width>2000</width>
   <height>2048</height>
-  <vsnap>8</vsnap>
-  <hsnap>8</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>-1</persistent>
@@ -879,6 +879,7 @@
     <instance objName="obj_Goblin_Fuerte" x="1448" y="776" name="inst_4010E166" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin_Fuerte" x="512" y="424" name="inst_274244C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="128" y="176" name="inst_1B67105C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="16" y="64" name="inst_998BF71B" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="192" y="192" w="32" h="32" xo="32" yo="96" id="10018027" name="inst_BFD69DCD" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
