@@ -630,6 +630,7 @@
     <instance objName="obj_Esqueleto" x="1328" y="464" name="inst_E8938139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="16" y="176" name="inst_64E6B7B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pausa" x="448" y="384" name="inst_EB693ADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="32" y="80" name="inst_F701E898" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="0" w="32" h="32" xo="0" yo="800" id="10010710" name="inst_BF770DC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -355,6 +355,7 @@
     <instance objName="obj_Goblin" x="704" y="368" name="inst_A34806D2" locked="0" code="sprite_index = spr_goblin_stand_right;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin" x="704" y="464" name="inst_A9C19405" locked="0" code="sprite_index = spr_goblin_stand_right;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="32" y="160" name="inst_CB4E0E6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="32" y="80" name="inst_C29EA8BD" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="0" y="160" w="32" h="32" xo="640" yo="160" id="10004370" name="inst_187E9EE9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -877,6 +877,7 @@
     <instance objName="obj_Goblin" x="1392" y="528" name="inst_7EAAC10A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin" x="1696" y="368" name="inst_A7C96053" locked="0" code="sprite_index = spr_goblin_stand_left;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="16" y="240" name="inst_30EAF6CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="32" y="80" name="inst_1D2E2BD7" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="32" y="192" w="64" h="32" xo="0" yo="192" id="10010710" name="inst_484EBB6C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -445,6 +445,7 @@
     <instance objName="obj_Goblin" x="576" y="544" name="inst_0606C18A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin" x="320" y="272" name="inst_BDE3A462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin" x="816" y="512" name="inst_CB22B648" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="32" y="80" name="inst_5523FA7D" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mobiliario" x="112" y="352" w="32" h="64" xo="32" yo="64" id="10025419" name="inst_31BAB74E" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
