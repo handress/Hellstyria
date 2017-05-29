@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Inicializacion
 image_speed = 0;
-hp = 6;
+hp = 3;
 maxhp = 6;
 arma = 4;
 

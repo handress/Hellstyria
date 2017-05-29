@@ -296,8 +296,7 @@
     <instance objName="obj_Pared_16" x="0" y="384" name="inst_81B4B1F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="0" y="400" name="inst_9EDA9486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_33FBE517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_controlador" x="0" y="64" name="inst_352C67EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_botonAtaque" x="16" y="64" name="inst_9DD9ADDC" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controlador" x="16" y="64" name="inst_352C67EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="0" y="96" w="32" h="32" xo="0" yo="96" id="10016519" name="inst_79A08357" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
