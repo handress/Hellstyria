@@ -292,12 +292,12 @@
     <instance objName="obj_corazon" x="32" y="32" name="inst_30297954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="16" y="64" name="inst_A4871CF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tendero" x="192" y="288" name="inst_94F0620C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TenderoColision" x="206" y="352" name="inst_A94901B4" locked="0" code="paginas[0] = &quot;No quedan habitaciones&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc1_Posada" x="480" y="352" name="inst_B0499808" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc2_Posada" x="575" y="514" name="inst_12DE750B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc3_Posada" x="528" y="512" name="inst_BC476ECC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc_Guardia" x="880" y="272" name="inst_3890DE00" locked="0" code="paginas[0] = &quot;No puedes pasar&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc_Guardia" x="912" y="272" name="inst_658DF3A6" locked="0" code="paginas[0] = &quot;No puedes pasar&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TenderoColision" x="206" y="352" name="inst_A94901B4" locked="0" code="paginas[0] = &quot; Todas las habitaciones estan reservadas.&quot;&#xA;paginas[1] = &quot; Lo siento mucho.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc1_Posada" x="480" y="352" name="inst_B0499808" locked="0" code="paginas[0] = &quot; No tienen habitaciones para mi&quot;;&#xA;paginas[1] = &quot; ¿Es porque soy una elfo?&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc2_Posada" x="575" y="514" name="inst_12DE750B" locked="0" code="paginas[0] = &quot; ¡Aquí los encargados de la posada # no tienen vergüenza!&quot;;&#xA;paginas[1] = &quot; ¡Nunca tienen habitaciones libres!&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc3_Posada" x="528" y="512" name="inst_BC476ECC" locked="0" code="paginas[0] = &quot; Mi amigo no para de quejarse.&quot;;&#xA;paginas[1] = &quot; Debería decirle: `¡¡No llores nen!!` &quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="880" y="272" name="inst_3890DE00" locked="0" code="paginas[0] = &quot; ¡No puedes pasar!&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="918" y="273" name="inst_658DF3A6" locked="0" code="paginas[0] = &quot; ¡No puedes pasar!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_botonAtaque" x="16" y="64" name="inst_0E7CB85F" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

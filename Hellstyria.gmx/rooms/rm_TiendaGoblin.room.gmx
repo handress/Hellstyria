@@ -58,9 +58,9 @@
     <instance objName="obj_antorcha" x="182" y="134" name="inst_84918C9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_antorcha" x="709" y="144" name="inst_6A8FEC70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_antorcha" x="865" y="142" name="inst_E1150106" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TenderoColision" x="179" y="287" name="inst_92DFEE6C" locked="0" code="paginas[0] = &quot;Ahora no disponemos de armas # pero tus huesos me gustan...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TenderoColision" x="179" y="287" name="inst_92DFEE6C" locked="0" code="paginas[0] = &quot;Ahora no disponemos de armas # pero tus huesos me gustan...&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tendero" x="161" y="235" name="inst_F1FABFD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TenderoColision" x="472" y="287" name="inst_7C9D4A32" locked="0" code="paginas[0] = &quot;Ahora no disponemos de armaduras # tu carne parece tierna...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TenderoColision" x="472" y="287" name="inst_7C9D4A32" locked="0" code="paginas[0] = &quot;Ahora no disponemos de armaduras # tu carne parece tierna...&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tendero" x="449" y="235" name="inst_AFB3152E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_4BCDD7FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="80" y="256" name="inst_C5CECB9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

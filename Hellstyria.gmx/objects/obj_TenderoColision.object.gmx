@@ -32,9 +32,9 @@ if(mostrar){
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
     draw_set_color(c_black);
-    draw_text(x+34,260,paginas[pagina]);
+    draw_text(x+34,280,paginas[pagina]);
     draw_set_color(c_white);
-    draw_text(x+35,259,paginas[pagina]);
+    draw_text(x+35,279,paginas[pagina]);
     
     
     
