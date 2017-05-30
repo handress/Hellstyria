@@ -554,12 +554,12 @@
     <instance objName="obj_Pared_16" x="1056" y="224" name="inst_AF018EB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1056" y="240" name="inst_FE588358" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGuardarCiudadGoblin" x="1024" y="640" name="inst_61C6D00E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc1_Ciudad_Goblin" x="880" y="528" name="inst_71F93449" locked="0" code="paginas[0] = &quot;Salvame&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc_Ciudad_Goblin" x="944" y="800" name="inst_24598F83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc3_Ciudad_Goblin" x="992" y="800" name="inst_DD3115F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc4_Ciudad_Goblin" x="576" y="672" name="inst_007FC96D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc5_Ciudad_Goblin" x="1248" y="352" name="inst_0D467C57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_CarteCiudadGoblin" x="176" y="576" name="inst_250EAC0C" locked="0" code="paginas[0] = &quot; &lt;- Bosque# -&gt; Hellsterya&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc1_Ciudad_Goblin" x="880" y="528" name="inst_71F93449" locked="0" code="paginas[0] = &quot; La gente de la tienda es muy extraña...&quot;;&#xA;paginas[1] = &quot; Un consejo de sabio sería no acercarse.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Ciudad_Goblin" x="912" y="800" name="inst_24598F83" locked="0" code="paginas[0] = &quot; ¡Yo ser fuerte!&quot;;&#xA;paginas[1] = &quot; ¡¡Rumores no asustarme!!&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc3_Ciudad_Goblin" x="992" y="800" name="inst_DD3115F9" locked="0" code="paginas[0] = &quot; ¿Que te han capturado?&quot;;&#xA;paginas[1] = &quot; ¿Y que has vencido a tus captores?&quot;;&#xA;paginas[2] = &quot; ¿Que mayor? ¿No?&quot;;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc4_Ciudad_Goblin" x="576" y="672" name="inst_007FC96D" locked="0" code="paginas[1] = &quot; Has escuchado la leyenda de Ghi'ann&quot;&#xA;paginas[2] = &quot; ¿No? Pués que te la cuente otro.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc5_Ciudad_Goblin" x="1248" y="352" name="inst_0D467C57" locked="0" code="paginas[0] = &quot; Mi amigo ha entrado a por comida&quot;;&#xA;paginas[1] = &quot; Espero que le den algo...&quot;;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_CarteCiudadGoblin" x="176" y="576" name="inst_250EAC0C" locked="0" code="paginas[0] = &quot; &lt;- Bosque# -&gt; Hellsterya&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_9FA685C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="32" y="800" name="inst_594FB1E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="48" y="800" name="inst_0CBEAE4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

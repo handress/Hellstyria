@@ -30,8 +30,8 @@
 event_inherited();
 image_speed = 0.05;
 
-paginas[0]= "Desea Guardar? # Pulsa A para guardar partida."
-paginas[1]= "Juego Guardado";
+paginas[0]= " Desea Guardar? # Pulsa A para guardar partida."
+paginas[1]= " Juego Guardado";
 mostrar = false;
 pagina = -1;
 </string>
@@ -138,9 +138,9 @@ if(mostrar){
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
     draw_set_color(c_black);
-    draw_text(384,260,paginas[pagina]);
+    draw_text(384,280,paginas[pagina]);
     draw_set_color(c_white);
-    draw_text(383,259,paginas[pagina]);
+    draw_text(383,279,paginas[pagina]);
 }
 </string>
           </argument>

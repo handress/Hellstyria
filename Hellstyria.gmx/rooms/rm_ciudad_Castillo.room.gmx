@@ -1131,16 +1131,16 @@
     <instance objName="obj_efecto_transicion" x="32" y="80" name="inst_A6514535" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="32" y="128" name="inst_471AB1B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pausa" x="1728" y="2608" name="inst_D9AB1C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc2_Ciudad" x="624" y="1904" name="inst_2B8D09B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc_Guardia" x="1344" y="1440" name="inst_4040C23C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc_Guardia" x="1600" y="1440" name="inst_CEDACB6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc2_Ciudad" x="624" y="1904" name="inst_2B8D09B1" locked="0" code="paginas[0] = &quot; Nadie puede distinguir lo que es # y lo que parece mantequilla.&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="1344" y="1440" name="inst_4040C23C" locked="0" code="paginas[0] = &quot; ¡Circule ciudadano!&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc_Guardia" x="1600" y="1440" name="inst_CEDACB6D" locked="0" code="paginas[0] = &quot; Ghi'ann compra lo que quiere...&quot;;&#xA;paginas[1] = &quot; Para no usarlo luego.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Npc_Guardia" x="1360" y="768" name="inst_6567F054" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Npc_Guardia" x="1584" y="768" name="inst_221120C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_NPC_Entrada" x="1968" y="2080" name="inst_43EA0781" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc3_Ciudad_Goblin" x="2016" y="2080" name="inst_1AEA5039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc3_Ciudad" x="1264" y="1744" name="inst_F382C8CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc1_Ciudad" x="1248" y="2192" name="inst_0E0363BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Npc5_Ciudad_Goblin" x="1248" y="2240" name="inst_A9907A95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_NPC_Entrada" x="1968" y="2080" name="inst_43EA0781" locked="0" code="paginas[0] = &quot; Hoy no he desyunado...&quot;;&#xA;paginas[1] = &quot; Y me empiezo a arrepentir.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc3_Ciudad_Goblin" x="2016" y="2080" name="inst_1AEA5039" locked="0" code="paginas[0] = &quot; Mis hermanos han ido a Hellstyria.&quot;;&#xA;paginas[1] = &quot; Estan enfermos.&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc3_Ciudad" x="1264" y="1744" name="inst_F382C8CF" locked="0" code="paginas[0] = &quot; En la leyenda de Ghi'Ann se dice # que este podía comprar todo&quot;;&#xA;paginas[1] = &quot; Y que no se sabía de donde sacaba el dinero.&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc1_Ciudad" x="1248" y="2192" name="inst_0E0363BB" locked="0" code="paginas[0] = &quot; Si algo malo estuviese pasando # por estas tierras&quot;; &#xA;paginas[1] = &quot; El rey caballero debería ser el primero en enterarse.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Npc5_Ciudad_Goblin" x="1248" y="2240" name="inst_A9907A95" locked="0" code="paginas[0] = &quot; El rey caballero es muy respetado&quot;;&#xA;paginas[1] = &quot; se le considera el mejor monarca # de estos ultimos años.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_botonAtaque" x="16" y="64" name="inst_8283AF86" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_musica" x="208" y="144" name="inst_29E80182" locked="0" code="audio_stop_all();&#xA;audio_play_sound(snd_ciudad,10,true);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

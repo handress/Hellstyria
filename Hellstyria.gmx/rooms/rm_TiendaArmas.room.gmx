@@ -214,8 +214,8 @@
     <instance objName="obj_controlador" x="80" y="144" name="inst_938611F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tendero" x="160" y="240" name="inst_196F7409" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tendero" x="432" y="240" name="inst_FCDB5E4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TenderoColision" x="176" y="288" name="inst_FF9E7598" locked="0" code="paginas[0] = &quot;Ahora no disponemos de nada&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TenderoColision" x="448" y="288" name="inst_B465CAD6" locked="0" code="paginas[0] = &quot;Ahora no disponemos de nada&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TenderoColision" x="176" y="288" name="inst_FF9E7598" locked="0" code="paginas[0] = &quot;Ahora no disponemos de nada&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TenderoColision" x="448" y="288" name="inst_B465CAD6" locked="0" code="paginas[0] = &quot;Ahora no disponemos de nada&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_botonAtaque" x="16" y="64" name="inst_E2F66C60" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

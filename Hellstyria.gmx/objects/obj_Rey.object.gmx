@@ -29,7 +29,20 @@
 
 event_inherited();
 
+
+
+global.quest_starts = 0
 direccion = ""
+
+paginas[0] = " Oh Guerrero... # ¡Puedo ver que traes noticias!"
+paginas[1] = " ¿Como? ¿Que has sido capturado por los # habitantes de Hellstyria?";
+paginas[2] = " ¿Como? ¿Que realmente son sucios Goblins?";
+paginas[3] = " ¡Esto ya es el oolmo!";
+paginas[4] = " ¡Si los rumores son ciertos # todo es obra de la bruja!";
+paginas[5] = " Y si los rumores son ciertos esta # en el bosque oscuro, al sur.";  
+paginas[6] = " Te imploro Guerrero.. #¡Acaba con ella!";
+paginas[7] = " No puedo gastar recursos en ello. # Pero sí en una recompensa para usted.";
+
 </string>
           </argument>
         </arguments>
@@ -59,9 +72,9 @@ if(mostrar){
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
     draw_set_color(c_black);
-    draw_text(634,160,paginas[pagina]);
+    draw_text(634,180,paginas[pagina]);
     draw_set_color(c_white);
-    draw_text(633,159,paginas[pagina]);
+    draw_text(633,179,paginas[pagina]);
     
     direccion = obj_Prota.dir;
 
