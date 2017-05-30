@@ -77,6 +77,7 @@ instance_destroy();
             <string>///Quitar Vida al colisionar
 
 other.hp-=2;
+audio_play_sound(snd_dolor,10,false);
 instance_destroy();
 </string>
           </argument>

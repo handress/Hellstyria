@@ -76,6 +76,7 @@ instance_destroy();
             <kind>1</kind>
             <string>///Restar la vida
 other.vida--;
+audio_play_sound(snd_corteHierba,11,false)
 </string>
           </argument>
         </arguments>
@@ -100,6 +101,7 @@ other.vida--;
             <kind>1</kind>
             <string>///Restar la vida
 other.vida--;
+audio_play_sound(snd_esqueleto,11,false)
 </string>
           </argument>
         </arguments>
@@ -124,6 +126,7 @@ other.vida--;
             <kind>1</kind>
             <string>///Restar la vida
 other.vida--;
+audio_play_sound(snd_goblin,11,false)
 </string>
           </argument>
         </arguments>
@@ -149,6 +152,7 @@ other.vida--;
             <string>///Muerte enemigo goblin
 
 other.vida--;
+audio_play_sound(snd_goblin,11,false)
 </string>
           </argument>
         </arguments>
@@ -174,6 +178,7 @@ other.vida--;
             <string>///Muerte enemigo goblin
 
 other.vida--;
+audio_play_sound(snd_goblin,11,false)
 </string>
           </argument>
         </arguments>

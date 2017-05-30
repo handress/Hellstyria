@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Inicializacion
 image_speed = 0;
-hp = 3;
+hp = 6;
 maxhp = 6;
 arma = 4;
 
@@ -271,9 +271,12 @@ if(interactivo){
 //Gestion de colisiones contra corazones
 corazon = instance_place(x+vh,y+vv,obj_Recoger_Corazon)
 if(corazon){
-    hp = clamp(hp+1,0,maxhp);
-    with(corazon){
-        instance_destroy();
+    if(hp &lt; maxhp){
+        hp = clamp(hp+1,0,maxhp);
+        with(corazon){
+            audio_play_sound(snd_corazon,10,false)
+            instance_destroy();
+        }
     }
 }
 
