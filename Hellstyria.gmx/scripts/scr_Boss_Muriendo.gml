@@ -9,4 +9,5 @@ if (image_index >= image_number-1) {
     y -= 0.2;
     image_alpha -= 0.01;
     instance_destroy();
+    global.Boss = true;
 }
