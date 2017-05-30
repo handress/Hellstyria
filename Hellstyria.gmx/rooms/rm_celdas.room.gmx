@@ -234,6 +234,25 @@
     <instance objName="obj_pausa" x="320" y="96" name="inst_6897699E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_botonAtaque" x="32" y="80" name="inst_83899D9D" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_musica" x="272" y="32" name="inst_6317AF3D" locked="0" code="audio_play_sound(snd_cuevas,10,true)&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="32" name="inst_06473E7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="48" name="inst_FDA6760D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="64" name="inst_9214F80F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="80" name="inst_EE555B51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="96" name="inst_84FF7988" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="112" name="inst_26ABA8D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="128" name="inst_D232EF5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="160" name="inst_FA31CEAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="144" name="inst_29022312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="176" name="inst_06D4DD8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="192" name="inst_BAF7231E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="224" name="inst_AB695E3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="208" name="inst_60E4BDEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="240" name="inst_D4EEA719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="256" name="inst_059506E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="-16" y="272" name="inst_49E9C7AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="768" y="32" name="inst_EB806BC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="784" y="32" name="inst_9D766180" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="912" y="32" name="inst_52F15037" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="960" y="0" w="32" h="32" xo="32" yo="32" id="10005070" name="inst_481E2997" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -932,6 +951,11 @@
     <tile bgName="tls_celda" x="576" y="32" w="32" h="64" xo="0" yo="256" id="10005739" name="inst_CCF593B9" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="96" y="32" w="32" h="32" xo="32" yo="256" id="10005740" name="inst_1397B393" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="192" y="176" w="32" h="16" xo="256" yo="208" id="10049659" name="inst_69960416" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="176" w="32" h="48" xo="256" yo="208" id="10052276" name="inst_A51B5E71" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="176" w="32" h="48" xo="256" yo="208" id="10052277" name="inst_DBA5954F" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="176" w="32" h="48" xo="256" yo="208" id="10052278" name="inst_4A30E415" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="176" w="32" h="48" xo="256" yo="208" id="10052279" name="inst_04000D13" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="0" y="176" w="32" h="48" xo="256" yo="208" id="10052280" name="inst_4A2958F6" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado2" x="384" y="176" w="32" h="64" xo="0" yo="672" id="10005721" name="inst_1C008B60" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado2" x="608" y="176" w="32" h="64" xo="0" yo="672" id="10005722" name="inst_C5866DFE" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="832" y="352" w="32" h="32" xo="32" yo="32" id="10005932" name="inst_545B2D79" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -999,10 +1023,12 @@
     <tile bgName="tls_mapeado1" x="224" y="384" w="32" h="32" xo="32" yo="32" id="10006008" name="inst_722F8626" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="192" y="384" w="32" h="32" xo="32" yo="32" id="10006009" name="inst_97F444CD" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="160" y="384" w="32" h="32" xo="32" yo="32" id="10006010" name="inst_442B6C0D" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="128" y="160" w="32" h="16" xo="256" yo="192" id="10052271" name="inst_29EBBE15" depth="-1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="96" y="160" w="32" h="16" xo="256" yo="192" id="10052272" name="inst_9E77B147" depth="-1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="64" y="160" w="32" h="16" xo="256" yo="192" id="10052273" name="inst_BBB0CE7C" depth="-1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="32" y="160" w="32" h="16" xo="256" yo="192" id="10052274" name="inst_5E6CAB26" depth="-1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_celda" x="0" y="160" w="32" h="16" xo="256" yo="192" id="10052275" name="inst_E8B5FF0D" depth="-1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_celda" x="160" y="160" w="32" h="32" xo="256" yo="256" id="10038798" name="inst_11C8AD88" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_celda" x="32" y="160" w="32" h="64" xo="256" yo="192" id="10038804" name="inst_75649D9D" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_celda" x="64" y="160" w="32" h="64" xo="256" yo="192" id="10038805" name="inst_506B87C7" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_celda" x="96" y="160" w="32" h="64" xo="256" yo="192" id="10038806" name="inst_AA7B5BA1" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="96" w="32" h="32" xo="64" yo="32" id="10038990" name="inst_8F4E54F5" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="128" w="32" h="32" xo="64" yo="32" id="10038991" name="inst_39E21283" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="192" w="32" h="32" xo="64" yo="32" id="10038993" name="inst_723519DB" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1052,8 +1078,6 @@
     <tile bgName="tls_mapeado1" x="0" y="320" w="32" h="32" xo="128" yo="0" id="10039065" name="inst_05FD6803" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="32" w="32" h="32" xo="64" yo="32" id="10039067" name="inst_80C0E18A" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="64" w="32" h="32" xo="64" yo="32" id="10039068" name="inst_F6E2C448" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_celda" x="128" y="160" w="32" h="32" xo="256" yo="256" id="10039069" name="inst_A84430B3" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tls_celda" x="16" y="160" w="32" h="64" xo="256" yo="192" id="10039071" name="inst_863FF1A6" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="0" y="160" w="32" h="32" xo="64" yo="32" id="10039072" name="inst_9AF6736C" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="720" y="352" w="32" h="32" xo="32" yo="32" id="10039073" name="inst_8CEFFD95" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_mapeado1" x="688" y="352" w="32" h="32" xo="32" yo="32" id="10039074" name="inst_27EF0ACC" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

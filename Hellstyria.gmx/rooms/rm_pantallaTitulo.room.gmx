@@ -31,12 +31,12 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="fondo" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="nubes" x="0" y="0" htiled="-1" vtiled="0" hspeed="1" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="montanyaFondo" x="0" y="0" htiled="-1" vtiled="0" hspeed="2" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="montanyas" x="0" y="0" htiled="-1" vtiled="0" hspeed="3" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="arbolesFondo" x="0" y="0" htiled="-1" vtiled="0" hspeed="3" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="arboles" x="0" y="0" htiled="-1" vtiled="0" hspeed="4" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
@@ -52,11 +52,9 @@
   </views>
   <instances>
     <instance objName="obj_Titulo" x="449" y="318" name="inst_44054762" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_iniciarPartida" x="640" y="448" name="inst_17B24F8C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_salirJuego" x="640" y="576" name="inst_DF77B686" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ContinuarPartida" x="640" y="512" name="inst_DD4D3D41" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_efecto_transicion" x="160" y="64" name="inst_84D29D23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_musica" x="32" y="32" name="inst_717B8123" locked="0" code="audio_play_sound(snd_inicio,10,true)&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu" x="576" y="448" name="inst_7387E6E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

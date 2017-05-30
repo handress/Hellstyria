@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Cargar Partida
+audio_stop_all();
 scr_Juego_Cargar();
 
 </string>

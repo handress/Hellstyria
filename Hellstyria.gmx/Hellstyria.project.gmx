@@ -440,6 +440,14 @@
       <background>background\tls_castillo</background>
       <background>background\tls_stairs</background>
     </backgrounds>
+    <backgrounds name="inicio">
+      <background>background\fondo</background>
+      <background>background\montanyas</background>
+      <background>background\montanyaFondo</background>
+      <background>background\arboles</background>
+      <background>background\arbolesFondo</background>
+      <background>background\nubes</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -478,6 +486,7 @@
       <script>scripts\scr_Boss_Muriendo.gml</script>
       <script>scripts\scr_Boss_Parado.gml</script>
     </scripts>
+    <script>scripts\scr_menu.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_Texto</font>
@@ -603,6 +612,7 @@
     <object>objects\obj_selecciona_clase</object>
     <object>objects\obj_pausa</object>
     <object>objects\obj_musica</object>
+    <object>objects\obj_menu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_inicio_previo</room>

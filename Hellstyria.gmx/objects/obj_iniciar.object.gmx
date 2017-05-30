@@ -25,7 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Cambiar de room
+            <string>///Cambiar sprite y room
+if(keyboard_check_pressed(vk_left)){
+        global.Player -= 1
+        audio_play_sound(snd_seleccion,11,false)
+}
+if(keyboard_check_pressed(vk_right)){
+        global.Player += 1
+        audio_play_sound(snd_seleccion,11,false)
+}
 
 if(keyboard_check(vk_enter)){
     room_goto(rm_celdas);
