@@ -28,14 +28,14 @@
             <string>if(keyboard_check_pressed(vk_enter)){
 
     scr_Juego_Cargar();
-
+    audio_stop_all()
 
 }
 
 else if(keyboard_check_pressed(ord('A'))){
 
     room_goto(rm_pantallaTitulo);
-
+    audio_stop_all()
 
 }
 

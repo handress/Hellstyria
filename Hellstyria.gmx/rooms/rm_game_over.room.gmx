@@ -54,6 +54,7 @@
     <instance objName="obj_game_over" x="283" y="94" name="inst_327C85BD" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_opciones_game_over" x="448" y="352" name="inst_CD6859EF" locked="0" code="" scaleX="1" scaleY="1.02999997138977" colour="4294967295" rotation="0"/>
     <instance objName="obj_efecto_transicion" x="96" y="32" name="inst_BBFA9ABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_musica" x="96" y="160" name="inst_E76B53D8" locked="0" code="audio_stop_all()&#xA;&#xA;audio_play_sound(snd_gameover,10,true)&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

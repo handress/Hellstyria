@@ -14,6 +14,14 @@
       <sound>sound\snd_ataque</sound>
       <sound>sound\snd_gritoGolpe</sound>
       <sound>sound\snd_dolor</sound>
+      <sound>sound\snd_corteHierba</sound>
+      <sound>sound\snd_corazon</sound>
+    </sounds>
+    <sounds name="musica">
+      <sound>sound\snd_inicio</sound>
+      <sound>sound\snd_cuevas</sound>
+      <sound>sound\snd_gameover</sound>
+      <sound>sound\snd_pueblo</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -594,6 +602,7 @@
     <object>objects\obj_caldero</object>
     <object>objects\obj_selecciona_clase</object>
     <object>objects\obj_pausa</object>
+    <object>objects\obj_musica</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_inicio_previo</room>
