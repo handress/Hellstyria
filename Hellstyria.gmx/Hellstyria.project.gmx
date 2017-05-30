@@ -404,6 +404,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_selecciona_clase</sprite>
+    <sprite>sprites\spr_roca</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -616,6 +617,7 @@
     <object>objects\obj_pausa</object>
     <object>objects\obj_musica</object>
     <object>objects\obj_menu</object>
+    <object>objects\obj_barrera</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_inicio_previo</room>
