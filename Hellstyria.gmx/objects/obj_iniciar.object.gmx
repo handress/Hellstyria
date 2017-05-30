@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Cambiar sprite y room
+
 if(keyboard_check_pressed(vk_left)){
         global.Player -= 1
         audio_play_sound(snd_seleccion,11,false)
