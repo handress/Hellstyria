@@ -297,6 +297,18 @@
     <instance objName="obj_Pared_16" x="0" y="400" name="inst_9EDA9486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_corazon" x="32" y="32" name="inst_33FBE517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="16" y="64" name="inst_352C67EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="224" y="288" name="inst_EC82B1B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="224" y="272" name="inst_E3560269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="240" y="288" name="inst_6B89B791" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="240" y="272" name="inst_FABBE01D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="144" y="288" name="inst_C66A239D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="144" y="272" name="inst_CAB83B83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="128" y="272" name="inst_F727389E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="128" y="288" name="inst_BE85F56B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="144" y="240" name="inst_E8CE8243" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="144" y="224" name="inst_B67B101C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pared_16" x="144" y="208" name="inst_36CE6603" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_botonAtaque" x="16" y="64" name="inst_02DC8AF9" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="0" y="96" w="32" h="32" xo="0" yo="96" id="10016519" name="inst_79A08357" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -961,6 +973,19 @@
     <tile bgName="tls_paredes" x="656" y="368" w="16" h="16" xo="272" yo="48" id="10048899" name="inst_22713D0C" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_paredes" x="656" y="384" w="16" h="16" xo="272" yo="48" id="10048900" name="inst_FF21ED22" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tls_paredes" x="640" y="128" w="16" h="16" xo="256" yo="48" id="10048901" name="inst_18B4EE78" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mobiliario" x="448" y="224" w="32" h="32" xo="0" yo="128" id="10052289" name="inst_04D4C99D" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mobiliario" x="480" y="224" w="32" h="32" xo="64" yo="128" id="10052290" name="inst_FD91E9FA" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mobiliario" x="96" y="128" w="32" h="32" xo="64" yo="128" id="10052295" name="inst_EE9691A6" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mobiliario" x="64" y="128" w="32" h="32" xo="0" yo="128" id="10052297" name="inst_A89C9B88" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mobiliario" x="0" y="256" w="32" h="32" xo="32" yo="64" id="10052298" name="inst_16C738B1" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_paredes" x="128" y="208" w="16" h="16" xo="288" yo="80" id="10052301" name="inst_6FDE29FD" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_paredes" x="144" y="208" w="16" h="16" xo="272" yo="16" id="10052303" name="inst_04EE6B87" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_paredes" x="224" y="208" w="16" h="16" xo="256" yo="16" id="10052304" name="inst_2ECB84D0" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_paredes" x="224" y="224" w="16" h="16" xo="256" yo="96" id="10052305" name="inst_0F2B1684" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_paredes" x="144" y="224" w="16" h="16" xo="304" yo="96" id="10052307" name="inst_07F67EA7" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_paredes" x="144" y="240" w="16" h="16" xo="304" yo="112" id="10052308" name="inst_27F525C5" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_paredes" x="144" y="256" w="16" h="16" xo="304" yo="112" id="10052309" name="inst_DFF90629" depth="-10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tls_mobiliario" x="448" y="224" w="32" h="32" xo="192" yo="128" id="10052291" name="inst_D557D06A" depth="-100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
