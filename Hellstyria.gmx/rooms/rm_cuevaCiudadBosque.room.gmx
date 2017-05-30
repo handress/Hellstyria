@@ -65,7 +65,7 @@
     <instance objName="obj_antorcha" x="224" y="192" name="inst_900F718A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_antorcha" x="789" y="192" name="inst_80E6EA6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="512" y="1967" name="inst_B13897D2" locked="0" code="nombre = &quot;cuevaCiudadBosque1&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Entrada" x="512" y="2016" name="inst_A00B68E6" locked="0" code="roomTransporte = rm_bosque;&#xA;salida = 'salidaBosque3';&#xA;" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Entrada" x="512" y="2016" name="inst_A00B68E6" locked="0" code="roomTransporte = rm_bosque;&#xA;salida = 'salidaBosque3';" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_efecto_transicion" x="128" y="128" name="inst_CD5D35E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Salida" x="513" y="301" name="inst_738C0DAD" locked="0" code="nombre = &quot;salidaCuevaCiudad2&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Entrada" x="512" y="224" name="inst_482BA696" locked="0" code="roomTransporte = rm_entradaCiudad;&#xA;salida = 'salidaEntradaCiudad';&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -880,6 +880,7 @@
     <instance objName="obj_Goblin_Fuerte" x="512" y="424" name="inst_274244C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="128" y="176" name="inst_1B67105C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_botonAtaque" x="16" y="64" name="inst_533DB2D9" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_musica" x="592" y="144" name="inst_FD7E6025" locked="0" code="audio_stop_all();&#xA;audio_play_sound(snd_cuevas,10,true);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="192" y="192" w="32" h="32" xo="32" yo="96" id="10018027" name="inst_BFD69DCD" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

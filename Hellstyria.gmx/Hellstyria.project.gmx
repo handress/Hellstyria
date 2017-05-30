@@ -22,6 +22,9 @@
       <sound>sound\snd_cuevas</sound>
       <sound>sound\snd_gameover</sound>
       <sound>sound\snd_pueblo</sound>
+      <sound>sound\snd_campo</sound>
+      <sound>sound\snd_batalla</sound>
+      <sound>sound\snd_ciudad</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">

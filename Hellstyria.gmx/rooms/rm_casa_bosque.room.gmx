@@ -309,6 +309,7 @@
     <instance objName="obj_Pared_16" x="144" y="224" name="inst_B67B101C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="144" y="208" name="inst_36CE6603" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_botonAtaque" x="16" y="64" name="inst_02DC8AF9" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_musica" x="736" y="176" name="inst_46A1B6F8" locked="0" code="sound_stop_all();&#xA;audio_play_sound(snd_pueblo,10,true);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_suelos" x="0" y="96" w="32" h="32" xo="0" yo="96" id="10016519" name="inst_79A08357" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
