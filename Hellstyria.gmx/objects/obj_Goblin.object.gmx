@@ -40,7 +40,7 @@ estado = eg.parado;
 
 vida = 3;
 radio_vision = 96;
-radio_ataque = 24;
+radio_ataque = 36;
 crear_ataque = true;
 </string>
           </argument>

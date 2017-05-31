@@ -100,7 +100,11 @@ audio_play_sound(snd_corteHierba,11,false)
           <argument>
             <kind>1</kind>
             <string>///Restar la vida
-other.vida--;
+if(obj_Prota.PoderAtaque = 2){
+    other.vida = other.vida -2
+}else{
+    other.vida--;
+}
 audio_play_sound(snd_esqueleto,11,false)
 </string>
           </argument>
@@ -125,7 +129,11 @@ audio_play_sound(snd_esqueleto,11,false)
           <argument>
             <kind>1</kind>
             <string>///Restar la vida
-other.vida--;
+if(obj_Prota.PoderAtaque = 2){
+    other.vida = other.vida -2
+}else{
+    other.vida--;
+}
 audio_play_sound(snd_goblin,11,false)
 </string>
           </argument>
@@ -151,7 +159,11 @@ audio_play_sound(snd_goblin,11,false)
             <kind>1</kind>
             <string>///Muerte enemigo goblin
 
-other.vida--;
+if(obj_Prota.PoderAtaque = 2){
+    other.vida = other.vida -2
+}else{
+    other.vida--;
+}
 audio_play_sound(snd_goblin,11,false)
 </string>
           </argument>
@@ -177,7 +189,12 @@ audio_play_sound(snd_goblin,11,false)
             <kind>1</kind>
             <string>///Muerte enemigo goblin
 
-other.vida--;
+if(obj_Prota.PoderAtaque = 2){
+    other.vida = other.vida -2
+}else{
+    other.vida--;
+}
+
 audio_play_sound(snd_goblin,11,false)
 </string>
           </argument>

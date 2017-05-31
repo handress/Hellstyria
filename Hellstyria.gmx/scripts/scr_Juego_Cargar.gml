@@ -10,6 +10,7 @@ if file_exists(working_directory + "save.ini"){
     var dir = ini_read_string("prota","direccion","abajo");
     var vida = ini_read_real("prota","vida",1);
     var arma = ini_read_real("prota","arma",4);
+    var ataque = ini_read_real("prota","ataque",1);
     
     ini_close();
     
@@ -27,6 +28,7 @@ if file_exists(working_directory + "save.ini"){
             inst.hp = vida;
             inst.cofreAtaque = true;
             inst.arma = arma;
+            inst.PoderAtaque = ataque
         }
                 
         if (room != rm){

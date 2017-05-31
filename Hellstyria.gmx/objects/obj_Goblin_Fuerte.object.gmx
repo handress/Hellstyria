@@ -41,8 +41,8 @@ dir = "abajo"; // direccion donde miramos
 estado = eg2.parado;
 
 vida = 6;
-radio_vision = 96;
-radio_ataque = 24;
+radio_vision = 150;
+radio_ataque = 36;
 crear_ataque = true;
 </string>
           </argument>

@@ -59,9 +59,9 @@ if(mostrar){
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
     draw_set_color(c_black);
-    draw_text(384,90,paginas[pagina]);
+    draw_text(384,100,paginas[pagina]);
     draw_set_color(c_white);
-    draw_text(383,89,paginas[pagina]);
+    draw_text(383,99,paginas[pagina]);
     
     direccion = obj_Prota.dir;
 

@@ -1,4 +1,4 @@
-image_speed = 0.15;
+image_speed = 0.2;
 
 // En funcion de la direccion establecer el sprite
 // Si estamos en el punto álgido del ataque creamos un ataque (si no estamos ya atacando)
