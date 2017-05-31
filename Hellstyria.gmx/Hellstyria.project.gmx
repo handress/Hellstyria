@@ -406,6 +406,8 @@
     </sprites>
     <sprite>sprites\spr_selecciona_clase</sprite>
     <sprite>sprites\spr_roca</sprite>
+    <sprite>sprites\spr_final</sprite>
+    <sprite>sprites\spr_pantallaCompleta</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tls_mapeado1</background>
@@ -621,6 +623,7 @@
     <object>objects\obj_barrera</object>
     <object>objects\obj_fin</object>
     <object>objects\obj_transporteFin</object>
+    <object>objects\obj_pantallaCompleta</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_inicio_previo</room>
