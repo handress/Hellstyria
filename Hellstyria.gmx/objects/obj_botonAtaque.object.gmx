@@ -31,14 +31,25 @@ armas[1] = spr_daga
 armas[2] = spr_lanza
 armas[3] = spr_maza
 armas[4] = spr_vacio
+if obj_Prota.PoderAtaque == 2 {
+    if keyboard_check_pressed(ord('Z')){
+        draw_sprite_stretched(spr_botonDoradoPulsado,0,xstart,ystart,42,48)       
+    }
+    else{
+        draw_sprite_stretched(spr_botonDorado,0,xstart,ystart,42,48)  
+    }
+    draw_sprite_stretched(armas[obj_Prota.arma],0,xstart,ystart,42,42)
+} else{
+    if keyboard_check_pressed(ord('Z')){
+        draw_sprite_stretched(spr_botonPulsado,0,xstart,ystart,42,48)       
+    }
+    else{
+        draw_sprite_stretched(spr_boton,0,xstart,ystart,42,48)  
+    }
+    draw_sprite_stretched(armas[obj_Prota.arma],0,xstart,ystart,42,42)
+}
 
-if keyboard_check_pressed(ord('Z')){
-    draw_sprite_stretched(spr_botonPulsado,0,xstart,ystart,42,48)       
-}
-else{
-    draw_sprite_stretched(spr_boton,0,xstart,ystart,42,48)  
-}
-draw_sprite_stretched(armas[obj_Prota.arma],0,xstart,ystart,42,42)
+
 
 </string>
           </argument>
