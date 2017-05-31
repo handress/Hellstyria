@@ -870,8 +870,8 @@
     <instance objName="obj_caldero" x="1296" y="880" name="inst_5ABA35DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1280" y="864" name="inst_9DD0B713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Pared_16" x="1296" y="864" name="inst_D534DB8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Goblin_Fuerte" x="424" y="1408" name="inst_1E89AFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Goblin_Fuerte" x="816" y="1344" name="inst_5D36FE47" locked="0" code="image_index = spr_goblinFuerte_stand_left;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Goblin_Fuerte" x="432" y="1504" name="inst_1E89AFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Goblin_Fuerte" x="912" y="1344" name="inst_5D36FE47" locked="0" code="image_index = spr_goblinFuerte_stand_left;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin_Fuerte" x="1536" y="1336" name="inst_1591000D" locked="0" code="image_index = spr_goblinFuerte_stand_left;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin_Fuerte" x="1536" y="1008" name="inst_925B6A7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin_Fuerte" x="1408" y="720" name="inst_4010E166" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -880,8 +880,8 @@
     <instance objName="obj_botonAtaque" x="16" y="64" name="inst_533DB2D9" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_musica" x="592" y="144" name="inst_FD7E6025" locked="0" code="audio_stop_all();&#xA;audio_play_sound(snd_cuevas,10,true);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goblin_Fuerte" x="848" y="656" name="inst_B7C11757" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Goblin_Fuerte" x="352" y="1760" name="inst_01305602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Goblin_Fuerte" x="544" y="1632" name="inst_265F06A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Goblin_Fuerte" x="368" y="1856" name="inst_01305602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Goblin_Fuerte" x="592" y="1856" name="inst_265F06A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tls_mapeado1" x="192" y="192" w="32" h="32" xo="32" yo="96" id="10018027" name="inst_BFD69DCD" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
