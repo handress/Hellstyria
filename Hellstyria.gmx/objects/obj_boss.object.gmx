@@ -42,7 +42,7 @@ dir = "abajo"; // direccion donde miramos
 estado = eg4.parado;
 
 vida = 12;
-radio_vision = 96;
+radio_vision = 180;
 radio_ataque = 48;
 crear_ataque = true;
 

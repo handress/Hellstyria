@@ -161,7 +161,7 @@ if(colision == true and vida&lt;=0){
 
 if(vida == 0){
     estado = eg.muriendo;
-    colision = false;
+        colision = false;
     vh = 0;
     vv = 0;
 }
