@@ -51,16 +51,18 @@ estado_abierto=false;
           <argument>
             <kind>1</kind>
             <string>if(mostrar and estado_abierto=false){
-    draw_sprite(spr_HUD_Texto,0,350,450);
+    
+    obj_Prota.PoderAtaque = 2;
+    draw_sprite(spr_HUD_Texto,0,750,300);
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
     draw_set_color(c_black);
-    draw_text(384,487,paginas[pagina]);
+    draw_text(784,310,paginas[pagina]);
     draw_set_color(c_white);
-    draw_text(383,486,paginas[pagina]);
+    draw_text(783,309,paginas[pagina]);
     
     sprite_index = spr_open_cofre;
-    estado_abierto=true;
+   
     
 
     

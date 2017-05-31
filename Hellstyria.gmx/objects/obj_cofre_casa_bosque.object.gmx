@@ -51,6 +51,8 @@ estado_abierto=false;
           <argument>
             <kind>1</kind>
             <string>if(mostrar and estado_abierto=false){
+    
+    
     draw_sprite(spr_HUD_Texto,0,350,450);
     draw_set_font(f_Texto);
     draw_set_halign(fa_left);
