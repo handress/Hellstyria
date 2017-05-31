@@ -63,7 +63,7 @@ pagina = -1; //por defecto estara inactivo
 vv = x;
 vh = y;
 
-if(keyboard_check_pressed(ord('A')) and distance_to_object(obj_Prota)&lt;3){
+if(keyboard_check_pressed(ord('X')) and distance_to_object(obj_Prota)&lt;3){
     mostrar = true;
     show_debug_message(string(x));
      show_debug_message(string(y));
@@ -96,7 +96,7 @@ if(distance_to_object(obj_Prota)&gt;3){
           <argument>
             <kind>1</kind>
             <string>///Pasar pagina
-if(keyboard_check_pressed(ord('A')) and mostrar){
+if(keyboard_check_pressed(ord('X')) and mostrar){
     //pasar pagina
     if(pagina+1 &lt; array_length_1d(paginas)){
         pagina++;

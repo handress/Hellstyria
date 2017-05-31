@@ -16,6 +16,8 @@
       <sound>sound\snd_dolor</sound>
       <sound>sound\snd_corteHierba</sound>
       <sound>sound\snd_corazon</sound>
+      <sound>sound\snd_guardar</sound>
+      <sound>sound\snd_menu</sound>
     </sounds>
     <sounds name="musica">
       <sound>sound\snd_inicio</sound>
@@ -340,7 +342,6 @@
       <sprite>sprites\spr_cofre</sprite>
       <sprite>sprites\spr_open_cofre</sprite>
     </sprites>
-    <sprite>sprites\spr_easterEgg</sprite>
     <sprites name="armas">
       <sprite>sprites\spr_daga</sprite>
       <sprite>sprites\spr_espada</sprite>
@@ -491,6 +492,7 @@
       <script>scripts\scr_Boss_Parado.gml</script>
     </scripts>
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_fin.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_Texto</font>
@@ -599,7 +601,6 @@
     <object>objects\obj_Prota</object>
     <object>objects\obj_ProtaAtaqueGrande</object>
     <object>objects\obj_ProtaAtaquePeque</object>
-    <object>objects\obj_easterEgg</object>
     <objects name="armas">
       <object>objects\obj_lanza</object>
       <object>objects\obj_maza</object>
@@ -618,6 +619,8 @@
     <object>objects\obj_musica</object>
     <object>objects\obj_menu</object>
     <object>objects\obj_barrera</object>
+    <object>objects\obj_fin</object>
+    <object>objects\obj_transporteFin</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_inicio_previo</room>
@@ -653,6 +656,7 @@
       <room>rooms\rm_entradaCastillo</room>
       <room>rooms\rm_salaDelTrono</room>
     </rooms>
+    <room>rooms\rm_final</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

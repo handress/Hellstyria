@@ -30,7 +30,7 @@
 event_inherited();
 image_speed = 0.05;
 
-paginas[0]= " Desea Guardar? # Pulsa A para guardar partida."
+paginas[0]= " Desea Guardar? # Pulsa X para guardar partida."
 paginas[1]= " Juego Guardado";
 mostrar = false;
 pagina = -1;
@@ -61,7 +61,7 @@ pagina = -1;
 vv = x;
 vh = y;
 
-if(keyboard_check_pressed(ord('A')) and distance_to_object(obj_Prota)&lt;3){
+if(keyboard_check_pressed(ord('X')) and distance_to_object(obj_Prota)&lt;3){
     mostrar = true;
     obj_Prota.hp = obj_Prota.maxhp;
     show_debug_message(string(x));
@@ -97,7 +97,7 @@ if(distance_to_object(obj_Prota)&gt;3){
           <argument>
             <kind>1</kind>
             <string>///Pasar pagina
-if(keyboard_check_pressed(ord('A')) and mostrar){
+if(keyboard_check_pressed(ord('X')) and mostrar){
     //pasar pagina
     if(pagina+1 &lt; array_length_1d(paginas)){
         pagina++;

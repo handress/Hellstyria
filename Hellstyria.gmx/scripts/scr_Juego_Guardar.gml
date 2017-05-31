@@ -9,7 +9,7 @@ ini_write_string("prota","direccion",obj_Prota.dir);
 ini_write_real("prota","vida",obj_Prota.hp);
 ini_write_real("prota","arma",obj_Prota.arma);
 ini_write_real("prota","ataque",obj_Prota.PoderAtaque);
-
+audio_play_sound(snd_guardar,10,false);
 
 ini_close();
 
