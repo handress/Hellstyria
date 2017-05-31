@@ -34,7 +34,7 @@
 
 else if(keyboard_check_pressed(ord('A'))){
 
-    room_goto(rm_pantallaTitulo);
+    room_goto(rm_inicio_previo);
     audio_stop_all()
 
 }
